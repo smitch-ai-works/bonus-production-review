@@ -1,0 +1,68 @@
+{
+  "state": "Before is the unchanged public bonus; After is a new production with the current skill, including internal checks and self-corrections",
+  "before": {
+    "source_url": "https://smitch-ai-works.github.io/no32-japanese-bookmarks/",
+    "html_sha256": "07d924d2adafa532d95aba45b6b6a112238c9b929ceaa141b15eecb5197a6ee3",
+    "source_match_verified": true
+  },
+  "after": {
+    "skill_zip_sha256": "ca6ea3218f2d3fc5e2073717176b5645c43723e0bfaa50cfd73111ca0c1bfc88",
+    "public_files": {
+      "assets/banner.png": "e3063bc03c6fb82ec910322c670e003586272b40da5d11ab3e157b4d0bd15371",
+      "assets/bookmarks-original.png": "f1865695515c8ee5375d8ebf8a1e5a48586a6996a4058211e95cca5607be7967",
+      "assets/chatgpt-english-desktop.png": "39771692961f3e6b854d6de3fb020f68d8723d130a45f2d55f5c0db793785888",
+      "assets/chatgpt-prompt-desktop.png": "ceb27b137d37de03e402f69b1b041f1d7cd69420fcaeb5df7908f5342e558021",
+      "assets/check-english.png": "3004a4fddb10381a67268d0f210c14be9eb311b4f472fa8878813b3d44e56264",
+      "assets/choose-landscapes.png": "0a007e548c82f40cb7dd434d1f59003eb5cf4a095bf22d158aed4cdf6cf6cd11",
+      "assets/line-textbook.jpg": "cc661d70f962e5a70aefc5a918009f4610c7096c34dea0740e4a7cb822875c68",
+      "assets/step1.svg": "a919713d9d0e0351cbcad42b3342c2d9495592f7673b98aba48015f36fb22a6f",
+      "assets/step2.svg": "881c1b7ef41f2a43c19e10ff3df72184134ecd3dbba55c61bede627e42a08900",
+      "assets/step3.svg": "9dee1ee249e00e5333deed62a09f606daa209b49dc7fa18d8f78024dc5fc75b9",
+      "downloads/japanese-bookmark-kit.zip": "2b81d57ae646ace44e59fe42384ae4cedc61635ae85fa60395ee6507aa675df2",
+      "index.html": "39e6b8bfef9e96a17f279c5ba5fdae71ace2b9aa30c277894d2194ef46e6b87f"
+    },
+    "content_edits_by_publisher": 0,
+    "cover": "assets/banner.png",
+    "production_requests": 1,
+    "internal_image_generation_calls": 3,
+    "internal_self_corrections": [
+      "SVG内の原本画像表示",
+      "320pxの見出し折返し",
+      "保存ガイド内のZIP参照"
+    ]
+  },
+  "fixed_comparison": [
+    "台本No155",
+    "同じ日本の風景5柄と順番",
+    "PNG1点の配布形式",
+    "線画→英語原稿→Etsyの工程",
+    "同じLINE登録先"
+  ],
+  "inputs": [
+    "元台本",
+    "本人写真と加工許可",
+    "既存の5柄PNGと実画面",
+    "既存の指示文2本",
+    "本人のLINE案内画像・URL・提供内容",
+    "指定参考LP"
+  ],
+  "script": "input-script.txt",
+  "recording_script": "recording-script.md",
+  "source_reel": {
+    "source_sha256": "f26e3e69a0be075fc5672c45e6288d9021ed92c00f8235402a02acb659edb730",
+    "viewing_sha256": "42a4a9af468376c4770b6aac66c8564c96d95c84052be4678d182e1ca68a16a0",
+    "duration": 47.72,
+    "size": [
+      720,
+      1280
+    ],
+    "bytes": 11723317,
+    "conversion": "Full-length viewing copy scaled to 720px wide; no timeline edits; audio transcoded"
+  },
+  "source_reel_role": "Viewing material on the comparison page; not an input to the skill production",
+  "remaining": [
+    "本人の16:9解説動画は撮影待ち",
+    "既存キャプチャはPC版で、実機スマホの通し実演ではない",
+    "実クリップボード全文一致とfile://直接表示は環境の制約で未確認"
+  ]
+}
