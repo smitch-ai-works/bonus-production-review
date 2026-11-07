@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Claude Codeに設計と最終確認、Codexに実作業。役割を分けてInstagramの投稿3本を完成させる、いそっち式AI社員のつくり方。"><title>いそっち式 AI社員のつくり方｜Claude Code × Codex</title><link rel="stylesheet" href="assets/reader-base.css"><link rel="stylesheet" href="assets/site.css"></head>
-<body><main class="bonus-reader">
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Claude Codeに設計と最終確認、Codexに実作業。役割を分けてInstagramの投稿3本を完成させる、いそっち式AI社員のつくり方。"><title>いそっち式 AI社員のつくり方｜Claude Code × Codex</title><link rel="stylesheet" href="assets/reader-base.css"><link rel="stylesheet" href="assets/site.css"><link rel="stylesheet" href="assets/world.css"></head>
+<body class="isocchi-world world-tech"><main class="bonus-reader">
 <!-- 撮影後は、この位置へ16:9のvideo controlsを追加。現在は動画を表示しない。 -->
 <div id="explainer-mount"></div>
-<img class="cover" src="assets/cover.png" alt="いそっち式 AI社員のつくり方。Claude Code × Codex、設計・確認と実作業をつなぐ。" width="1254" height="1254">
+<img class="cover" src="assets/cover.png?v=identity3" alt="いそっち式 AI社員のつくり方。Claude Code × Codex、設計・確認と実作業をつなぐ。" width="1254" height="1254">
 <section class="bonus-block" id="result"><p class="lead">AIを別々に使うだけで終わってたら、もったいないです。</p><p>僕は、全体の設計と最終確認をClaude Code、実際の作業をCodexに任せてます。今回は、この役割分担で投稿3本を仕上げてみます。</p>
 <div class="post-stack"><span class="tag">完成見本｜架空のカフェのInstagram本文</span><article class="post-preview"><span class="tag">01 商品紹介</span><h3>チーズケーキとコーヒー</h3><p>こもれびカフェの自家製チーズケーキは650円。ブレンドコーヒーは500円です。店内でゆっくり過ごす日にも、持ち帰って楽しむ日にも。営業時間は10:00〜18:00、火曜は定休日です。</p></article></div>
 <details><summary>残り2本と、使える仕事の例を見る</summary><div class="bonus-detail-body"><h3>一人の時間を、窓際で。</h3><p>こもれびカフェには、窓際に一人用の席があります。ブレンドコーヒーは500円、自家製チーズケーキは650円。お一人でのカフェ時間を考えている方へ。営業時間は10:00〜18:00、火曜定休です。</p><h3>出かける前に、営業時間を確認。</h3><p>こもれびカフェは10:00〜18:00の営業、火曜が定休日です。自家製チーズケーキは650円、ブレンドコーヒーは500円。テイクアウトもできます。店内で過ごすか、持ち帰るか。その日の予定に合わせてどうぞ。</p><p>同じ分担で、記事の下書き、複数ファイルの修正、資料の整形にも使えます。渡す素材と完成条件を仕事に合わせて変えます。</p></div></details>
@@ -28,7 +28,7 @@ codex --version と codex login status を確認し、利用できれば結果�
 <details><summary>見つからない・認証で止まるとき</summary><div class="bonus-detail-body"><p><b>codexが見つからない：</b>導入後にターミナルとClaude Codeを開き直し、<code>codex --version</code>を確認します。Claude Codeと同じ実行環境に導入されているかも確認してください。WindowsとWSLは別環境です。</p><p><b>未ログイン：</b>本人が<code>codex login</code>を実行し、ブラウザのサインインを完了します。認証情報をチャットへ貼る必要はありません。</p><p><b>上限・権限で止まる：</b>表示された内容を確認します。制限を解除するコマンドを足して続行しないでください。</p></div></details>
 </section>
 <section class="bonus-block" id="roles"><h2><span class="step">3</span>AIの役割を決める</h2>
-<figure class="bonus-opinion"><img src="assets/design-scene.png" alt="いそっちが3枚のカードを並べ、作る順番を考える説明用の場面" loading="lazy" width="1672" height="941"><figcaption><strong>設計と作業を、ちゃんと分ける。</strong><p>僕は設計と最終確認をClaude Codeに任せます。作業をCodexに渡すことで、作る役とチェックする役を分けられるんです。</p></figcaption></figure>
+<figure class="bonus-opinion"><img src="assets/design-scene.png?v=identity3" alt="原写真を参照したいそっちが、3枚のカードで作る順番を考える説明用の場面" loading="lazy" width="1672" height="941"><figcaption><strong>設計と作業を、ちゃんと分ける。</strong><p>僕は設計と最終確認をClaude Codeに任せます。作業をCodexに渡すことで、作る役とチェックする役を分けられるんです。</p></figcaption></figure>
 <figure class="diagram" aria-label="役割を保存して読み込む"><div class="flow"><div class="node"><b>役割の指示文</b>下の全文をコピー</div><span class="arrow" aria-hidden="true">→</span><div class="node orange"><b>Claude Code</b>チャットへ貼る</div><span class="arrow" aria-hidden="true">→</span><div class="node"><b>CLAUDE.md</b>このフォルダの方針を保存</div></div><figcaption class="figure-caption">保存後はファイルを開き、役割が書かれているか確認します。</figcaption></figure>
 <details><summary>役割分担の指示文を開く</summary><div class="bonus-detail-body"><pre id="roles-prompt">この作業フォルダでは、Claude CodeとCodex CLIを次の役割で使います。
 
@@ -68,7 +68,7 @@ Codexが終了したら、Claude Codeでdraft.mdを実際に開き、source.txt�
 <p class="small">この役割分担は、モデルの優劣を固定するものではありません。使えるモデルは各アカウントで確認してください。処理量や利用枠は仕事の内容で変わります。</p>
 </section>
 <section class="bonus-block" id="review"><h2><span class="step">5</span>出てきた文章を、もう一方が確認する</h2>
-<figure class="bonus-opinion"><img src="assets/review-scene.png" alt="いそっちがタブレットの下書きと紙の原資料を見比べ、直す一文を指す説明用の場面" loading="lazy" width="1672" height="941"><figcaption><strong>作って終わりにしないのが、この分担です。</strong><p>Codexが作ったものをClaude Codeへ戻して、チェックしてもらう。指摘があれば、またCodexに直してもらいます。</p></figcaption></figure>
+<figure class="bonus-opinion"><img src="assets/review-scene.png?v=identity3" alt="原写真を参照したいそっちが、机に並べた原資料と下書きを見比べる説明用の場面" loading="lazy" width="1672" height="941"><figcaption><strong>作って終わりにしないのが、この分担です。</strong><p>Codexが作ったものをClaude Codeへ戻して、チェックしてもらう。指摘があれば、またCodexに直してもらいます。</p></figcaption></figure>
 <figure class="diagram" aria-label="根拠のない人気表現を、原資料にある商品名と価格へ直す"><div class="check-compare"><div class="compare"><small>チェックする一文の例</small><del>地域No.1の大人気<br>チーズケーキ</del></div><div class="compare"><small>原資料に合わせて修正</small><strong>自家製チーズケーキは650円。</strong></div></div><div class="facts">原資料にあるのは「自家製」と「650円」。人気や順位は書かれていません。</div><p class="loop">Claude Codeが指摘 → Codexが修正 → もう一度照合</p></figure>
 <details><summary>結果を確認する指示文を開く</summary><div class="bonus-detail-body"><pre id="review-prompt">draft.mdとsource.txtを行ごとに照合してください。
 1. 原資料にない人気・順位・住所・口コミ・効果・予約方法を足していないか。
@@ -87,7 +87,7 @@ Codexへは修正点だけを渡し、直した実ファイルを読み直して
 <p>最後は<b>posts.md</b>を自分でも開いて確認。まずはこの3本で、AI同士に作業を渡して戻す感覚をつかんでみてください。</p>
 <details><summary>自分の仕事へ変えるときの書き換え方</summary><div class="bonus-detail-body"><p><b>source.txt：</b>自分が使ってよい原稿・商品の事実を入れる。<br><b>目的：</b>誰へ何を伝えるかを1つにする。<br><b>出力：</b>投稿3本、記事1本など完成物と保存名を決める。<br><b>確認：</b>数字・固有名詞・引用・禁止表現など、照合する条件を指定する。</p><p>いきなり仕事を全部渡さず、まずは一つの成果物から。AI社員は人間の社員という意味ではなく、このように役割を持たせたAIの使い方です。</p></div></details>
 </section>
-<section class="bonus-final-cta" id="next"><h2>投稿を作る力を、SNSの収益化へつなぐなら。</h2><p>AIに投稿を任せられるようになったら、次はその投稿をSNSの収益化の流れにどう置くか。全体の流れを、7日間の音声で学ぶ案内はこちらです。</p><a href="https://utage-system.com/p/dzhf3c034oSQ?ftid=UvFOXx8sQ65P" target="_blank" rel="noopener" aria-label="7日間の音声教材の案内を見る"><img class="cta-image" src="assets/audio-cta.png" alt="SNS収益化の流れを7日間の音声で学ぶ。100円。" loading="lazy" width="1672" height="941"></a><a class="bonus-button button-orange" href="https://utage-system.com/p/dzhf3c034oSQ?ftid=UvFOXx8sQ65P" target="_blank" rel="noopener">100円の音声教材の案内を見る</a></section>
+<section class="bonus-final-cta" id="next"><h2>投稿を作る力を、SNSの収益化へつなぐなら。</h2><p>AIに投稿を任せられるようになったら、次はその投稿をSNSの収益化の流れにどう置くか。全体の流れを、7日間の音声で学ぶ案内はこちらです。</p><a href="https://utage-system.com/p/dzhf3c034oSQ?ftid=UvFOXx8sQ65P" target="_blank" rel="noopener" aria-label="7日間の音声教材の案内を見る"><img class="cta-image" src="assets/audio-cta.png?v=identity3" alt="SNS収益化の流れを7日間の音声で学ぶ。100円。" loading="lazy" width="1672" height="941"></a><a class="bonus-button button-orange" href="https://utage-system.com/p/dzhf3c034oSQ?ftid=UvFOXx8sQ65P" target="_blank" rel="noopener">100円の音声教材の案内を見る</a></section>
 <footer class="sources">操作情報の確認：2026年11月8日。製品画面・利用条件は更新されることがあります。<br>本文の人物場面は提供写真を基にした説明用画像です。図は操作の関係を示したもので、製品の実画面ではありません。</footer>
 </main><script>
 document.querySelectorAll('[data-copy]').forEach(button=>button.addEventListener('click',async()=>{const content=document.getElementById(button.dataset.copy).textContent;const status=button.nextElementSibling;try{await navigator.clipboard.writeText(content);status.textContent='全文をコピーしました';}catch(error){const range=document.createRange();range.selectNodeContents(document.getElementById(button.dataset.copy));const selection=window.getSelection();selection.removeAllRanges();selection.addRange(range);status.textContent='本文を選択しました。手動でコピーできます';}}));
