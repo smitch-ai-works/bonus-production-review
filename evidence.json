@@ -1,0 +1,61 @@
+{
+  "label": "No196 / current-skill first production run",
+  "started_at": "2026-11-07T04:29:56.177164+00:00",
+  "finished_at": "2026-11-07T04:50:04.700901+00:00",
+  "production_requests": 1,
+  "followup_requests": 0,
+  "past_conversation_provided": false,
+  "producer_self_check_and_edits": "Permitted inside the initial production request.",
+  "bonus_edits_after_producer_finished": 0,
+  "review_wrapper_created_separately": true,
+  "skill_zip_sha256": "6e01ed05f99d2ebc5b47110a693962089b696ea7ad70cfc761fd89ca385f2d75",
+  "request_sha256": "9d0699558cdd6bea7b4149d27ae804db57de7cf1ff8bcc8ca2ad00b6bacfa079",
+  "input_files": {
+    "creator.png": "193f99b8ab842882aab6c879031bf4a532add35be5d1e9e78e86b9bb899ec4ae",
+    "line-textbook.jpg": "cc661d70f962e5a70aefc5a918009f4610c7096c34dea0740e4a7cb822875c68",
+    "script.txt": "87443a5a21307370a44dd26bbf2e6588323e739d5c2a53810fa0a116f6964507"
+  },
+  "skill_files": {
+    "INSTALL.md": "08454de3e4b07ab26c933152a5f1541b8b691f3d51aded20a3cd7b17af792ae0",
+    "SKILL.md": "3b8b9359e3230e1a2ba4d9c8f2bf3b24190e5693c84e1457a851ff66fe58a4a6",
+    "agents/openai.yaml": "000452eaf8f9a9adf0e5d7da0fa10b0be1c2cffdbcff56676812c4b4d5ada858",
+    "assets/reader-base.css": "96efe15ebf69eb1cd55b73983e62b5e33b82f71d030a18400abde0fe062e2d0e",
+    "assets/reader-layout.html": "6c1f41534d693239c58e7613eb78cb0433b6ef651b3878baddb0564c483e4564",
+    "references/content-and-recording.md": "e036e221f6943aeda79929b4289aa4554797abcaea20328bde585b3073ec3c88",
+    "references/reference-patterns.md": "1e6d5fa858494e0480996ec2e488701b32adc3727a53873492578ce98f48e3c0",
+    "references/runtime-and-delivery.md": "8b5234706f995954bbdb4dfb8a7df31ddf8a1a79e7d988f366f13f103eaaadec",
+    "references/visuals-and-identity.md": "0da3e9b6b44ef7f48d477137799a1fbb58692b0a6310adf0249f72f4582cec9c"
+  },
+  "published_sample_files": {
+    "index.html": "4ed872ec2210a9c73bc93e1dd82e97c527971157af20525889ef2405a1004880",
+    "はじめに.txt": "12f4b7cdaf4eeaf4769b9301a5ba97ea67a90006ddaa85c72d76818a8b890ab5",
+    "タイトル案.md": "05ee80ee9616532ba1660f3211c57ab8defee699e0a29c80c01b1aca14fd5d4f",
+    "解説動画台本.md": "2860896ff288cf2b8be82d263fe671efcf6f606384fe72afa6701d91b2c25b00",
+    "assets/app.js": "c69317b03691998419b5699394ae4676f1ce5bb93cc1722a393eb5d786a79a3f",
+    "assets/banner-background.png": "4f39fe3662fdcbf53104ca96019810d8f5c7cf3a9256dd885d89fedf6d7397a1",
+    "assets/bonus-banner.png": "fc9a330ad80e6c2eb950a6c9133dd2537cf154f5e247ff90c5ac492a8836ae28",
+    "assets/creator.png": "193f99b8ab842882aab6c879031bf4a532add35be5d1e9e78e86b9bb899ec4ae",
+    "assets/line-textbook.jpg": "cc661d70f962e5a70aefc5a918009f4610c7096c34dea0740e4a7cb822875c68",
+    "assets/style.css": "d9242323c31ccbe5049e1871ec1ff44184a1548214dbf7826c72536740d1bfd6",
+    "downloads/01_実践ガイド.md": "c284966c43fb6847e376f5393b3dbea77ddb88e8e29ba8378010d2f1b8afaf47",
+    "downloads/02_コピープロンプト.txt": "33ae5799fd29ea83ec78373f53bb3c90db56875ba8204f712544120cca4d2625",
+    "downloads/03_完成記事見本.md": "6e1d0cdb52fa751448e4b2bf20f2255ad87ddda1c37edfcea914ea3d854cdc8d",
+    "downloads/04_自分用ワークシート.md": "3e2d98d1983a70809660a5a8ac095db52163f96f7a0d1f8cc6a8d38649aae7f7",
+    "downloads/実践ファイル一式.zip": "f048116e9627ae027b545325d2a70e5d9833c5b32685eaa4422a36c544aa6cef",
+    "downloads/codex-workflow/input.md": "f5091afd56000bea7b506d99cf77542ce13d1dde540c5f2875ff49c8f46792db",
+    "downloads/codex-workflow/README.md": "30b75d3b549800dff01cf3015d178da85c97b7834267cb80b19b842886961f58",
+    "downloads/codex-workflow/TASK.md": "bf34d3c73d21e1828924908c338c091e8b2698d2e8be2cbc880af87b4ab07830"
+  },
+  "omitted_producer_internal_files": [
+    "制作メモ.md",
+    "qa/banner-360.png",
+    "qa/banner-full.jpg",
+    "qa/delivery-manifest.json",
+    "qa/input-skill-hashes.json",
+    "qa/static-checks.json",
+    "qa/zip-check.json",
+    "qa/公式確認記録.md",
+    "qa/原典対応.md",
+    "qa/画像生成プロンプト.txt"
+  ]
+}
