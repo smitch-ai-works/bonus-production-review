@@ -59,5 +59,32 @@
         "解説動画台本.md": "1b5e6c1c5e4c0c7ad6440c2f50489e246666d443af6ebbde43cf21ecb878f391"
       }
     }
-  ]
+  ],
+  "demo_reference_videos": {
+    "role": "Added to the demo after production; not additional inputs to the frozen production runs",
+    "videos": [
+      {
+        "case": 197,
+        "file": "references/no197.mp4",
+        "sha256": "0ee798243ccee73e231b9f379374edb0dbc55d2bff41a478194cb636129a1d8e",
+        "duration": 51.8,
+        "size": [
+          720,
+          1280
+        ],
+        "bytes": 5318600
+      },
+      {
+        "case": 193,
+        "file": "references/no193.mp4",
+        "sha256": "556d7fe1a007fdf1587140ceee6452f9ed894d2f44c3306e9d96a9a2a729a93c",
+        "duration": 55.03,
+        "size": [
+          720,
+          1280
+        ],
+        "bytes": 12488732
+      }
+    ]
+  }
 }
