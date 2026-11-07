@@ -1,0 +1,14 @@
+和景色式 AI塗り絵しおり販売ガイド
+
+ZIPを展開したら、index.html をブラウザーで開いてください。
+assets と downloads は、index.html と同じ場所に置いたまま使います。
+
+・見本PDF：downloads/japan-coloring-bookmarks-a4.pdf
+・指示文：downloads/prompts.txt
+・英語原稿：downloads/listing-example.txt
+・台紙メーカー：downloads/print-layout.html
+
+ガイドはオフラインで読めます。コピーが使えないブラウザーでは本文を選択し、Ctrl+Cまたは長押しでコピーします。
+画像生成とEtsy出品、公式LINEの案内を開くときはインターネットへ接続してください。
+
+見本PDFは形と使い方を確かめる練習用です。販売する作品は、自分でテーマと指示を決めたオリジナルを作り、画像・試し刷り・商品説明を確認してください。
