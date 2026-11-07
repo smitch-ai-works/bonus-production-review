@@ -10,7 +10,7 @@
     "production_requests": 1,
     "initial_skill_sha256": "6e01ed05f99d2ebc5b47110a693962089b696ea7ad70cfc761fd89ca385f2d75"
   },
-  "current_skill_zip_sha256": "db122359cc4768ce42b4169c9c8821e6d0a260e80ce95a50d45cf565cd7628b5",
+  "current_skill_zip_sha256": "ca6ea3218f2d3fc5e2073717176b5645c43723e0bfaa50cfd73111ca0c1bfc88",
   "current_sample_files": {
     "index.html": "e27e298ae6154f11e94d776a76302622a47928e84166494c50e4c0d9000a6995",
     "はじめに.txt": "e5c99981b384c3c6606b22470aa28341468feb267a22ae91e33a48c1470fb7e1",
@@ -45,6 +45,6 @@
     "downloads/codex-workflow/README.md": "c804b38b64693542c4d47cab4d2816d32afecb68d2d3e6a1f8d71a2a47085a09",
     "downloads/codex-workflow/TASK.md": "0691554f2a895e955bb7a1252f876d92d8afbef574b26bf1d3bb04fb428b7c47"
   },
-  "previous_distribution_skill_sha256": "f60ce7384d5749aa91d917a205f99add1f04453a54908f2be5a7af863ea5f4af",
-  "current_draft": "draft-v2/evidence.json"
+  "previous_distribution_skill_sha256": "db122359cc4768ce42b4169c9c8821e6d0a260e80ce95a50d45cf565cd7628b5",
+  "current_draft": "draft-v3/evidence.json"
 }

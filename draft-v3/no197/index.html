@@ -1,0 +1,141 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="商品画像をChatGPTで絵コンテにし、Geminiで10秒の商品CMへ。MELTOの実例とコピーできる指示文。"><title>すみっち式 商品写真からAIプロモ動画</title><link rel="stylesheet" href="assets/style.css"></head><body><main>
+<div id="explainer-root"></div>
+<h1 class="sr-only">すみっち式 商品写真からAIプロモ動画</h1><figure class="cover"><img src="assets/banner.png" alt="すみっち式 商品写真からAIプロモ動画。ChatGPTからGeminiへ。本人とMELTOの抹茶チョコレート" width="1254" height="1254"></figure>
+<div class="content"><p class="lead">構成づくりからAIへ。まずは、写真1枚から1本つくる流れを試してみてください。</p>
+<section id="sample"><div class="eyebrow">まずは完成した動画から</div><h2>商品画像が、こんな10秒CMに</h2>
+<video class="actual-video" controls playsinline preload="metadata" poster="assets/video-poster.jpg" aria-label="Geminiで生成したMELTOの10秒CM。音声あり"><source src="assets/melto-gemini-actual.mp4" type="video/mp4"></video><p class="note">MELTOの生成例。縦型9:16・約10秒／音が出ます。</p>
+<div class="flow" aria-label="商品画像をChatGPTで絵コンテと指示文にし、Geminiで動画へ"><div class="node"><strong>商品画像</strong><small>1枚を用意</small></div><div class="arrow">→</div><div class="node"><strong>ChatGPT</strong><small>絵コンテ・指示文</small></div><div class="arrow">→</div><div class="node"><strong>Gemini</strong><small>動画にする</small></div></div>
+<details><summary>始める前に用意するもの<span>写真と、動画作成の利用条件</span></summary><p>使う権利のある商品写真、画像を扱えるChatGPT、動画作成が使えるGeminiを用意します。個人アカウントではGoogle AIプランが必要です。18歳未満は利用できません。利用枠と画面はアカウントで確認してください。</p><p>今回は、AIで作った練習用の商品画像「MELTO」を使います。画像、絵コンテ、生成動画を保存セットへ入れています。</p><p><a href="https://support.google.com/gemini/answer/16126339?hl=ja" target="_blank" rel="noopener">Google公式：動画作成の条件と操作</a></p></details></section>
+<section id="photo"><div class="eyebrow">写真を用意する</div><h2><span class="num">1</span>商品が分かる画像を1枚</h2>
+<figure class="product-source"><img src="assets/product-photo.png" alt="練習用MELTOの商品画像。クリーム色と深緑の箱、抹茶チョコレート2粒" width="1024" height="1536"></figure>
+<p>今回は、このMELTOで進めます。自分の商品なら、スマホで全体が入る1枚を撮ればOKです。</p>
+<p><strong>最初から、構成を考え込まなくていいんです。</strong> まず画像を渡して、どう見せるかをChatGPTに作ってもらいます。</p>
+<details><summary>自分の商品へ替えるとき<span>写真と、希望する比率をそろえる</span></summary><p>箱やラベルまで分かる、背景のすっきりした写真を用意します。縦型なら9:16、横型なら16:9。動画用の指示文とGeminiの設定も同じ比率へそろえます。</p><p><a href="downloads/05-own-product.txt" download>自分の商品用の記入シートを保存</a></p></details></section>
+<section id="storyboard"><div class="eyebrow">ChatGPTへ送る</div><h2><span class="num">2</span>絵コンテを画像で作ってもらう</h2>
+<p>商品画像を添付して、こう送ります。出てきたのが、この5カットです。</p>
+<figure class="capture narrow"><img src="assets/chatgpt-input.png" alt="ChatGPTスマホ幅Webの実画面。MELTO商品画像と10秒の絵コンテの依頼文、その実際の5カット生成結果" width="390" height="843"><figcaption>スマホ幅Webの実画面。商品画像＋この一文から、絵コンテへ。</figcaption></figure>
+<details class="prompt"><summary>絵コンテの指示文<span>全文を開く ＋</span></summary><pre id="01-storyboard">この商品を分析して、プロデザイナーが作るような10秒の絵コンテの構成案を画像で作って</pre><button class="copy" data-copy="01-storyboard">絵コンテの指示文をコピー</button></details>
+<figure><div class="melto-scenes"><article><div class="story-crop sc0"><img src="assets/storyboard.png" alt="MELTO実絵コンテの茶葉のカット"></div><p><b>0〜2秒</b><b>茶葉</b>緑の世界へ入る</p></article><article><div class="story-crop sc1"><img src="assets/storyboard.png" alt="MELTO実絵コンテの抹茶のカット"></div><p><b>2〜4秒</b><b>抹茶</b>粉末の質感を見せる</p></article><article><div class="story-crop sc2"><img src="assets/storyboard.png" alt="MELTO実絵コンテの断面のカット"></div><p><b>4〜6.5秒</b><b>断面</b>チョコへ寄る</p></article><article><div class="story-crop sc3"><img src="assets/storyboard.png" alt="MELTO実絵コンテの商品全体のカット"></div><p><b>6.5〜8.5秒</b><b>商品全体</b>箱と2粒を見せる</p></article><article><div class="story-crop sc4"><img src="assets/storyboard.png" alt="MELTO実絵コンテのロゴのカット"></div><p><b>8.5〜10秒</b><b>ロゴ</b>最後に名前を残す</p></article></div><figcaption>ChatGPTが作った絵コンテの5カット。秒数は構成案です。</figcaption></figure>
+<details><summary>絵コンテの全体を見る<span>保存する画像はこちら</span></summary><img src="assets/storyboard.png" alt="ChatGPTで生成したMELTOの5カット絵コンテ全体"><p><a href="assets/storyboard.png" download>絵コンテ画像を保存</a></p></details>
+<figure class="opinion"><img src="assets/creator-reviewing.png" alt="すみっちがMELTOの絵コンテを画面で確認する説明用の場面" width="1672" height="941"><figcaption><strong>半分以上は、AIの回答待ちでした。</strong><p>僕のときは、実際10分くらい。構成も次の指示文も任せるので、ずっと手を動かすわけじゃないんです。</p><p class="note">所要時間は僕の一例。生成待ちや修正で変わります。</p></figcaption></figure></section>
+<section id="handoff"><div class="eyebrow">同じチャットで続ける</div><h2><span class="num">3</span>次は、動画用のプロンプトへ</h2>
+<figure class="handoff"><div class="tool"><strong>ChatGPT</strong><img class="mini-photo" src="assets/storyboard.png" alt="MELTOの5カット絵コンテ"><div class="mini-prompt">この絵コンテを<br>動画用の指示文へ</div></div><div class="arrow">→</div><div class="tool"><strong>Gemini</strong><div class="input-pair"><img src="assets/product-photo.png" alt="元の商品画像"><img src="assets/storyboard.png" alt="保存した絵コンテ"></div><div class="mini-prompt">元画像＋絵コンテ<br>＋返答の全文</div></div></figure>
+<p>同じChatGPTで、次の一文を送るだけ。返答は途中を省かず、全文コピーします。絵コンテ画像も保存しておきます。</p>
+<details class="prompt"><summary>動画用へ変換する指示文<span>全文を開く ＋</span></summary><pre id="02-video-prompt">Gemini Omniで動画にするためのプロンプトにしてみて</pre><button class="copy" data-copy="02-video-prompt">動画用へ変換する指示文をコピー</button></details>
+<details><summary>ChatGPTの返答を見る<span>MELTOの実際の画面</span></summary><img class="capture-full" src="assets/chatgpt-video-prompt.jpg" alt="ChatGPTの実際の返答。元の商品画像と絵コンテの2枚を添付して使う案内と動画用プロンプト"></details>
+<details class="prompt"><summary>Geminiへ渡したプロンプト全文<span>全文を開く ＋</span></summary><pre id="03-gemini-example"># MELTO MATCHA CHOCOLATE｜10秒CM生成
+
+添付した「MELTO MATCHA CHOCOLATE」の商品画像を唯一の商品デザイン基準とし、もう1枚の絵コンテ画像を映像構成の参考にして、プロの広告制作会社が手掛けたような10秒間のプレミアム商品CMを制作してください。
+
+## 基本仕様
+- 動画時間：正確に10秒
+- 画面比率：9:16（Instagramリール・TikTok向け）
+- 映像品質：フォトリアル、シネマティック、高級広告品質
+- 世界観：日本の上質な抹茶スイーツ、自然、洗練、静かな贅沢
+- 色調：深緑、抹茶グリーン、温かいアイボリー、シャンパンゴールド
+- 画質：超精細な商品撮影、リアルな質感、自然な陰影
+- ナレーション：なし
+- 音楽：上品でミニマルなインストゥルメンタル。柔らかいピアノと繊細なアンビエントサウンド
+- 効果音：茶葉の揺れる音、抹茶粉末が舞う音、チョコレートの繊細な質感を感じさせる音
+
+## シーン構成
+
+### SCENE 01｜0.0〜2.0秒
+「抹茶の世界へ」
+
+朝の柔らかい陽光を浴びる、瑞々しい緑色の茶葉を極端なマクロ撮影で映す。
+
+葉の表面には小さな水滴があり、光を受けて美しく輝く。
+
+カメラは茶葉の間をゆっくり移動する。浅い被写界深度、背景は美しいボケ。
+
+上質で落ち着いた自然の空気感を表現する。
+
+### SCENE 02｜2.0〜4.0秒
+「抹茶の質感」
+
+暗い深緑の背景。
+
+鮮やかな抹茶パウダーがスローモーションで空中に舞い、柔らかく積もっていく。
+
+超接写で微細な粉末の粒子まで鮮明に描写。
+
+横から差し込む一筋の柔らかい光が、抹茶の立体感と繊細さを引き立てる。
+
+粉末の動きに合わせて、自然で流れるように次のカットへ移行する。
+
+### SCENE 03｜4.0〜6.5秒
+「食べたくなる瞬間」
+
+添付の商品画像にある抹茶チョコレートを主役にする。
+
+断面の見えるチョコレートを超マクロ撮影。
+
+外側の深い抹茶グリーン、内側の明るい抹茶色の層、なめらかな表面を忠実に再現する。
+
+カメラが断面へゆっくり寄り、照明がチョコレートの質感を美しく引き立てる。
+
+わずかな光沢で口どけを連想させるが、元の商品にないクリームや液体は追加しない。
+
+### SCENE 04｜6.5〜8.5秒
+「商品ヒーローショット」
+
+温かみのあるベージュ背景に、MELTOのパッケージと2粒の抹茶チョコレートを美しく配置。
+
+構図は添付した実物画像を忠実に再現する。
+
+パッケージはクリーム色の和紙風テクスチャ、下部は深緑、中央には金色のMELTOロゴと植物のイラスト。
+
+カメラがごくゆっくり前方へドリーイン。
+
+柔らかい自然光と高級感のある影で、洗練された商品広告に仕上げる。
+
+### SCENE 05｜8.5〜10.0秒
+「ブランドの余韻」
+
+背景を美しいアイボリーの紙質感に切り替える。
+
+中央に金色のブランドロゴ「MELTO」。
+
+その下に小さく「MATCHA CHOCOLATE」。
+
+ロゴは添付した商品画像のデザインに忠実に再現する。
+
+背景下部に控えめな抹茶グリーンの曲線。
+
+最後の0.5秒は静止に近い状態でブランド名を印象づける。
+
+## 最重要事項
+
+1. 商品のパッケージ、MELTOロゴ、色、形、イラスト、チョコレートの形状と断面は添付画像と一致させる。
+2. 商品名・ロゴの綴りを変更しない。
+3. 映像内に人物、手、不要な小物を追加しない。
+4. 絵コンテ画像にある枠線、秒数表示、説明文、レイアウトは動画に表示しない。
+5. 映像は5シーンを自然に編集した1本の10秒CMにする。
+6. 不自然な変形、パッケージの歪み、ロゴの崩れ、過剰なCGエフェクトは禁止。
+7. 原材料の産地、健康効果、受賞歴など、確認できない情報は表示しない。
+8. 高級化粧品の広告のような照明と構図を使いながら、主役はあくまで抹茶チョコレートとする。
+
+全体を通じて、映像の密度、余白、光、カメラワーク、カットのリズムにこだわり、10秒という短さでもブランドの上質さと商品の魅力が伝わるCMに仕上げてください。</pre><button class="copy" data-copy="03-gemini-example">Geminiへ渡した全文をコピー</button></details>
+</section>
+<section id="generate"><div class="eyebrow">Geminiで動画にする</div><h2><span class="num">4</span>2枚と指示文を入れて、送る</h2>
+<figure class="capture narrow"><img src="assets/gemini-tools-mobile-web.png" alt="Geminiスマホ幅Webの実画面。MELTO元画像と絵コンテの2枚が添付され、メニューで動画を作成を選択" width="390" height="844"><figcaption>スマホ幅Webの実画面。「動画を作成」を選びます。</figcaption></figure>
+<ol class="short-steps"><li>「動画を作成」を開く</li><li>元画像と、保存した絵コンテを添付</li><li>返答全文を貼り、9:16を確認して送信</li></ol>
+<p>あとは生成待ち。出てきたら、最初から最後まで再生してみてください。</p>
+<details><summary>送信前の入力例を見る<span>PC版Webの実画面</span></summary><img src="assets/gemini-input-desktop.jpg" alt="Gemini Webの実入力画面。MELTO元画像と絵コンテ2枚、プロンプト、動画モード、縦向き9:16、送信ボタン"></details>
+<details><summary>動画作成が見つからないとき<span>画面・利用枠を確認</span></summary><p>Web版はサイドバーの「動画を作成」を開きます。端末や更新で場所は変わるので、公式ヘルプも確認してください。今回は10秒の希望で生成しています。出力の尺が違う場合は、対応する長さに構成を合わせます。</p><p><a href="https://support.google.com/gemini/answer/16126339?hl=ja" target="_blank" rel="noopener">Google公式の手順を開く</a></p></details></section>
+<section id="save"><div class="eyebrow">見直して、保存する</div><h2><span class="num">5</span>できたら、商品を見直す</h2>
+<figure class="product-compare"><div><img src="assets/product-photo.png" alt="元のMELTO画像"><b>元画像</b></div><div><img src="assets/video-poster.jpg" alt="実生成動画7.2秒のMELTO商品カット"><b>生成動画の1カット</b></div><figcaption>箱の形・色、MELTOの綴り、チョコの形を見比べます。</figcaption></figure>
+<ul class="checklist"><li><input id="c1" type="checkbox"><label for="c1">箱の形・色と、ロゴの綴りは合っている</label></li><li><input id="c2" type="checkbox"><label for="c2">途中で商品やチョコが別物になっていない</label></li><li><input id="c3" type="checkbox"><label for="c3">元画像にない効能や情報が増えていない</label></li><li><input id="c4" type="checkbox"><label for="c4">縦横の比率・尺・音を確認した</label></li></ul>
+<p>直すなら「何秒の、何を」だけ絞ります。確認できたら、動画のメニューからダウンロード。保存先でも再生できたら、まず1本です。</p>
+<figure class="capture narrow"><img src="assets/gemini-result-mobile-web.png" alt="Geminiスマホ幅Webの実完成画面。動画の準備ができましたの表示と、動画左上の下向き矢印の保存アイコン" width="390" height="844"><figcaption>スマホ幅Webの完成画面。動画左上の「↓」から保存できます。</figcaption></figure>
+<details class="prompt"><summary>1か所だけ直す指示文の例<span>全文を開く ＋</span></summary><pre id="04-fix">直前の動画の【6.5〜8.5秒】だけを修正してください。
+【直す点】商品のパッケージが元画像と違っています。
+添付した元画像に合わせて、クリーム色と深緑の配色、MELTOの綴り、箱の形を保ってください。
+それ以外のカット順、背景、色、アスペクト比は変更しないでください。</pre><button class="copy" data-copy="04-fix">修正指示文の例をコピー</button></details>
+<details><summary>保存後のファイルを確認する<span>スマホ・PCで見失わないために</span></summary><p>スマホはファイルアプリ等、PCはダウンロードフォルダを開きます。「melto_promo_v1」のように名前を付け、元画像と同じフォルダへ。保存した動画を最後まで見てください。元画像は残しておきます。</p></details>
+<div class="download" id="download"><h3>画像・絵コンテ・動画をまとめて保存</h3><p>MELTO元画像、5カット絵コンテ、Geminiの実生成動画、指示文4本・記入シート、このガイド入り。ZIPを展開し「index.html」をブラウザで開くと見返せます。</p><a class="button" href="downloads/smitch-photo-promo-kit.zip" download>練習セットを保存する（ZIP）</a><p>指示文は、各txtファイルからも全文コピーできます。</p></div></section>
+<section id="next"><div class="eyebrow">まずは一つ</div><h2>「忙しくて」で止まるなら、ここから</h2><p>まずは、この画像をChatGPTへ送ってみてください。自分の商品があるなら、スマホで1枚撮るところからでOKです。</p><h3>案件にするなら、渡すものを決める</h3><p>たとえば「商品写真から10秒の紹介動画を1本」。縦横の比率、見せたい特徴、修正の範囲、納期を先に確認します。作ったら、同じ商品に見えるかまで見て渡します。</p></section>
+<section class="cta" id="line"><h2>この1本を、副業の一歩につなげる</h2><p>商品紹介動画を作れたら、次は「誰に、何を提供するか」。AI副業の進め方をまとめた「AIマネタイズの教科書」を、僕の公式LINEでお渡ししています。</p><a href="https://sub.aione.co.jp/line/open/Iu0m3ReMw97D?mtid=PxeHUC98TlGc" target="_blank" rel="noopener"><img src="assets/line-textbook.jpg" alt="すみっちの公式LINE案内。AIマネタイズの教科書を受け取る" width="1200" height="675"></a><a class="button" href="https://sub.aione.co.jp/line/open/Iu0m3ReMw97D?mtid=PxeHUC98TlGc" target="_blank" rel="noopener">公式LINEで教科書を受け取る</a></section>
+<div class="sources"><details><summary>機能の確認先<span>公式情報</span></summary><p><a href="https://support.google.com/gemini/answer/16126339?hl=ja" target="_blank" rel="noopener">Geminiで動画を作成・保存する</a><br>利用条件・操作の確認：2026年11月7日。</p></details></div><output id="status" aria-live="polite"></output>
+</div><footer>すみっち式 商品写真からAIプロモ動画</footer></main><script src="assets/app.js"></script><script src="assets/explainer.js"></script></body></html>

@@ -1,0 +1,126 @@
+{
+  "state": "Feedback revision of existing v2 outputs with updated skill and additional actual demonstration materials; not a fresh single-pass generation",
+  "skill_zip_sha256": "ca6ea3218f2d3fc5e2073717176b5645c43723e0bfaa50cfd73111ca0c1bfc88",
+  "inputs": [
+    "既存v2特典",
+    "元の本人台本",
+    "本人写真と加工許可",
+    "既存LINE画像・URL・案内内容",
+    "指定参考LP",
+    "追加のMELTO実演画像・実生成動画・操作キャプチャ",
+    "今回のFB"
+  ],
+  "comparison": "Match the reference topic, workflow and deliverable type; use creator-side materials and experiences, not the reference author identity or claims",
+  "remaining": [
+    "本人の16:9解説動画は未撮影",
+    "No193の同じ4柄と一致する実操作キャプチャは未取得",
+    "取得したNo197画面はスマホ幅Webであり実機アプリではない"
+  ],
+  "cases": [
+    {
+      "case": 197,
+      "files": {
+        "assets/app.js": "91f6c6fb7fc45380494951d84f1268ac539b328419d315b39176ece2882f3707",
+        "assets/banner.png": "f42f2645d5d8446e6bda78a1814d65db740aa6323b83bbc1a8f17fdf0f0f84b8",
+        "assets/chatgpt-input.png": "bdd064cf89f2971584a0b2b4734251d5cb3df0b4fd074b19c006ef807698d426",
+        "assets/chatgpt-storyboard.jpg": "4ff8b14a8ac786f72963f92f4586fdc6cc9e7cc3c7421f31dd13da4f0e5f44be",
+        "assets/chatgpt-video-prompt.jpg": "46f190b0f4f873fd82fe0ffa9b6b3477adafcb1a3143bdef2178bc03a23515e3",
+        "assets/creator-reviewing.png": "2562ffe998496d16039eb939bfa0a12265d61f2c8fd7ec7e3765281fd0368580",
+        "assets/explainer.js": "cd1e7e59f05ed351e455ebe4cf23bae444a61ff7a1f3da3024218eb6182d21d4",
+        "assets/gemini-input-desktop.jpg": "800e879d5a3383564127393a47293a9af3ea5960e5c2e6dd2c86c7245efb6844",
+        "assets/gemini-result-mobile-web.png": "5df32901a4bb33cc0e58518dde65ffba71200e9a5c0337463a29cd7cb0baeb61",
+        "assets/gemini-tools-mobile-web.png": "159ef4a8aaddcf3571dbb8402d4371c86e6f2cbe47dad4f4905aae123a126aae",
+        "assets/line-textbook.jpg": "cc661d70f962e5a70aefc5a918009f4610c7096c34dea0740e4a7cb822875c68",
+        "assets/melto-gemini-actual.mp4": "df5b8b1b9fe32bc50f38e29a0470493f64bd8ff8abee3bf1b9c696781f7a4552",
+        "assets/product-photo.png": "f1f7c41d6daa75f882c3429e9c7677a68b8977f5fd3920dc46866512a4426bb0",
+        "assets/storyboard.png": "9b75d605d3418a6f253ffeba2e62fe04a7dd344547d29bb88639693cefd88cfe",
+        "assets/style.css": "b72473f5dece5993add6b640621e80d255d3fa87d150fc4bca1a46136354e631",
+        "assets/video-poster.jpg": "b22133edc7217606292689e7cbb5b96154db207f4f47d3700b4c28867819ba02",
+        "downloads/01-storyboard.txt": "cbfbbe737fea031e0e7bb186034617f0b30d3458ea42c7b683f5ae9be9056339",
+        "downloads/02-video-prompt.txt": "4a63fa1d8b34db2e8fd91ac1ec9ec09d4f73b71f1be67becd125d3ad6d2305de",
+        "downloads/03-gemini-example.txt": "6a059ad7b3423cfd81c2450c8da60e8fcae80ef4dca5b7667a4479cc70f1dfb0",
+        "downloads/04-fix.txt": "9b4a38750aa284013dddb798e8fdb4a83f7baa20693568b548e9ef318d5127a6",
+        "downloads/05-own-product.txt": "91974506d18a3a3ddc181f1c09a11fe0bbb5965053d9c3a63b976b0bcb478684",
+        "downloads/smitch-photo-promo-kit.zip": "956afbffe63fd108ed49b3e9499d49c0123162449ddefec125d413c878626169",
+        "index.html": "04154eb9bf4e77ae5f684c6a579eefed943f6bc6d88c0b7ac58482d32ff2359e"
+      }
+    },
+    {
+      "case": 193,
+      "files": {
+        "assets/app.js": "943d44837f8be0dcc4cb627745041fa1c759d09185cb401af25dca45e62db8ed",
+        "assets/banner-square.png": "6bb2d16ef4c58a2acf96d55a1061f849302968e89511258658bc1c5c6c612b9d",
+        "assets/coloring-sheet.png": "5ed01b68474e88641a1108d7de35a8bdee4e1c4d43ca9ff9eb81367d5c9f8319",
+        "assets/creator-batch-review.png": "5cca9976c9a93159ca3bbd6bcfe426aed87c07e9f3b5316e225355b603af3555",
+        "assets/creator-print-check.png": "f1d558f853615cc560ce6d00ab46babe49a6fc2aa1a5faa58adc20533996c10e",
+        "assets/line-textbook.jpg": "cc661d70f962e5a70aefc5a918009f4610c7096c34dea0740e4a7cb822875c68",
+        "assets/print-a4-preview.png": "96a28c4869c61e3ddf1d2b350ffdce41faf6eb8228a06aa0dc81fd85c4da74ac",
+        "assets/style.css": "0f97d5e8cf71de6b2e93fadc81a4ab7aa51031c475277645369c126038321af5",
+        "downloads/bookmark-starter-kit.zip": "42acedaf88221dff7ea8596d5b3cca787f7e5780a4a1ee38bdfc0fc7b88316f8",
+        "downloads/reader-kit/assets/app.js": "943d44837f8be0dcc4cb627745041fa1c759d09185cb401af25dca45e62db8ed",
+        "downloads/reader-kit/assets/banner-square.png": "6bb2d16ef4c58a2acf96d55a1061f849302968e89511258658bc1c5c6c612b9d",
+        "downloads/reader-kit/assets/coloring-sheet.png": "5ed01b68474e88641a1108d7de35a8bdee4e1c4d43ca9ff9eb81367d5c9f8319",
+        "downloads/reader-kit/assets/creator-batch-review.png": "5cca9976c9a93159ca3bbd6bcfe426aed87c07e9f3b5316e225355b603af3555",
+        "downloads/reader-kit/assets/creator-print-check.png": "f1d558f853615cc560ce6d00ab46babe49a6fc2aa1a5faa58adc20533996c10e",
+        "downloads/reader-kit/assets/line-textbook.jpg": "cc661d70f962e5a70aefc5a918009f4610c7096c34dea0740e4a7cb822875c68",
+        "downloads/reader-kit/assets/print-a4-preview.png": "96a28c4869c61e3ddf1d2b350ffdce41faf6eb8228a06aa0dc81fd85c4da74ac",
+        "downloads/reader-kit/assets/style.css": "0f97d5e8cf71de6b2e93fadc81a4ab7aa51031c475277645369c126038321af5",
+        "downloads/reader-kit/buyer-readme.txt": "91aae89b977005e12fed9af2f056e7ed076c8245cab15a33cc252c7ce72a650a",
+        "downloads/reader-kit/index.html": "768dbbfc707968397e4328d89f67afbe9341b9a739c0cfaabb8ad52874e4387f",
+        "downloads/reader-kit/listing-draft-en-ja.txt": "5c6e5ee06474cfeedeb1ad90fcff8f1030838b940900ac6e2607045e499f9dae",
+        "downloads/reader-kit/prompt-batch.txt": "d11bde0f06aab57d9103d2cd1f16febbc71178397c7000ec719be3a065cde1f0",
+        "downloads/reader-kit/prompt-english.txt": "6bcf6fcb553b3a85c11c16f7a447610fbff7674895ac4052f42fcfa8936aa555",
+        "downloads/reader-kit/prompt-fix.txt": "298d1bcf85d16202b23e45846ee2b09e866e94edc52645076a4ae792a9d11881",
+        "downloads/reader-kit/prompt-image.txt": "72a426964cebac1af0220c57370d6fa60c454bd0912da16f14c905861d1e42e5",
+        "downloads/reader-kit/prompt-pdf.txt": "851b7333d234fd4bcc8ea95e30d4585a872230211042fc96e1f29db050a8ffd0",
+        "downloads/reader-kit/prompt-schedule.txt": "f61bafe79746bd358daaf36395c15359bd0e2dc36a3e44667ec606dea78c62be",
+        "downloads/reader-kit/snowy-onsen-A4.pdf": "d4890d1a2bb7cce92fea839e9ad283cff8845fa6f6e85ac6d893d992d3ced92c",
+        "downloads/reader-kit/snowy-onsen-US-Letter.pdf": "93a0cb358d1dfc06ff165d88b4bdab3885933dac1451e987eda5b548465c8164",
+        "downloads/reader-kit/出品前チェック.txt": "f39b937e88ff49a7887513113091a1b6fd7c87c68e0e03bbd74e2b28a6560387",
+        "index.html": "c88300641bcb6e1196bcee847448c04382bc40225cddcd3f37f04754403f217c"
+      }
+    }
+  ],
+  "demo_reference_videos": {
+    "role": "Viewing materials on the demo; see each production record for actual inputs",
+    "videos": [
+      {
+        "case": 197,
+        "file": "references/no197.mp4",
+        "sha256": "0ee798243ccee73e231b9f379374edb0dbc55d2bff41a478194cb636129a1d8e",
+        "duration": 51.8,
+        "size": [
+          720,
+          1280
+        ],
+        "bytes": 5318600
+      },
+      {
+        "case": 193,
+        "file": "references/no193.mp4",
+        "sha256": "556d7fe1a007fdf1587140ceee6452f9ed894d2f44c3306e9d96a9a2a729a93c",
+        "duration": 55.03,
+        "size": [
+          720,
+          1280
+        ],
+        "bytes": 12488732
+      }
+    ]
+  },
+  "demo_recording_scripts": {
+    "role": "Delivered recording scripts copied unchanged to the demo for review",
+    "files": [
+      {
+        "case": 197,
+        "file": "scripts/no197-recording.md",
+        "sha256": "08e677fe08fa61c1ab891065d60c69b73a9ae6122651781087d7090682f382a5"
+      },
+      {
+        "case": 193,
+        "file": "scripts/no193-recording.md",
+        "sha256": "6750bfc6abe2c897eb7998d7c6a35594c26e6e6f0497f80d093c353f88526635"
+      }
+    ]
+  }
+}
