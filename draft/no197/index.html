@@ -1,0 +1,87 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="商品写真から絵コンテ、Gemini Omniでの動画生成・確認・保存まで。クロワッサンの作例とコピーできる指示文付き。"><title>すみっち式 商品写真からAI動画をつくる</title><link rel="stylesheet" href="assets/style.css"></head><body><main>
+<header><h1 class="sr-only">すみっち式 商品写真からAI動画をつくる</h1><img class="cover" src="assets/banner-square.jpg" width="1254" height="1254" alt="すみっち式 商品写真からAI動画をつくる。ChatGPT × Gemini Omni"></header>
+<!-- 撮影済み解説動画の受領後は、この位置へ16:9 video要素を追加する。現状は表示枠を設けない。 -->
+<section id="example"><h2 class="videohead">まず、10秒の流れを見る</h2>
+<video controls playsinline preload="metadata" poster="assets/product-photo.jpg" aria-label="絵コンテを動かした10秒の構成見本"><source src="assets/storyboard-motion.mp4" type="video/mp4">動画を再生できない場合は下の絵コンテをご覧ください。</video>
+<p class="cap">絵コンテを動かした10秒見本。質感→全体→余白の順で、1個の商品を見せます。</p>
+<div class="timeline" aria-label="0から3秒は接写、3から7秒は全体、7から10秒は締め"><span>0–3秒 接写</span><span>3–7秒 全体</span><span>7–10秒 締め</span></div>
+<p>今回はクロワッサンで練習します。写真を1枚用意して、構成はChatGPT、動画化はGeminiに任せてみましょう。</p>
+<div class="diagram"><div class="route"><div class="node"><b>商品写真</b>スマホで撮る</div><span class="arr">→</span><div class="node"><b>絵コンテ</b>ChatGPT</div><span class="arr">→</span><div class="node"><b>動画</b>Gemini</div></div></div>
+</section>
+<section id="photo"><div class="step">01 / 写真を用意</div><h2>商品が分かる1枚を選ぶ</h2>
+<div class="diagram"><div class="attach"><img src="assets/product-photo.jpg" alt="練習用の商品写真。クロワッサン1個と白い皿"><div><strong>形・色・数が分かる写真</strong><p>商品全体を入れる<br>明るい場所で撮る<br>余計な物を避ける</p></div></div><div class="arrow">↓</div><div class="inputbox"><b>ChatGPTへ渡すもの</b><span class="mini">＋ 写真を添付</span><br>商品写真1枚 ＋ 下の絵コンテ指示文</div></div>
+<p>自分の商品写真を使うか、まずは下の練習写真で進めてください。ChatGPTの入力欄の「＋」から写真を選びます。</p>
+<a class="button light" href="assets/product-photo.png" download="練習用クロワッサン.png" style="margin-top:16px">練習用の商品写真を保存</a>
+<p class="cap">練習用に作成した商品画像です。実在する店舗の商品情報は含みません。</p>
+<details><summary>始める前の利用条件</summary><div class="inside"><p>写真を添付でき、画像を作成できるChatGPTを使います。利用上限はアカウントで確認してください。Geminiの動画生成にはGoogle AIプラン等の利用条件があります。「動画を作成」が見えることを先に確認すると、途中で止まりにくくなります。</p><p>操作案内：<a href="https://help.openai.com/en/articles/8400551-chatgpt-image-inputs-faq" target="_blank" rel="noopener">ChatGPTの写真入力</a>・<a href="https://help.openai.com/en/articles/11084440-images-in-chatgpt" target="_blank" rel="noopener">画像作成</a>・<a href="https://support.google.com/gemini/answer/16126339?hl=ja" target="_blank" rel="noopener">Geminiの動画生成条件</a></p></div></details>
+</section>
+<section id="storyboard"><div class="step">02 / ChatGPT</div><h2>10秒の絵コンテを画像にする</h2>
+<div class="story" aria-label="10秒の絵コンテ見本"><div class="shot"><div class="photo"><img src="assets/product-photo.jpg" alt="クロワッサンの層に寄るカット"></div><span>0〜3秒</span><strong>質感に寄る</strong><small>ゆっくり横へ</small></div><div class="shot"><div class="photo"><img src="assets/product-photo.jpg" alt="同じクロワッサン全体のカット"></div><span>3〜7秒</span><strong>全体を見せる</strong><small>なめらかに引く</small></div><div class="shot"><div class="photo"><img src="assets/product-photo.jpg" alt="皿を含む余白のあるカット"></div><span>7〜10秒</span><strong>余白で締める</strong><small>最後は静かに止める</small></div></div>
+<p class="cap">同じ写真を使った絵コンテの見本。AIの画像でも、商品の数と形が変わっていないかを見ます。</p>
+<p>写真と一緒に、下の指示文を送ります。自分の商品では「商品」「用途」「雰囲気」を差し替えてください。</p>
+<details><summary>絵コンテの指示文を開く</summary><div class="inside"><pre id="p-storyboard">この商品写真を分析して、プロのデザイナーが作るような10秒の商品プロモーション動画の絵コンテを、画像で作ってください。
+
+【今回の目的】
+写真の商品の見た目を、短い動画で魅力的に伝える。
+【商品】クロワッサン
+【用途】お店のSNSに載せる紹介動画の練習
+【画面】横長16:9
+【雰囲気】自然光、温かい色、清潔なカフェ
+
+・0〜3秒：表面の層に寄り、質感を見せる
+・3〜7秒：ゆっくり引いて、商品全体を見せる
+・7〜10秒：皿を含む構図で落ち着いて締める
+この3カットを、時間・カメラの動き・完成イメージが分かる1枚の絵コンテにしてください。
+各カットの内容は短い文章でも添えてください。
+商品の形・数・色を写真から変えず、見えない原材料や味、価格、実績を推測して追加しないでください。文字・ロゴ・人物は動画内に入れない想定です。</pre><button class="button" type="button" data-copy="p-storyboard">絵コンテの指示文を全文コピー</button><div class="status" role="status" aria-live="polite"></div><a class="plain-link" href="downloads/01_絵コンテを作る.txt" download>テキストで保存</a></div></details>
+<figure class="opinion"><img src="assets/creator-storyboard.jpg" alt="すみっちがパソコンでクロワッサンの3カット構成を確認する場面"><figcaption><strong>構成から、まずAIに任せる。</strong><p>僕は、商品写真を送って絵コンテから考えてもらうやり方を勧めています。一からデザインを考え込むより、まず出てきた構成を見て、動画へ進めるからです。</p></figcaption></figure>
+<details><summary>文章だけ出た・商品が変わったとき</summary><div class="inside"><p>文章だけなら「この構成を、3カットが並ぶ1枚の絵コンテ画像にしてください」と続けます。商品が変わったら、元写真を添付し直し「商品の形・色・数を維持して、構図だけ変えて」と伝えます。絵コンテは商品の情報を増やす場ではありません。</p></div></details>
+</section>
+<section id="prompt"><div class="step">03 / 同じChatGPTの会話</div><h2>絵コンテを動画の指示へ変える</h2>
+<div class="diagram"><div class="diagram-title">画像の構成を、動画の動きへ</div><div class="inputbox"><b>絵コンテの選んだ流れ</b>接写 → 全体 → 余白のある締め</div><div class="arrow">↓</div><div class="inputbox"><b>Geminiへ送るプロンプト</b>0〜3秒：ゆっくり横へ<br>3〜7秒：なめらかに引く<br>7〜10秒：最後の1秒は止める</div></div>
+<p>絵コンテができた会話に、下の変換指示を送ります。出てきた動画用プロンプトは、全文をコピーします。</p>
+<details><summary>動画用に変える指示文を開く</summary><div class="inside"><pre id="p-convert">今の絵コンテをもとに、Gemini Omniで動画にするためのプロンプトを1本にまとめてください。
+
+元の商品写真をGeminiにも添付します。絵コンテの画像そのものを動かす指示ではなく、元の写真の商品を映す動画の指示にしてください。
+10秒、横長16:9。0〜3秒、3〜7秒、7〜10秒の順番と、それぞれのカメラの動きを保ってください。
+商品の形・数・色と皿を維持し、別の商品・手・人物・文字・ロゴを追加しないでください。音声はなし。写真から判断できない商品情報は書かないでください。
+回答は、Geminiへそのまま貼れるプロンプト本文だけにしてください。</pre><button class="button" type="button" data-copy="p-convert">動画用に変える指示文を全文コピー</button><div class="status" role="status" aria-live="polite"></div><a class="plain-link" href="downloads/02_動画プロンプトへ変換.txt" download>テキストで保存</a></div></details>
+<details><summary>クロワッサンの完成プロンプトを開く</summary><div class="inside"><p style="margin:0 0 12px">練習写真には、この完成プロンプトも使えます。自分の商品では、絵コンテから作り直してください。</p><pre id="p-video">添付した写真のクロワッサンを主役に、10秒の実写調の商品プロモーション動画を作成してください。横長16:9。温かい自然光が入る清潔なカフェ、淡い背景と木のテーブルを保ちます。
+
+0〜3秒：クロワッサン表面の層に寄った接写。ゆっくり横へ動き、薄い層の質感を見せます。
+3〜7秒：なめらかに少し引き、白い皿の上にあるクロワッサン全体を見せます。
+7〜10秒：皿を含む余白のある構図に移り、最後の1秒は静かに止めて締めます。
+
+全カットで、写真と同じ1個のクロワッサンの形・焼き色・層、白い皿を維持してください。商品を変形・増殖させず、余計な具材・湯気・包装・文字・ロゴ・手・人物を追加しないでください。音声はなし。商品の見た目だけを伝え、原材料・価格・味・品質に関する文字や説明は入れないでください。</pre><button class="button" type="button" data-copy="p-video">クロワッサンの完成プロンプトを全文コピー</button><div class="status" role="status" aria-live="polite"></div><a class="plain-link" href="downloads/03_クロワッサンの動画プロンプト.txt" download>テキストで保存</a></div></details>
+</section>
+<section id="generate"><div class="step">04 / Gemini Omni</div><h2>元の写真を入れて動画にする</h2>
+<div class="diagram"><div class="line"><span class="n">1</span><div class="linebody">Geminiで「動画を作成」を開く<small>スマホはメニュー／パソコンはサイドバーから</small></div></div><div class="line"><span class="n">2</span><div class="linebody">「画像を追加」で元の商品写真を選ぶ</div></div><div class="line"><span class="n">3</span><div class="linebody">プロンプトを貼る → 16:9を確認 → 送信</div></div><div class="arrow">↓</div><div class="inputbox"><b>送信前の組合せ</b>元写真1枚 ＋ 動画用プロンプト1本</div></div>
+<p>元写真を添付するのは、商品の見た目を渡すためです。複数のコマが並ぶ絵コンテ画像を、そのまま動かす指示にしないようにします。</p>
+<a class="plain-link" href="https://gemini.google.com/" target="_blank" rel="noopener">Geminiを開く ↗</a>
+<figure class="opinion"><img src="assets/creator-review.jpg" alt="すみっちがスマホのスタンドに表示した商品動画を確認する場面"><figcaption><strong>「忙しい」で止まる前に、任せてみる。</strong><p>僕が試したときは、約10分。半分以上はAIの回答を待っていただけでした。全部を自分で作業する前提を変えると、スマホからでも試しやすいと感じています。</p><p class="note">僕のときの一例です。待ち時間や修正の量で、かかる時間は変わります。</p></figcaption></figure>
+<details><summary>動画の長さ・メニューが違うとき</summary><div class="inside"><p>今回は10秒を指示します。出力の長さは利用中のモデル・画面でも確認してください。長く出た場合は、必要な10秒を端末の動画編集で切り出せます。「動画を作成」がない場合は、ログイン中のアカウントとプランを確認してください。</p><p>最新の操作：<a href="https://support.google.com/gemini/answer/16126339?hl=ja" target="_blank" rel="noopener">パソコン版</a>／<a href="https://support.google.com/gemini/answer/16126339?co=GENIE.Platform%3DiOS&amp;hl=ja" target="_blank" rel="noopener">iPhone版</a>。画面は更新されるため、ボタン名を目印に進めます。</p></div></details>
+</section>
+<section id="check"><div class="step">05 / 確認と修正</div><h2>商品を見て、直す所を絞る</h2>
+<div class="diagram"><div class="diagram-title">元写真 ⇄ 動画を見比べる</div><div class="attach"><img src="assets/product-photo.jpg" alt="見比べる元写真"><div><strong>同じ商品に見える？</strong><p>1個のままか<br>形や色が変わらないか<br>3カットの順番があるか</p></div></div></div>
+<div class="beforeafter"><div><b>あいまいな修正</b>もっといい感じにして</div><div><b>直す位置を指定</b>3〜7秒の商品形状を、元写真に合わせて</div></div>
+<p>崩れた秒数と、変えたくない条件を一緒に伝えます。修正後も最初から最後まで再生し、音を付けた場合は音も聞いて確認してください。</p>
+<details><summary>修正指示の例を開く</summary><div class="inside"><p style="margin:0 0 12px">形が変わった場合の記入例です。実際の問題に合わせて【直したい箇所】を替えます。</p><pre id="p-fix">いま生成した動画を修正してください。
+【直したい箇所】3〜7秒でクロワッサンの形が元の写真から変わっている箇所
+【残すもの】10秒、横長16:9、温かい自然光、接写→全体→余白のある締めの順番
+【変更】元の写真と同じクロワッサン1個、同じ焼き色・層・白い皿を保ってください。商品の形は変えず、カメラの動きだけにしてください。余計な商品や手を追加しないでください。
+音声・文字・ロゴは追加しないでください。</pre><button class="button" type="button" data-copy="p-fix">修正指示の例を全文コピー</button><div class="status" role="status" aria-live="polite"></div><a class="plain-link" href="downloads/04_修正指示の例.txt" download>テキストで保存</a></div></details>
+</section>
+<section id="save"><div class="step">06 / 保存する</div><h2>動画と、使った指示を残す</h2>
+<div class="diagram"><div class="inputbox"><b>Geminiの完成動画</b>動画の下のメニュー →「動画をダウンロード」</div><div class="arrow">↓</div><div class="filetree"><strong>クロワッサン動画 /</strong><div class="branch">元の商品写真.png<br>絵コンテ.png<br>動画プロンプト.txt<br>croissant_promo.mp4</div></div></div>
+<p>保存したMP4を「写真」または「ファイル」から開き、10秒の流れを再確認します。ChatGPTの絵コンテも画像を開いて保存し、元写真と一緒に残しておきましょう。</p>
+<ul class="checks"><li><b>写真と同じ商品が映っている</b><span>形・数・色、勝手な追加物を確認</span></li><li><b>狙った長さ・縦横比で再生できる</b><span>今回は10秒／16:9。文字切れや不自然な動きも確認</span></li><li><b>送るファイルが端末にある</b><span>会話の中だけに置かず、保存先から開く</span></li></ul>
+</section>
+<section id="work"><h2>案件にするなら、先に条件をそろえる</h2>
+<div class="diagram"><div class="diagram-title">今回の見本を、依頼の確認へつなぐ</div><div class="route"><div class="node"><b>見せる</b>商品動画の作例</div><span class="arr">→</span><div class="node"><b>決める</b>用途・長さ・修正</div><span class="arr">→</span><div class="node"><b>渡す</b>確認したMP4</div></div></div>
+<p>練習作を1本作ったら、用途・納期・修正範囲・AI生成の使用を相手と確認する準備へ進めます。</p>
+<a class="button light" href="downloads/依頼確認メモ.txt" download style="margin-top:17px">依頼前にそろえる確認メモを保存</a>
+</section>
+<section class="download" id="download"><h2>練習素材と手順をまとめて保存</h2><p class="files">このガイド／商品写真／絵コンテ見本／10秒の構成見本／コピー用指示文4種／依頼確認メモ</p><a class="button" href="downloads/商品写真からAI動画_練習セット.zip" download>練習セットをダウンロード（ZIP）</a><p class="cap">ZIPを展開し、guide.htmlをブラウザで開きます。ガイドと素材はオフラインで見られます。ChatGPT・Geminiでの生成にはインターネット接続が必要です。</p></section>
+<section class="cta" id="line"><h2>この1本を、AI副業の次の一歩へ</h2><p>商品動画の作り方を試したら、次はAIを使った副業全体の進め方も整理してみてください。すみっちの公式LINEで「AIマネタイズの教科書」を受け取れます。</p><a href="https://sub.aione.co.jp/line/open/Iu0m3ReMw97D?mtid=PxeHUC98TlGc" target="_blank" rel="noopener"><img src="assets/line-textbook.jpg" alt="すみっち公式LINEのAIマネタイズの教科書。無料の5大特典の案内" width="1200" height="675"></a><a class="button green" href="https://sub.aione.co.jp/line/open/Iu0m3ReMw97D?mtid=PxeHUC98TlGc" target="_blank" rel="noopener">公式LINEで教科書を受け取る ↗</a></section>
+<footer class="footer">すみっち式 商品写真からAI動画をつくる</footer>
+</main><script src="assets/app.js"></script></body></html>

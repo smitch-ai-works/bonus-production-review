@@ -1,0 +1,63 @@
+{
+  "state": "Updated skill draft; independent fresh production with internal self-checks, no post-delivery content edits",
+  "skill_zip_sha256": "f60ce7384d5749aa91d917a205f99add1f04453a54908f2be5a7af863ea5f4af",
+  "inputs": [
+    "本人台本",
+    "本人写真（加工許可あり）",
+    "LINE案内画像とURL・提供内容",
+    "指定参考3件"
+  ],
+  "cases": [
+    {
+      "case": 197,
+      "post_delivery_content_edits": 0,
+      "files": {
+        "assets/app.js": "cd521522ef72d58d7710e660ab9a7c0d1f08fef284879bef0e7eca9e598ed344",
+        "assets/banner-square.jpg": "ae7d0572b1ae6b126e997f54ae4a2533f7e1e3802280452327b11ff461fffd6d",
+        "assets/banner-square.png": "15dcb1b09ef67097b9056bc46d77a1c0bc2f9aa3d775fe8676e12b8eea07cba9",
+        "assets/creator-review.jpg": "9e971e90b914ec4cc171ad331db1369174453d77e0b9aba9954fa0aa0f543c9b",
+        "assets/creator-review.png": "4b94d8495ee4edeafbcbd7afa3575d5ce7c100c306a3944a7ffb14a95f3c62c6",
+        "assets/creator-storyboard.jpg": "f70be31a4e1616e23c4a3a2a9c23d979494f64ecf0c5623f8f734597d0bea899",
+        "assets/creator-storyboard.png": "1c1052c23bd5022e59f6d5263ddb526be5c0729aab9f11e7620e319db09c5376",
+        "assets/line-textbook.jpg": "cc661d70f962e5a70aefc5a918009f4610c7096c34dea0740e4a7cb822875c68",
+        "assets/product-photo.jpg": "c140d52bcc96b1717089190f76910cd7ec12bb3f30d3303220510a12faa9a101",
+        "assets/product-photo.png": "280f6583911548e577df0a79efaed53df030fc8afe9305d2f5ea1adfe59ce54b",
+        "assets/storyboard-motion.mp4": "1abd089e7829fa039a3402987e689ad99fcd4cf8760b80576f61c5a14cf855ac",
+        "assets/style.css": "0cb132db80a55b01745003f4a12eba324bc1ab1e3368acd9da160d3e4be196b3",
+        "downloads/01_絵コンテを作る.txt": "3fd96373a5d63377999da0a18f805851aa59ef71f621a124b22dc12ef1eddb7c",
+        "downloads/02_動画プロンプトへ変換.txt": "1532b59dd6b15ea78653c0b65394a6c7947119b547756d28fd8a03f00d196e5c",
+        "downloads/03_クロワッサンの動画プロンプト.txt": "224762d116da40bbe84ff02282e9ca632a20b77d5ee941529a12beeeb97da211",
+        "downloads/04_修正指示の例.txt": "8d469a84b5e1fa7df35390e5ba63811495f8e5fdf6396ee84436c48c03c39aaf",
+        "downloads/依頼確認メモ.txt": "be73d0d03d9af697dc8627f961590fb796ff87276673c2c362a7a4c550cc9b45",
+        "downloads/商品写真からAI動画_練習セット.zip": "a6602384be9c999dadf98b56314ce5314c0658b5722c39d8a4af3bce655c3c97",
+        "downloads/絵コンテ見本.svg": "287085174e14e3e0cbb8f41fac2995a9138fedd33f2b8592d7313d8e98488b93",
+        "index.html": "1068bf96e7156bbdc522cbed1fe4af164c36655f1b224e80159706cd1b98d121",
+        "タイトル案.md": "19864b89aefb118822ddd2b5d4e93e38dff442052a802c03ab979c1d16d8cabb",
+        "画像生成プロンプト.txt": "e3cbe9ded70ca371fde0a73d6c57bdbf4bba3dddf4daee12f79d18b968edf3db",
+        "解説動画台本.md": "3c3ef72d841f4365925ecb9d9b771ac85e9bb8a93dbbcdbc389136aca1e6c547"
+      }
+    },
+    {
+      "case": 193,
+      "post_delivery_content_edits": 0,
+      "files": {
+        "assets/bonus-banner.png": "149e11a4de7e0b6056feaa2694704591a178f8ba2e0a3e5292498fb145db8f01",
+        "assets/bookmark-line-art.png": "540d0610704445e6d642a7e6f2ab5409270c4bdb085378dcf64dbde81503f40f",
+        "assets/creator-choosing.png": "3f504beeacb57ca88414aa239ffcb2685587398d3f3ac95c53074486494619c0",
+        "assets/creator-prompting.png": "d634684b9f5065abd53cdbc00706a31602657bb350ab64a4f7a7c7e5ffe37f3c",
+        "assets/creator-reviewing.png": "e64e06a51930898f75a11704ca60778b25c69e6432c46b306539a15b1d7e6adb",
+        "assets/line-textbook.jpg": "cc661d70f962e5a70aefc5a918009f4610c7096c34dea0740e4a7cb822875c68",
+        "downloads/english-listing-example.txt": "0fdbccc4e9c5cd88f7b4a31b56312b4bc18a47c555adf760cc14b6c787597de2",
+        "downloads/guide.html": "44e2d1c21b107066497c27995eda0f33c40f44223f71360742271a099e77e576",
+        "downloads/japan-bookmarks-A4.pdf": "7852a22675c62230d9ca8257d579471fb2fc697933279c7c12b70c92315158c4",
+        "downloads/japan-bookmarks-Letter.pdf": "2a871df059a7e80c9a45c79d7893699ac537941c420a8ee99364fee76091114c",
+        "downloads/japan-bookmarks-practice-kit.zip": "51d5f2a1be2b792371265ccd9feadaa30663ad40f8d5ce31884dc7cfc07109ec",
+        "downloads/prompts.txt": "8d8ba6dd4b79fd69fc41b2d0a8795dfa6144bec2432ba82ff3ad8ee98ca15712",
+        "index.html": "a471bdc5d58df09ad8cfbb973d2d9a1d1ab1d3b4c46108384d278e7576f948ac",
+        "タイトル案.md": "8c26812c6a0bfb8efac1895b8e30db11c3ddb5d00c19c7d1672bfd2d2dde7f1a",
+        "画像制作プロンプト.txt": "d5660a5e20ab6d12b6b3211e1ab54b21cf5877d13f6d821fece5e47e842c7ec4",
+        "解説動画台本.md": "1b5e6c1c5e4c0c7ad6440c2f50489e246666d443af6ebbde43cf21ecb878f391"
+      }
+    }
+  ]
+}
