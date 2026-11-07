@@ -100,5 +100,20 @@
     "no193_delivery_fix_count": 1,
     "no197_content_review_count": 0,
     "skill_refinement": "All major-step diagrams are checked, instead of representative diagrams. Both producers reread the final runtime reference before delivery. No193 was redelivered after a missing offline-guide archive link was found."
+  },
+  "demo_recording_scripts": {
+    "role": "Existing frozen recording scripts added to the demo for review; original production output unchanged",
+    "files": [
+      {
+        "case": 197,
+        "file": "scripts/no197-recording.md",
+        "sha256": "76a04ce0f92cb7a9805feedae182d8b215a852f3e96b5a1553ce77ac23a1364a"
+      },
+      {
+        "case": 193,
+        "file": "scripts/no193-recording.md",
+        "sha256": "0f9da22481a7c6f16f3d480200f7f31dff29fdc91620fa4bba89f2c6dededd44"
+      }
+    ]
   }
 }
