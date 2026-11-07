@@ -1,0 +1,69 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="商品写真から絵コンテ、Geminiの動画生成、保存と見直しまで。すみっちの使い方と、一つ通せる作例・指示文。"><title>すみっち式 商品写真からAIプロモ動画</title><link rel="stylesheet" href="assets/style.css"></head><body><main>
+<!-- 撮影した16:9解説動画は、このmain直下へ追加する。現時点では空の動画枠を表示しない。 -->
+<h1 class="sr-only">すみっち式 商品写真からAIプロモ動画</h1><figure class="cover"><img src="assets/banner.png" alt="すみっち式 商品写真からAIプロモ動画。ChatGPTからGeminiへ。本人と琥珀色のソープボトル" width="1254" height="1254"></figure>
+<div class="content"><p class="lead">商品写真を撮ったら、構成づくりからAIへ。まずは、1本つくる流れを試してみましょう。</p>
+<section id="sample"><div class="eyebrow">まずは見本から</div><h2>写真1枚を、10秒の流れにする</h2>
+<video controls playsinline preload="metadata" poster="assets/product-photo.png" aria-label="ソープボトルの10秒の構成見本。無音"><source src="assets/10s-animatic.mp4" type="video/mp4"></video><p class="note">4カットの動きと尺を確かめる構成見本（無音）。下の絵コンテと同じ順で見られます。</p>
+<div class="flow" aria-label="商品写真をChatGPTで絵コンテと指示文にし、Geminiで動画へ"><div class="node"><strong>商品写真</strong><small>スマホで撮る</small></div><div class="arrow">→</div><div class="node"><strong>ChatGPT</strong><small>構成・指示文</small></div><div class="arrow">→</div><div class="node"><strong>Gemini</strong><small>動画にする</small></div></div>
+<details><summary>始める前に用意するもの<span>利用条件と、今回の作例</span></summary><p>使う権利のある商品写真、画像を扱えるChatGPT、動画作成が使えるGeminiを用意します。Geminiの動画作成には、対象のGoogle AIプラン等の利用条件があります。18歳以上が対象です。画面と利用枠はアカウントにより異なります。</p><p>作例は、架空の無印ソープボトルです。練習用の商品写真と絵コンテを保存セットへ入れています。自分の商品へ替える場合は、写真で確認できる特徴を使いましょう。</p><p><a href="https://support.google.com/gemini/answer/16126339?hl=ja" target="_blank" rel="noopener">Google公式：動画作成の条件と操作</a></p></details>
+</section>
+<section id="photo"><div class="eyebrow">写真を用意する</div><h2><span class="num">1</span>商品全体が入る1枚を撮る</h2>
+<div class="camera-example"><img src="assets/product-photo.png" alt="琥珀色のボトル。黒いポンプから底までが入り、背景は無地" width="1664" height="936"></div>
+<p>背景はすっきり。まずは商品を1つ、ポンプや底まで切らずに写します。今回は横型16:9で進めます。</p>
+<figure class="opinion"><img src="assets/creator-shooting.png" alt="すみっちがスマホでボトル全体を撮る場面" width="1672" height="941"><figcaption><strong>構成を考える前に、まず撮って渡す。</strong><p>僕がやったのも、スマホで商品を撮ってChatGPTへ送るところから。写真を入口にすると、構成づくりからAIに任せられます。</p></figcaption></figure>
+<details><summary>自分の商品へ替えるとき<span>書き換えるところを確認</span></summary><p>下の指示文の「ソープボトル」を商品名へ替え、「見せたいこと」を写真で確認できる特徴へ替えます。縦型で作るなら、写真と絵コンテ、動画の指定をすべて9:16へそろえてください。</p><p><a href="downloads/05-own-product.txt" download>自分の商品用の記入シートを保存</a></p></details>
+</section>
+<section id="storyboard"><div class="eyebrow">ChatGPTへ送る</div><h2><span class="num">2</span>写真から、絵コンテを画像にする</h2>
+<p>新しいチャットへ写真を添付し、下の指示文を送ります。出てきた絵コンテは、次の指示を送る前に見ておきます。</p>
+<figure><div class="scene-grid" role="img" aria-label="絵コンテの整理例。全体、質感、斜め、全体へ戻る4カット"><article><div class="frame f1"></div><p><b>0〜2秒｜全体</b>何の商品かを見せる</p></article><article><div class="frame f2"></div><p><b>2〜5秒｜質感</b>ガラスへゆっくり寄る</p></article><article><div class="frame f3"></div><p><b>5〜8秒｜斜め</b>ポンプと形を見せる</p></article><article><div class="frame f4"></div><p><b>8〜10秒｜全体</b>最後は止めて余韻</p></article></div><figcaption>絵コンテの整理例。色・形・ラベルを保ち、画角だけを変えます。</figcaption></figure>
+<details class="prompt"><summary>絵コンテの指示文<span>全文を開く ＋</span></summary><pre id="01-storyboard">この商品写真を分析して、プロデザイナーが作るような10秒のプロモーション動画の絵コンテを、1枚の画像で作ってください。
+
+【使う商品】添付写真のソープボトル
+【用途】商品紹介の練習用。横型16:9
+【見せたいこと】琥珀色のガラスと、黒いポンプの形
+【雰囲気】明るいクリーム色の背景。暖かな自然光。清潔で落ち着いた印象
+【構成】0〜2秒：全体、2〜5秒：質感へ寄る、5〜8秒：斜めから形を見せる、8〜10秒：全体へ戻り余韻
+
+4コマを2×2に並べ、各コマに秒数・カメラの動き・狙いを短く添えてください。商品本体、ポンプ、ラベルの位置と比率は元写真を保ってください。写真から分からない成分、効能、価格やブランド名は作らないでください。商品ラベルに新しい文字を追加しないでください。静止画の絵コンテを作る工程です。</pre><button class="copy" data-copy="01-storyboard">絵コンテの指示文をコピー</button></details>
+<div class="comparison"><div><strong>「いい感じにして」</strong><small>商品も動きも、どこが違うか分かりにくい</small></div><div class="good"><strong>写真＋特徴</strong><small>「琥珀色」と「黒いポンプ」を指定</small></div></div>
+<figure class="opinion"><img src="assets/creator-reviewing.png" alt="すみっちがボトルの4コマ構成をタブレットで確認する場面" width="1664" height="936"><figcaption><strong>半分以上は、AIの回答待ちでした。</strong><p>僕のときは約10分。構成も、その次の動画用プロンプトもAIに任せたので、ずっと手を動かしていたわけじゃないんです。今回も、この4カットを次へ渡します。</p><p class="note">所要時間は僕の一例です。生成待ちや修正によって変わります。</p></figcaption></figure>
+</section>
+<section id="handoff"><div class="eyebrow">同じチャットで続ける</div><h2><span class="num">3</span>動画の指示文へ変える</h2>
+<figure class="handoff"><div class="tool"><strong>ChatGPT</strong><img class="mini-photo" src="assets/storyboard.png" alt="4コマの絵コンテ"><div class="mini-prompt">絵コンテ →<br>動画の指示文</div></div><div class="arrow">→</div><div class="tool"><strong>Gemini</strong><img class="mini-photo" src="assets/product-photo.png" alt="最初の商品写真"><div class="mini-prompt">元写真＋<br>動画の指示文</div></div></figure>
+<p>ChatGPTの返答を全文コピー。Geminiへ添付するのは、最初の商品写真です。別チャットへ移る場合は、絵コンテも添えて文脈を渡します。</p>
+<details class="prompt"><summary>動画用へ変換する指示文<span>全文を開く ＋</span></summary><pre id="02-video-prompt">今の絵コンテをもとに、Gemini Omniで動画にするためのプロンプトを1本にまとめてください。Geminiへは、最初に送った商品写真も添付します。
+
+横型16:9、合計10秒を希望します。4カットの秒数、画角、カメラの動き、光、カットのつなぎを具体的に書いてください。
+同じソープボトルを最後まで使い、形・色・ポンプ・ラベルの位置と比率を保つ条件を明記してください。
+商品は置いたまま、カメラが動く構成にしてください。手、人、泡、文字、ナレーションは追加せず、無音を希望します。成分・効能・価格などの未確認情報は加えないでください。
+Geminiへそのまま貼れる本文だけを出してください。</pre><button class="copy" data-copy="02-video-prompt">動画用へ変換する指示文をコピー</button></details>
+<details class="prompt"><summary>Geminiへ渡す完成例<span>全文を開く ＋</span></summary><pre id="03-gemini-example">添付写真のソープボトルを使って、横型16:9、合計10秒の商品紹介動画を作成してください。クリーム色の背景、暖かな自然光、落ち着いた清潔感のある雰囲気です。
+
+0〜2秒：ボトル全体を正面寄りの角度で見せ、カメラがゆっくり近づきます。
+2〜5秒：琥珀色のガラスの肩部分へ寄り、光の透過と反射を見せます。新たな水滴や模様は足しません。
+5〜8秒：ボトルを置いたまま、カメラが小さく右へ移動し、黒いポンプとボトルの立体感を見せます。
+8〜10秒：最初と同じボトル全体へ戻り、最後の1秒はカメラを止めます。
+
+商品本体の輪郭、琥珀色、黒いポンプ、ラベルの位置と比率は添付写真と一致させてください。ラベルに文字を作らないでください。商品を回転・変形させず、別の商品へ切り替えないでください。手、人、泡、成分・効能・価格の表現を追加しないでください。無音、テロップとナレーションなし。カット間の明るさをそろえてください。</pre><button class="copy" data-copy="03-gemini-example">Geminiへ渡す完成例をコピー</button></details>
+</section>
+<section id="generate"><div class="eyebrow">Geminiで動画にする</div><h2><span class="num">4</span>写真と指示文を入れて生成する</h2>
+<figure class="operation-map"><div style="display:flex;gap:10px;align-items:center;margin-bottom:14px"><span class="n">1</span><b>「動画を作成」へ</b></div><div style="border:2px solid #cbb58e;border-radius:12px;padding:13px;background:white"><div style="font-size:14px;font-weight:700;margin-bottom:8px">2 写真を追加</div><img src="assets/product-photo.png" alt="動画作成へ添付する、最初のボトル写真" style="width:46%;border-radius:6px;margin-bottom:12px"><div class="mini-prompt" style="font-size:14px;line-height:1.7">3 動画用プロンプトを貼る<br><b>横型16:9・10秒…</b></div><div style="text-align:right;margin-top:12px"><span style="background:#101f32;color:white;border-radius:20px;padding:7px 13px;font-size:14px">4 送信 ↑</span></div></div><div class="arrow" aria-hidden="true">↓</div><div style="text-align:center;font-weight:700">生成されたら、動画を再生</div><figcaption>入力の説明図。Web版はサイドバー、スマホは動画作成の項目を開きます。画面の表記は更新で変わります。</figcaption></figure>
+<p>生成が終わったら、まず再生。写真と同じ商品に見えるかを、最初から最後まで確認します。</p>
+<p>待っている時間もあるので、画面につきっきりで操作する工程ではありません。出力されたら、次の確認へ進みます。</p>
+<details><summary>動画作成が見つからない・尺が合わないとき<span>表示と条件を確認</span></summary><p>対象プラン、年齢、提供地域、利用上限を公式ヘルプで確認します。10秒は希望する構成です。出力が違う尺なら、対応する長さへカットの配分を調整し、無理に同じ秒数を詰め込まないでください。</p><p><a href="https://support.google.com/gemini/answer/16126339?hl=ja" target="_blank" rel="noopener">Google公式の手順を開く</a></p></details>
+</section>
+<section id="save"><div class="eyebrow">直して、保存する</div><h2><span class="num">5</span>商品を確認して、動画を保存する</h2>
+<figure><svg viewBox="0 0 324 290" style="width:100%;height:auto;background:#f0e8da;border-radius:12px" role="img" aria-label="確認位置の例。元写真と構成見本を並べ、黒いポンプを青い丸、ラベルを金の丸で示す"><text x="84" y="25" text-anchor="middle" font-size="15" font-weight="700" fill="#101f32">元写真</text><text x="240" y="25" text-anchor="middle" font-size="15" font-weight="700" fill="#101f32">構成見本</text><svg x="12" y="38" width="145" height="210" viewBox="0 0 1672 941" preserveAspectRatio="xMidYMid slice"><image href="assets/product-photo.png" width="1672" height="941"/></svg><svg x="167" y="38" width="145" height="210" viewBox="0 0 836 470" preserveAspectRatio="xMidYMid slice"><image href="assets/storyboard.png" x="0" y="-470" width="1672" height="941"/></svg><ellipse cx="92" cy="70" rx="32" ry="22" fill="none" stroke="#137ea1" stroke-width="3"/><ellipse cx="250" cy="68" rx="32" ry="22" fill="none" stroke="#137ea1" stroke-width="3"/><ellipse cx="84" cy="172" rx="32" ry="42" fill="none" stroke="#b37d1d" stroke-width="3"/><ellipse cx="239" cy="170" rx="32" ry="42" fill="none" stroke="#b37d1d" stroke-width="3"/><text x="81" y="275" text-anchor="middle" font-size="15" fill="#137ea1">青：ポンプの形</text><text x="241" y="275" text-anchor="middle" font-size="15" fill="#94620d">金：ラベルの位置</text></svg><figcaption>動画でも同じ場所を見ます。最初・途中・最後で、元写真の形や色が保たれているかを確認。</figcaption></figure>
+<ul class="checklist"><li><input id="c1" type="checkbox"><label for="c1">ボトルやポンプの形が途中で変わらない</label></li><li><input id="c2" type="checkbox"><label for="c2">ラベルに、元写真にない文字が出ていない</label></li><li><input id="c3" type="checkbox"><label for="c3">不要な手・泡・効能表現が増えていない</label></li><li><input id="c4" type="checkbox"><label for="c4">横縦の比率、尺、音を確認した</label></li></ul>
+<p>直すときは「何秒の、何を」を一つずつ。動画の下のメニューから「動画をダウンロード」を選び、保存先で再生できたら完了です。</p>
+<details class="prompt"><summary>1か所だけ直す指示文<span>全文を開く ＋</span></summary><pre id="04-fix">直前の動画の【2〜5秒】だけを修正してください。
+【直す点】寄りすぎて黒いポンプが別の形に見えます。
+添付した元写真のポンプの形を保ち、カメラの寄りを弱くしてください。
+それ以外のカット順、商品、背景、色、アスペクト比は変更しないでください。</pre><button class="copy" data-copy="04-fix">1か所だけ直す指示文をコピー</button></details>
+<details><summary>保存後のファイルを確認する<span>スマホ・PCで見失わないために</span></summary><p>スマホはブラウザ／アプリのダウンロード先やファイルアプリ、PCはダウンロードフォルダを開きます。名前を「商品名_promo_v1」などへ変え、元写真と同じフォルダへ。保存した動画を再生し、最後のカットまで見てください。写真は上書きせず残します。</p></details>
+<div class="download" id="download"><h3>写真・絵コンテ・指示文をまとめて保存</h3><p>練習用の商品写真、4コマ絵コンテ、10秒の構成見本、指示文4本・記入シート、このガイドを収録。ZIPを展開して「index.html」をブラウザで開けば、手順を見返せます。</p><a class="button" href="downloads/smitch-photo-promo-kit.zip" download>練習セットを保存する（ZIP）</a><p>スマホはZIPをタップして展開します。プロンプトは各txtファイルからも全文をコピーできます。</p></div>
+</section>
+<section id="next"><div class="eyebrow">まずは一つ</div><h2>手元の商品を1つ、撮ってみる</h2><p>「何を撮るか」で止まったら、まずはラベルや形が分かりやすい1つから。今回の写真で練習してから、自分の商品へ替えても大丈夫です。</p><h3>案件にするなら、渡すものを先に決める</h3><p>この作例なら「商品写真から10秒の商品紹介動画を1本」。依頼を受ける前に、縦横の比率、伝える特徴、修正の範囲、納期を確認します。生成だけで終わらず、商品と違っていないかを見てから渡しましょう。</p></section>
+<section class="cta" id="line"><h2>この1本を、副業の一歩につなげる</h2><p>商品紹介動画を作れたら、次は「誰に、何を提供するか」。AI副業の進め方を整理したい方へ、僕の公式LINEで「AIマネタイズの教科書」をお渡ししています。</p><a href="https://sub.aione.co.jp/line/open/Iu0m3ReMw97D?mtid=PxeHUC98TlGc" target="_blank" rel="noopener"><img src="assets/line-textbook.jpg" alt="すみっちの公式LINE案内。AIマネタイズの教科書を無料で受け取る" width="1200" height="675"></a><a class="button" href="https://sub.aione.co.jp/line/open/Iu0m3ReMw97D?mtid=PxeHUC98TlGc" target="_blank" rel="noopener">公式LINEで教科書を受け取る</a></section>
+<div class="sources"><details><summary>機能の確認先<span>公式情報</span></summary><p><a href="https://support.google.com/gemini/answer/16126339?hl=ja" target="_blank" rel="noopener">Geminiで動画を作成・保存する</a><br>機能と利用条件の確認：2026年11月7日。</p></details></div><output id="status" aria-live="polite"></output>
+</div><footer>すみっち式 商品写真からAIプロモ動画</footer></main><script src="assets/app.js"></script></body></html>

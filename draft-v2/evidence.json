@@ -1,0 +1,104 @@
+{
+  "state": "Fresh production with updated skill; internal self-checks included; no post-delivery content edits",
+  "skill_zip_sha256": "db122359cc4768ce42b4169c9c8821e6d0a260e80ce95a50d45cf565cd7628b5",
+  "inputs": [
+    "本人台本",
+    "本人写真と加工許可",
+    "既存LINEバナー・URL・提供内容",
+    "指定参考URL3件"
+  ],
+  "cases": [
+    {
+      "case": 197,
+      "post_delivery_content_edits": 0,
+      "files": {
+        "assets/10s-animatic.mp4": "7dc459aa541cf82406a1ab022a04e7c23b4d9981b903f6809cab758f5e46e963",
+        "assets/app.js": "91f6c6fb7fc45380494951d84f1268ac539b328419d315b39176ece2882f3707",
+        "assets/banner.png": "7fc68be5886ac28b0012f13aa470ce7da90f3336a12052761ee5b0aefcf454b6",
+        "assets/creator-reviewing.png": "f0c89fec65c3c9f9afd3dec03d737354d97106bcbabab515bcdd0e64b6b89c91",
+        "assets/creator-shooting.png": "e62478b45e573f62fc71219a34ff754981c28f0f24d1a00c46261156363a27b7",
+        "assets/line-textbook.jpg": "cc661d70f962e5a70aefc5a918009f4610c7096c34dea0740e4a7cb822875c68",
+        "assets/product-photo.png": "40d46046a422aaa4a940f505fae70f0d3ee2c400f158819c696537a9054746d9",
+        "assets/storyboard.png": "4285cd59dda86d6a3b4505754be3a786957ec20c8d4bbedf888e7c7d2bb8a1b7",
+        "assets/style.css": "e1eab2cddc1f6d210da3c5ace0440faa3a261d3a3279fc247d68692d679fd7c2",
+        "downloads/01-storyboard.txt": "5cc1c6be50db4ccaf0ad184fae9f8122b99c4a66059f9d2bb7afb1b602c2158a",
+        "downloads/02-video-prompt.txt": "45b2a3adb0cbd12d336f1d83d0dc184f90388f18541133d2a754493fa83bb5e8",
+        "downloads/03-gemini-example.txt": "c55166138dcc51c7c80c5d05971ed1ae9fa1737c595f30f11de87297bcf5c55c",
+        "downloads/04-fix.txt": "1bc0f619670f0eb85703decf2ccd932c851cc3f6e8087fa23c58a08faede9847",
+        "downloads/05-own-product.txt": "b42f0bf6dff0e70770dc36ca05226d5301b7a519c6926a7acf355ed66a73328f",
+        "downloads/smitch-photo-promo-kit.zip": "3d8da841f570f204545888e90621eaaf997074011bdfe13fc84032a32534f578",
+        "index.html": "300386678381562d2192fe17ef77640821fe06e67a2e9c78de2df0992269d99b"
+      }
+    },
+    {
+      "case": 193,
+      "post_delivery_content_edits": 0,
+      "files": {
+        "assets/app.js": "943d44837f8be0dcc4cb627745041fa1c759d09185cb401af25dca45e62db8ed",
+        "assets/banner-square.png": "6bb2d16ef4c58a2acf96d55a1061f849302968e89511258658bc1c5c6c612b9d",
+        "assets/coloring-sheet.png": "5ed01b68474e88641a1108d7de35a8bdee4e1c4d43ca9ff9eb81367d5c9f8319",
+        "assets/creator-batch-review.png": "5cca9976c9a93159ca3bbd6bcfe426aed87c07e9f3b5316e225355b603af3555",
+        "assets/creator-print-check.png": "f1d558f853615cc560ce6d00ab46babe49a6fc2aa1a5faa58adc20533996c10e",
+        "assets/line-textbook.jpg": "cc661d70f962e5a70aefc5a918009f4610c7096c34dea0740e4a7cb822875c68",
+        "assets/print-a4-preview.png": "96a28c4869c61e3ddf1d2b350ffdce41faf6eb8228a06aa0dc81fd85c4da74ac",
+        "assets/style.css": "58588e350238b1ebec889ca32f36cf2ec5f3e1805a30f2251061e01eb0d28cec",
+        "downloads/bookmark-starter-kit.zip": "276db57f3ffe34cdd20af6364ed4cf161950ef1b4696097b330fb0ffdbb44ef0",
+        "downloads/reader-kit/assets/app.js": "943d44837f8be0dcc4cb627745041fa1c759d09185cb401af25dca45e62db8ed",
+        "downloads/reader-kit/assets/banner-square.png": "6bb2d16ef4c58a2acf96d55a1061f849302968e89511258658bc1c5c6c612b9d",
+        "downloads/reader-kit/assets/coloring-sheet.png": "5ed01b68474e88641a1108d7de35a8bdee4e1c4d43ca9ff9eb81367d5c9f8319",
+        "downloads/reader-kit/assets/creator-batch-review.png": "5cca9976c9a93159ca3bbd6bcfe426aed87c07e9f3b5316e225355b603af3555",
+        "downloads/reader-kit/assets/creator-print-check.png": "f1d558f853615cc560ce6d00ab46babe49a6fc2aa1a5faa58adc20533996c10e",
+        "downloads/reader-kit/assets/line-textbook.jpg": "cc661d70f962e5a70aefc5a918009f4610c7096c34dea0740e4a7cb822875c68",
+        "downloads/reader-kit/assets/print-a4-preview.png": "96a28c4869c61e3ddf1d2b350ffdce41faf6eb8228a06aa0dc81fd85c4da74ac",
+        "downloads/reader-kit/assets/style.css": "58588e350238b1ebec889ca32f36cf2ec5f3e1805a30f2251061e01eb0d28cec",
+        "downloads/reader-kit/buyer-readme.txt": "91aae89b977005e12fed9af2f056e7ed076c8245cab15a33cc252c7ce72a650a",
+        "downloads/reader-kit/index.html": "52b44d9fcc3bf0046d93cafc0dfd389dc0963f128b02b404968189d0b554a850",
+        "downloads/reader-kit/listing-draft-en-ja.txt": "4271f54289f54d3ee90d4d7b911ae580df2cf0a55123abc0f8d60f66b3bf8adf",
+        "downloads/reader-kit/prompt-batch.txt": "39121f31c924ed048bc81da4e9fad72f037a8178bb924155e158fa9ca7c9a902",
+        "downloads/reader-kit/prompt-english.txt": "49cb8e1ed96b6fa07c20f3dfa0bf4410217452ab9b4b2323f4a0fb605df31718",
+        "downloads/reader-kit/prompt-fix.txt": "f138d2239ee79acb29b43ecf05529988682d0a27495e2b33bcf5d2bb38f9bebf",
+        "downloads/reader-kit/prompt-image.txt": "6b541fd18eefe4bbfb679ab672c22c0750024e267488ebd5a8970cfb6135d333",
+        "downloads/reader-kit/prompt-pdf.txt": "9df0fe8b98eb603f90726399d7fc779a52300a7023c31c2deea73e4f612c0bfc",
+        "downloads/reader-kit/prompt-schedule.txt": "c09f1f1633f9923f0c71dd16e3919f262228719e7487ad6c0a1d143585b7ed3d",
+        "downloads/reader-kit/snowy-onsen-A4.pdf": "d4890d1a2bb7cce92fea839e9ad283cff8845fa6f6e85ac6d893d992d3ced92c",
+        "downloads/reader-kit/snowy-onsen-US-Letter.pdf": "93a0cb358d1dfc06ff165d88b4bdab3885933dac1451e987eda5b548465c8164",
+        "downloads/reader-kit/出品前チェック.txt": "f39b937e88ff49a7887513113091a1b6fd7c87c68e0e03bbd74e2b28a6560387",
+        "index.html": "646da3ebdf469adc860a65cfe2c27808969273aae6b4c10a2bc29dd7a27214bc"
+      }
+    }
+  ],
+  "demo_reference_videos": {
+    "role": "Added to the demo after production; not additional inputs to the frozen production runs",
+    "videos": [
+      {
+        "case": 197,
+        "file": "references/no197.mp4",
+        "sha256": "0ee798243ccee73e231b9f379374edb0dbc55d2bff41a478194cb636129a1d8e",
+        "duration": 51.8,
+        "size": [
+          720,
+          1280
+        ],
+        "bytes": 5318600
+      },
+      {
+        "case": 193,
+        "file": "references/no193.mp4",
+        "sha256": "556d7fe1a007fdf1587140ceee6452f9ed894d2f44c3306e9d96a9a2a729a93c",
+        "duration": 55.03,
+        "size": [
+          720,
+          1280
+        ],
+        "bytes": 12488732
+      }
+    ]
+  },
+  "initial_skill_zip_sha256": "50b040739377ab950112056d1be0b6f4b9838171bcce1c5199fcb4ba860f5b8a",
+  "production_review": {
+    "no193_content_review_count": 1,
+    "no193_delivery_fix_count": 1,
+    "no197_content_review_count": 0,
+    "skill_refinement": "All major-step diagrams are checked, instead of representative diagrams. Both producers reread the final runtime reference before delivery. No193 was redelivered after a missing offline-guide archive link was found."
+  }
+}
