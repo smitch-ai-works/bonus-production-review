@@ -25,7 +25,7 @@
       "after_url": "integration/",
       "recording_script": "integration-recording.md",
       "published_files": {
-        "index.html": "0edc3adde6a0771685faecb723f9782e097d89fa9248cf64685f959dee65ee4f",
+        "index.html": "0faddc587cf7eb6a446690d6ffabb22077eb7ec474b2f6837310f6ed0884e06e",
         "assets/app.js": "e564063f7a0f15e8f4b717a23bcbf86a63e5f0e5b8dacfe54ebcc68b9696616f",
         "assets/author-check.png": "e27d25924d71c3da134f576c69653e0b947518d9b7819541b2f670d7230cbd66",
         "assets/author-plan.png": "9799671e15743d0f20188bda19d553714bd07926d8e56a0ff50b089df291c911",
@@ -33,7 +33,7 @@
         "assets/cta.png": "c72f398cb689a4f3ef9af5bd0eb734017c447844803323b98c9311bef3c03197",
         "assets/style.css": "d26da653ea52948ebb7d37590ac14eda6a7abef0c281304d45585a87a250b413",
         "downloads/drafts.html": "d66874b8c276fb06b7db6b8ea7bac5deaaa0d3b36a58deeaa1d390c18f5b3cd8",
-        "downloads/isocchi-ai-team.zip": "7aaa01a172271dadfb91f217687dab94d2dcb8fff610c0f6c4c8d765fc5d6ce9",
+        "downloads/isocchi-ai-team.zip": "a382cf7aab9421776ed6586e391934146093104e726a5b76340d399ca83b61ef",
         "downloads/practice-task.txt": "ab55650b10fd0e9fcfbcd9f8cc80e61dc32bcc7a66baf7d7cd7a160e07405b3c",
         "downloads/README.txt": "5d8622858bc65a129c98be1ba5cae513c812fcc4450aa1244c1ded17a3dd55d9",
         "downloads/review-checklist.txt": "2f698f52ca262ce23eec425a3d0bbe10502eec5f4407bd98454fb630add97207",
