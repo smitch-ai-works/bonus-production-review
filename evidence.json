@@ -1,5 +1,5 @@
 {
-  "state": "New production from transcript and original portrait with existing creator/CTA settings. All example materials newly made or acquired in this attempt; producer self-checks included.",
+  "state": "Diagram feedback revision of the previous two delivered examples. Existing portraits, generated example files and demonstrated results retained. Updated skill is packaged; this revision is not a new cold-start generation.",
   "script": "inputs/script.txt",
   "preset_assets": [
     "creator photo",
@@ -47,5 +47,5 @@
   },
   "previous_distribution_skill_sha256": "33e6ee15d79cea62d75ac8f0c1d17bd89b82ed784f564a6ec6a7d085eae3002c",
   "current_draft": "draft-v3/evidence.json",
-  "current_comparison": "cold-start-isocchi/evidence.json"
+  "current_comparison": "diagram-isocchi/evidence.json"
 }
