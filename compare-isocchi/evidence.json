@@ -1,7 +1,7 @@
 {
   "state": "Feedback revision: source-photo-anchored author images and cover-to-body-to-CTA visual continuity. Not untouched initial production.",
   "creator": "いそっち",
-  "skill_zip_sha256": "ef852f5d23319d789f483428eabfa636340411e94666e479566b30d1fc708a06",
+  "skill_zip_sha256": "33e6ee15d79cea62d75ac8f0c1d17bd89b82ed784f564a6ec6a7d085eae3002c",
   "before_mode": "User-provided live Before pages linked unchanged; original pages are not edited or replaced",
   "inputs": [
     "各Googleドキュメントの台本部分",
@@ -148,5 +148,12 @@
   ],
   "initial_production_skill_zip_sha256": "ca6ea3218f2d3fc5e2073717176b5645c43723e0bfaa50cfd73111ca0c1bfc88",
   "thumbnail_revision": "2026-11-08 feedback: more luxurious thumbnails; current downloadable skill contains the same luxury comparison criteria",
-  "identity_world_revision": "2026-11-08: all eight author images reference the original supplied photos directly. Body styling, CTA images and saved guides updated; practical text and examples preserved."
+  "identity_world_revision": "2026-11-08: all eight author images reference the original supplied photos directly. Body styling, CTA images and saved guides updated; practical text and examples preserved.",
+  "material_collection_rule_update": {
+    "date": "2026-11-08",
+    "change": "Prepare same-example materials and real mobile-width captures when possible; otherwise request exact materials and screen states. Pending materials remain incomplete.",
+    "demo_outputs_rebuilt": false,
+    "prior_skill_zip_sha256": "ef852f5d23319d789f483428eabfa636340411e94666e479566b30d1fc708a06",
+    "new_skill_zip_sha256": "33e6ee15d79cea62d75ac8f0c1d17bd89b82ed784f564a6ec6a7d085eae3002c"
+  }
 }
