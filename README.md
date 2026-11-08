@@ -6,4 +6,8 @@
 
 比較ページから、Before/After、元動画、入力台本・写真、解説動画の全文撮影台本、今回使ったスキルZIPを開けます。本人の動画本体は未受領のため、表紙直下に16:9の掲載枠を用意しています。説明図と実操作画面は区別し、Etsy本人編集画面・夜間予約実行・実機印刷・購入・販売・LINE受取は未検証です。連携実演で使用した既存認証環境と初回導入の条件は異なります。
 
-配布ZIPは `image-isocchi/tested-skill.zip`。SHA-256は `c840043bdab4f41b528cb85d94ab1e9e704a8f91c0af8feceeca2d508e495e1d`。正本の15ファイルと導入案内を含みます。制作開始から自己検品まで同じ版です。入力・固定スキル・公開物の照合記録は `image-isocchi/evidence.json`。旧公開例は各名前空間に保持しています。
+デモ制作に使用したZIPは `image-isocchi/tested-skill.zip`。SHA-256は `c840043bdab4f41b528cb85d94ab1e9e704a8f91c0af8feceeca2d508e495e1d`。制作当時のスキル15ファイルと導入案内を含みます。制作開始から自己検品まで同じ版です。入力・固定スキル・公開物の照合記録は `image-isocchi/evidence.json`。旧公開例は各名前空間に保持しています。
+
+## 更新版スキル
+
+[更新版ZIP](https://smitch-ai-works.github.io/bonus-production-review/downloads/bonus-production-latest.zip)には、参考の事前確認・不足ヒアリング・工程ごとの端末選定とコピペ実演・5項目の状態判定・文章と手順のつながり確認を反映しています。現デモは制作当時の版と出力を保持しており、この更新版からの再制作は未実施です。
