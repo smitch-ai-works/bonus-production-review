@@ -1,51 +1,5 @@
 {
-  "state": "Diagram feedback revision of the previous two delivered examples. Existing portraits, generated example files and demonstrated results retained. Updated skill is packaged; this revision is not a new cold-start generation.",
-  "script": "inputs/script.txt",
-  "preset_assets": [
-    "creator photo",
-    "LINE offer banner and URL"
-  ],
-  "skill": "updated bonus-production",
-  "initial_run": {
-    "production_requests": 1,
-    "initial_skill_sha256": "6e01ed05f99d2ebc5b47110a693962089b696ea7ad70cfc761fd89ca385f2d75"
-  },
-  "current_skill_zip_sha256": "26a82fa2673ec86c36ac6aaf676509f9bede37fa4471a04489a6b6593b28e1b1",
-  "current_sample_files": {
-    "index.html": "e27e298ae6154f11e94d776a76302622a47928e84166494c50e4c0d9000a6995",
-    "はじめに.txt": "e5c99981b384c3c6606b22470aa28341468feb267a22ae91e33a48c1470fb7e1",
-    "タイトル案.md": "a673f4ef00c740b208bdb22df74f45bac321bc8ea7c4bd0cf02a865052ce22e7",
-    "解説動画台本.md": "cea6a952ae1e38c1da7139c2eae3777e2f81252b98b11437f79b669e9dd44bda",
-    "配布バナー_1対1.png": "0d9b03bfb7f46f1daf48a5d4e3c80d16e3a9c0af3aaa5590eb8eaecd416963f6",
-    "assets/anatomy-mobile-v2.svg": "41100ea93698a698728630fb049a0a5fcaad93cc88cca281b0a98578ef68bda5",
-    "assets/anatomy-v2.svg": "358dc2ece3805bb2f45e9e6b6d0a3c31308107f846ccc53e688198f13dfd033b",
-    "assets/app.js": "c69317b03691998419b5699394ae4676f1ce5bb93cc1722a393eb5d786a79a3f",
-    "assets/banner-background.png": "4f39fe3662fdcbf53104ca96019810d8f5c7cf3a9256dd885d89fedf6d7397a1",
-    "assets/bonus-banner.png": "0d9b03bfb7f46f1daf48a5d4e3c80d16e3a9c0af3aaa5590eb8eaecd416963f6",
-    "assets/cover-v2.png": "0d9b03bfb7f46f1daf48a5d4e3c80d16e3a9c0af3aaa5590eb8eaecd416963f6",
-    "assets/creator.png": "193f99b8ab842882aab6c879031bf4a532add35be5d1e9e78e86b9bb899ec4ae",
-    "assets/line-textbook.jpg": "cc661d70f962e5a70aefc5a918009f4610c7096c34dea0740e4a7cb822875c68",
-    "assets/outline-mobile-v2.svg": "36e5b4c4f8095db15715d19569655108e7508802ff4fb6c708fbe7976f6991f7",
-    "assets/outline-v2.svg": "05f9b35c19082af0f4a0d4308f808f20aa27b5330f952f5f8b996b6a00a9b804",
-    "assets/reader-v2.css": "0f4b3663d1b4b77fafe0e3b175c7886f2ed744bbf44a29ad7c99e1b27cc47844",
-    "assets/research-mobile-v2.svg": "724e1a7dbb43d75233d2e219457ca1f860bd0292cff72abc7d71208b56ff864a",
-    "assets/research-v2.svg": "5df2f6537f437eb606ad16ef44a9d64d719bd8b76a147a6b335aa76def8712c4",
-    "assets/strength-mobile-v2.svg": "8061634698a0dcee7226534a1f4c15d92868640787c26d0807530b8c0adcd1b4",
-    "assets/strength-v2.svg": "3b6bcf13440ecafeac6da07f98e3333f2848369beb1108d3adf2d8367b563fd8",
-    "assets/style.css": "d9242323c31ccbe5049e1871ec1ff44184a1548214dbf7826c72536740d1bfd6",
-    "assets/voice-mobile-v2.svg": "4eafca92c413e5f1bbd13d5b9910dbecd1329143c7923b37abf898c1b7e6b61a",
-    "assets/voice-v2.svg": "6251dcb4f04b99a74eff6bc08d798e660bb47e5324c7e931308d780b9a122b7a",
-    "assets/writer-v2.png": "114237c4523ab274d23fa497a2962d610b7e74ae5c9e389f29c830fe9d2691cc",
-    "downloads/01_実践ガイド.md": "a242a34035124c303cb4a5ba0c23cb571384e0c2423bf15396b6ec5277f688ee",
-    "downloads/02_コピープロンプト.txt": "33ae5799fd29ea83ec78373f53bb3c90db56875ba8204f712544120cca4d2625",
-    "downloads/03_完成記事見本.md": "b58542ecec74903d8c0b5432c3b233adb6a114b9bea5303eb72e4c41c05246cf",
-    "downloads/04_自分用ワークシート.md": "ccd1f75e5ae9b9667f2a70d40969b5f3455dec6dccc90557320fd5a85e4fdade",
-    "downloads/実践ファイル一式.zip": "bb36dc4554baf96196d67bacbe2679680530ae92ba5fd3a8245b213ca2b45df1",
-    "downloads/codex-workflow/input.md": "876eea4816920ace46bdf74b58947b38ed00ddbe0decff513df51f19ffa007bc",
-    "downloads/codex-workflow/README.md": "c804b38b64693542c4d47cab4d2816d32afecb68d2d3e6a1f8d71a2a47085a09",
-    "downloads/codex-workflow/TASK.md": "0691554f2a895e955bb7a1252f876d92d8afbef574b26bf1d3bb04fb428b7c47"
-  },
-  "previous_distribution_skill_sha256": "33e6ee15d79cea62d75ac8f0c1d17bd89b82ed784f564a6ec6a7d085eae3002c",
-  "current_draft": "draft-v3/evidence.json",
-  "current_comparison": "diagram-isocchi/evidence.json"
+  "current_comparison": "image-isocchi/evidence.json",
+  "state": "Two fresh independent productions from raw transcripts and creator portraits, using the same unchanged fixed image-diagram skill. Name and CTA preset; original Before references allowed. Producer self-review included. No previous generated materials supplied, no publisher reader edits.",
+  "current_distribution_skill_sha256": "c840043bdab4f41b528cb85d94ab1e9e704a8f91c0af8feceeca2d508e495e1d"
 }
