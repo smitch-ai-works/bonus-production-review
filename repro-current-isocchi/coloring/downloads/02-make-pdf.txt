@@ -1,0 +1,8 @@
+添付した塗り絵しおりのPNGを、印刷用PDFにしてください。
+画像の線画と縦横比は変えず、A4縦とUS Letter縦を各1ページで作成。
+各用紙に4本がすべて入るよう、画像全体を幅184mmで中央に配置。文字と絵を重ねない。
+各PDFに「Print at 100% / Actual size. Color, then cut along the black borders.」と記載。
+50mmの寸法確認線を、画像と離れた位置に付ける。
+ファイル名は japan-bookmarks-a4.pdf と japan-bookmarks-letter.pdf。
+PDFを実際に保存し、2つとも開いて枠の欠け・線のつぶれ・余白を確認してください。
+しおりの実寸は生成画像の比率で変わるので、画像から算出したサイズを報告。PDFを作れない環境なら、作成済みとせず不足する機能を伝えてください。

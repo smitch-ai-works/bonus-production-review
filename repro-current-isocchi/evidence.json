@@ -1,0 +1,142 @@
+{
+  "reproduction_test": true,
+  "fresh_production": true,
+  "feedback_revision": false,
+  "state": "First deliveries from independent cold-context productions using the same frozen current skill. Internal self-checks and corrections included; publisher content edits zero.",
+  "skill_zip_sha256": "26a82fa2673ec86c36ac6aaf676509f9bede37fa4471a04489a6b6593b28e1b1",
+  "inputs": [
+    "同じ元台本",
+    "事前の本人参照写真・CTA",
+    "元動画・指定Beforeの参照"
+  ],
+  "previous_after_supplied_to_producers": false,
+  "post_delivery_content_edits": 0,
+  "producer_content_feedback_after_start": false,
+  "technical_coordination": [
+    {
+      "case": "integration",
+      "topic": "Browser screenshot/viewport diagnostic",
+      "message": "Parent has not used CUA or changed viewport/zoom in this run. Keep shared settings unchanged, use own QA iframe, and record tool-blocked checks as unverified. No content or design feedback."
+    }
+  ],
+  "video_state": "本人の解説動画は未受領。初回出力の掲載枠と撮影台本をそのまま表示。",
+  "cases": [
+    {
+      "case": "integration",
+      "label": "ChatGPT × Claude Code連携",
+      "before_url": "https://smitch-ai-works.github.io/bonus-production-review/fresh-isocchi/integration/",
+      "original_before_url": "https://majestic-heliotrope-375267.netlify.app/",
+      "before_preview": "previews/integration-previous.png",
+      "after_cover": "integration/assets/banner.png",
+      "after_url": "integration/",
+      "source_video_url": "https://www.instagram.com/reel/DebwoafptiX/",
+      "script_url": "https://docs.google.com/document/d/1HjtlFcc7crYtOSOCjgsKUu9vfQ3RgXC2iSSmil4XVuI/edit?tab=t.0",
+      "script_view": "integration-script.html",
+      "recording_script": "integration-recording.md",
+      "production_requests": 1,
+      "publisher_content_edits": 0,
+      "input_hashes": {
+        "creator-reference.jpg": "da706033d46dcc99e0485ed4d7d28ad185331c4b52b3b840ec187c7a2bcaf7f0",
+        "profile.json": "831c4f16694a53e432f128162361476f6388a1ba96f034e38713f8dcd69f0ea3",
+        "request.txt": "db6053d980b83aef54ea6416896149a10b8df50694a8ac0c0f974af02be80e5a",
+        "script.txt": "7661085242d4f612d38506e9c6865b09a2ca23f1d12816b23a193ae7b7bb5569",
+        "source-reel.mp4": "b29fc720788c5e0a374889b67f860f523510b871dda7674d83287af856c0497a"
+      },
+      "published_files": {
+        "index.html": "18c30c2d68fe429bb73b4fb4d0290260f40dba6815228b8acb026f7fc88273a5",
+        "assets/banner.png": "c8d53de779b17947a844c28a3d4e739fc775ece261d1bf17ddd59b611a28a54e",
+        "assets/check-map.svg": "83a6eda9a5a430997af5da77de79e7e8381d8fdee966355152d51238226acdcc",
+        "assets/cta.png": "0d3aea0d7b04500cfc704f3837c370a0f87b896c6749206f2c212a27cb0be6f2",
+        "assets/install-map.svg": "8f30b0a9662a5d36377b5d57cc2474050d11eb9e0716212d0b6252bb9ac6319d",
+        "assets/login-map.svg": "d0bbd77c1644efd014f2edf40d108943d0119f032f8e763948489e8682aecae4",
+        "assets/main.js": "d4d369595ae8367288ccce2c5f3ec719c678b5773a6b645f951713a79f77887b",
+        "assets/role-flow.svg": "7695f0112d892e8a5c31e224d9120377c6188c29d06a3c9e2b0449603eea12e5",
+        "assets/rules-map.svg": "f71311d4c6694909c7af52513ec00a8fa1dd377656991f428808b6ebd45200d0",
+        "assets/scene-check.png": "7d58877a4606de83f8e94d0f8502b7bada84157bec25ef69efd8b4629c8ebcdb",
+        "assets/scene-plan.png": "5364d098342fc157fe20fa7f365015d0858369dad9a9ff3992967f221c82b991",
+        "assets/style.css": "6c2e323635abf2dbc2beed5f094f343f9736fae69ec1abe3f7e734c6b5259290",
+        "assets/tool-preview.jpg": "9254895edc2342b090f32c3689f3b12be17f79f12e295e1b2042a08ba01b27f9",
+        "assets/work-cycle.svg": "bc34a02700c2142f3942a198dcd4299ffa76e1b455c6cdd109bdeb8254285103",
+        "downloads/ai-staff-practice.zip": "7c7b7d770623a69693963d7fa35e29bf0e144625a0ab8140733a188c9d3830d0",
+        "downloads/practice/banner.png": "c8d53de779b17947a844c28a3d4e739fc775ece261d1bf17ddd59b611a28a54e",
+        "downloads/practice/post-maker.html": "67b2f6bc94e74c1989480a333e0cfdaf28e36427736a6eb90584d88406f6f13b",
+        "downloads/practice/ツールを作る依頼.txt": "2e0cd9b436bfa1801c9c6853715c460d4bf70a58ede84faf77ad5024608a191a",
+        "downloads/practice/保存ガイド.html": "0f24e12dda7f4f431b9befad51e7b3cc5974b80bec0fb1351c398b2cbd9485af",
+        "downloads/practice/役割分担を保存する指示.txt": "9cfda8181a0ffce1a0da6311339de4435c6e6f967c41ca53c50986245a348046",
+        "downloads/practice/投稿セット例.txt": "1c4ced68eb881efdc6985fe9548429ea35dde90ff7ae6dcd747d6857d70dac09",
+        "downloads/practice/確認と修正の指示.txt": "2b27d5615410ab2770aaf2936622c56de469f152360caafc17846b5c808cc4c6",
+        "downloads/practice/設定コマンド.txt": "cc9065af713aba8f55ca01e659e3b790cd15367bbcccee16913bc5a0b4bb70a9"
+      },
+      "evaluation": {
+        "video_position": "reproduced: square cover immediately followed by explainer heading and 16:9 placeholder; actual video unreceived",
+        "text_amount": "not reproduced: static normal-display HTML text 882 -> 1855; rendered body text including closed summaries at 375px 966 -> 1932; raster and external SVG text excluded",
+        "diagrams": "partial: six vertical SVG operation and handoff diagrams are readable at 320/375 CSS px, but surrounding prose repeats steps; some 375px headings leave a one-character final line",
+        "personalization": "name, referenced person imagery and script-grounded role-allocation/checking opinions included; generated face is not pixel-identical or owner-approved",
+        "visual_review": "parent observed 320/375/660px same-origin QA frames; producer also checked 360/390px and PC. No parent changes to reader files"
+      },
+      "remaining_gaps": [
+        "Explainer video not received; placeholder and recording script only",
+        "LP instruction-copy clipboard result not confirmed by producer; local tool copy and ZIP/text saves were verified",
+        "Authenticated Claude Code/Codex end-to-end execution and corresponding real service screenshots not performed within this test scope",
+        "Source reel frame observations are not a complete audiovisual review"
+      ]
+    },
+    {
+      "case": "coloring",
+      "label": "AI塗り絵しおり販売",
+      "before_url": "https://smitch-ai-works.github.io/bonus-production-review/fresh-isocchi/coloring/",
+      "original_before_url": "https://sprightly-narwhal-ad6a46.netlify.app/",
+      "before_preview": "previews/coloring-previous.png",
+      "after_cover": "coloring/assets/banner-square.png",
+      "after_url": "coloring/",
+      "source_video_url": "https://www.instagram.com/reel/De1ggBRJAOg/",
+      "script_url": "https://docs.google.com/document/d/1WYi-aeVUcIjdZ_uo89BjCnHYDCMbqwRyeHbzHEnCb88/edit?tab=t.0",
+      "script_view": "coloring-script.html",
+      "recording_script": "coloring-recording.md",
+      "production_requests": 1,
+      "publisher_content_edits": 0,
+      "input_hashes": {
+        "creator-reference.jpg": "971cd7572b4096c334335505d68ceee54b26a864b817c5a62b12347bc4174eb0",
+        "profile.json": "5e23fc8e046c51c3d2383cfb626f0b2f2708615820012d181e63660ea493e989",
+        "request.txt": "db6053d980b83aef54ea6416896149a10b8df50694a8ac0c0f974af02be80e5a",
+        "script.txt": "8749a85a963c795012322550eb9f82e1fce8f788e17065e2799738963a86fe31",
+        "source-reel.mp4": "3eecb19518e66e743a6c449b65d7b7be1a8b5718a9f72b2cf44f9e36113844df"
+      },
+      "published_files": {
+        "index.html": "592936f5885d3cbc832bfadcc8f025c90b28ac8a0010ad02e43fd4e3a4989ccd",
+        "assets/banner-square.png": "6d4305c317e4ec8d126817719910297be2baf1ed662233fe8d1e33e9f540ac14",
+        "assets/bookmark-colored.png": "896844bb19836d3ec8060e4cd44c47f437768c4b8e5d75b945cc0284b2d6067b",
+        "assets/bookmark-lineart.png": "ff9a244b3429853da51d375dc4332e7106cc0c17158749b1b632e415daddc0c9",
+        "assets/cta-line.png": "4c9ae6b0779072cd4cd75eba1014086db9cf9910b4e8a9f76fedcb98aa1b6071",
+        "assets/product-preview.png": "ecf4f92deef054c800731e906b548934bc17c6ef4812ffbc42ba5d269ff1a794",
+        "assets/reader.css": "57b0c499b21b1fb16c28bff8db142c8017e50a9777cb0f638734f34c124ca728",
+        "assets/scene-night.png": "2c2e031af920c25de8504f1bbf6baed656b7c58c611d83404a438a4cfdc461df",
+        "assets/scene-scenery.png": "510999e272a3706ec83320853fdeb1d53a56ba1c136222a53e196f99ff410617",
+        "assets/script.js": "de917759a762ddb87d721a33bceadff6ddeef369f1d80331c14b486cb68f0c69",
+        "downloads/01-create-image.txt": "7887e85d93d3f8bb6b449800758dcba2346e5b9b49826544bf063dc37914cf00",
+        "downloads/02-make-pdf.txt": "a42645cf20183da37e8cb468fbbdef3089c9ec07009be531855e7367ca6069e3",
+        "downloads/03-write-listing.txt": "f0516ebcda3223b19a930b5068608362fb88d90aacb34bf2e17f6eedab133140",
+        "downloads/04-night-task.txt": "7268061de2477551030d751278e69be736455b97b4dde2073889ce3ba4bda965",
+        "downloads/05-schedule-request.txt": "addd82b236eca35b07448926930be921a7a4b90d44810d30e4ddf64b50c358a6",
+        "downloads/isocchi-coloring-kit.zip": "698d09f398f82c05d578720f9566f528c386c991561204161b2573c5b5cb286a",
+        "downloads/japan-bookmarks-a4.pdf": "6418d61856ae2f772acc078249544cabea27ec4d5c0d114338a22785e563739e",
+        "downloads/japan-bookmarks-letter.pdf": "faafb9cf292636960f893ade3d1e1df011ced2d2f66fec63f83529abf13ed214",
+        "downloads/listing-en.txt": "1e41c7d2c0b3a527653aa471d56f3b9e82648a2c0a1abb1bdbecd09bab311d9f",
+        "downloads/READ-ME.txt": "d3273f6700c6be6dcdee40d4bcc865020a6c46c33f17c98c85b226e28c570aab"
+      },
+      "evaluation": {
+        "video_position": "reproduced: square cover immediately followed by explainer heading and 16:9 placeholder; actual video unreceived",
+        "text_amount": "not reproduced: static normal-display HTML text 940 -> 2140; rendered body text including closed summaries at 375px 1081 -> 2221; raster text excluded",
+        "diagrams": "partial: new actual lineart/colored/product-image examples and HTML mapping diagrams connect assets to listing fields; generic field maps do not replace actual service operation screenshots",
+        "personalization": "name, original-reference person imagery and script-grounded Japanese-scenery/night-work opinions included; generated face is not pixel-identical or owner-approved",
+        "visual_review": "parent observed 320/375/390/660px same-origin QA frames; producer also checked 360/1000px. No parent changes to reader files"
+      },
+      "remaining_gaps": [
+        "Explainer video not received; placeholder and recording script only",
+        "Actual ChatGPT/Etsy/Work account execution/screens not performed within this test scope; no simulated UI substituted",
+        "Generated lineart did not achieve requested 2:7 aspect ratio; producer aligned PDFs and copy to actual approximately 40x119mm panes before first delivery",
+        "Physical print and source reel complete audiovisual review not performed"
+      ]
+    }
+  ]
+}

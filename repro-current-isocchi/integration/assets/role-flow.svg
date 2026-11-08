@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="347" viewBox="0 0 420 347" role="img"><defs><linearGradient id="b" x2="1" y2="1"><stop stop-color="#103b3e"/><stop offset="1" stop-color="#071a25"/></linearGradient><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L7 4 0 8" fill="none" stroke="#e8c36c" stroke-width="1.6"/></marker></defs><rect width="420" height="347" rx="15" fill="url(#b)"/><g font-family="'Yu Gothic',Meiryo,sans-serif" fill="#fffdf4"><text x="20" y="35" fill="#edcd83" font-size="21" font-weight="700">今回の分け方</text>
+<rect x="20" y="59" width="178" height="147" rx="10" fill="#fffdf4"/><rect x="222" y="59" width="178" height="147" rx="10" fill="#fffdf4"/>
+<path d="M20 65H198" stroke="#ce8057" stroke-width="6"/><path d="M222 65H400" stroke="#3ba593" stroke-width="6"/>
+<g fill="#1c4441" font-size="22" font-weight="700"><text x="34" y="105">Claude Code</text><text x="240" y="105">Codex</text><text x="34" y="146">設計・最終確認</text><text x="240" y="146">作成・修正</text></g>
+<g fill="#4d675c" font-size="19"><text x="34" y="182">完成条件を決める</text><text x="240" y="182">ファイルを作る</text></g>
+<path d="M202 126H216" stroke="#edcd83" stroke-width="2" marker-end="url(#a)"/>
+<path d="M311 218V239H109V218" fill="none" stroke="#edcd83" stroke-width="2" marker-end="url(#a)"/>
+<text x="210" y="278" text-anchor="middle" fill="#edcd83" font-size="22">実物を見る → 修正を返す</text><text x="210" y="321" text-anchor="middle" font-size="21">人も、目的と出力を確かめる</text></g></svg>

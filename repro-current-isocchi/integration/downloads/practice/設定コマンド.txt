@@ -1,0 +1,28 @@
+いそっち式 AI社員のつくり方｜設定コマンド
+PCのClaude Code入力欄で、1行ずつ実行する。
+1 /plugin marketplace add openai/codex-plugin-cc
+2 /plugin install codex@openai-codex
+3 /reload-plugins
+4 /codex:setup
+Codex未導入なら案内に沿ってインストール。Node.js 18.18以降が必要。
+未認証なら !codex login を入力し、ブラウザでChatGPTのアカウントにサインイン。
+5 /codex:setup を再実行し、導入と認証の状態を確認する。
+6 役割分担を保存する指示.txt を同じ作業フォルダのClaude Codeへ送る。
+
+進捗 /codex:status
+完了結果 /codex:result
+読み取り専用のレビュー /codex:review
+修正を任せる /codex:rescue 具体的な修正内容
+停止 /codex:cancel
+
+任意の自動検査（見守れるときのみ）：
+/codex:setup --enable-review-gate
+無効にする：
+/codex:setup --disable-review-gate
+レビューゲートは長い往復と使用量増加を起こす場合がある。
+
+確認日：2026-11-08
+公式：https://github.com/openai/codex-plugin-cc
+認証：https://learn.chatgpt.com/docs/auth
+Claude Code：https://code.claude.com/docs/en/discover-plugins
+両サービスの利用条件と使用量枠は別。無制限や節約率の保証はない。

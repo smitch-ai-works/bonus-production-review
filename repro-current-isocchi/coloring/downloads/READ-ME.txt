@@ -1,0 +1,23 @@
+いそっち式 AI塗り絵しおり販売 — 制作から出品まで
+
+ZIPを展開し、index.htmlをブラウザで開いてください。
+assetsとdownloadsの位置は変えず、同じフォルダ構成で保管します。
+コピーが使えない環境では、TXTを開いて全文を選択・コピーできます。
+
+印刷見本
+japan-bookmarks-a4.pdf : A4 1ページ、白黒のしおり4柄
+japan-bookmarks-letter.pdf : US Letter 1ページ、同じ白黒4柄
+100% / Actual sizeで印刷し、50mmの確認線を測ってから使います。
+
+指示文
+01-create-image.txt : 日本の風景の塗り絵画像を作る
+02-make-pdf.txt : 印刷用PDFを作る
+03-write-listing.txt : 英語の出品原稿を作る
+04-night-task.txt : 夜に制作・出品準備をまとめて任せる
+05-schedule-request.txt : 手動テスト後、定期実行の設定案を頼む
+
+listing-en.txt : この4柄とPDF2点に対応する英語原稿例
+assets/product-preview.png : 英語の商品画像見本（デジタル商品・現物発送なしと表示）
+
+見本は練習用です。販売する際は自分のテーマと入力で制作し、実際の同梱ファイル・利用条件・権利・印刷結果・販売先の条件を確認してください。
+解説動画の本体は未受領のため、閲覧ページには案内付きの掲載枠があります。

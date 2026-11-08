@@ -1,0 +1,22 @@
+<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>投稿セットメーカー｜完成見本</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#eae8df;color:#132e32;font-family:system-ui,-apple-system,"Yu Gothic",sans-serif;line-height:1.8}main{width:min(760px,100%);margin:auto;background:#fffdf6;min-height:100vh;padding:28px 22px}h1{font-size:clamp(24px,5vw,35px);margin:0}header{border-bottom:2px solid #b78c37;padding-bottom:17px;margin-bottom:23px}.eyebrow{color:#98631f;font-weight:700;font-size:13px}p{margin:.6em 0 1em}label{display:block;font-weight:700}input,textarea,button{font:inherit}input{display:block;width:100%;padding:12px;border:1px solid #627e7a;border-radius:8px;margin:8px 0}button{background:#145f53;color:white;border:0;padding:12px 18px;border-radius:8px;font-weight:700;cursor:pointer}button:focus-visible,input:focus-visible{outline:3px solid #df9f24;outline-offset:3px}.tools{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}.secondary{background:#e8ede5;color:#164c43}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;background:#f1f3ed;padding:20px;border-left:4px solid #b68a35;border-radius:5px;margin:22px 0 12px}small{color:#50605d}.error{color:#a22424;font-weight:700}.status{min-height:1.8em;font-size:14px}a{color:#176454}@media(max-width:400px){main{padding:22px 16px}button{padding:11px 13px}pre{padding:15px}}</style>
+<main><header><div class="eyebrow">完成見本・外部通信なし</div><h1>投稿セットメーカー</h1><p>テーマから、リール台本・キャプション・ハッシュタグのたたき台を作ります。</p></header>
+<p>これは固定の文章の型です。自分の事実・具体例を足し、投稿前に読み直してください。</p>
+<form id="form"><label for="theme">投稿のテーマ（60文字まで）</label><input id="theme" value="AIに仕事を任せる" maxlength="60" required><button type="submit">投稿セットを作る</button><div id="error" class="error" role="alert"></div></form>
+<pre id="result" aria-label="投稿セットの全文"></pre><div class="tools"><button id="copy" type="button">全文をコピー</button><button id="save" type="button" class="secondary">txtで保存</button></div><p id="status" class="status" role="status"></p><small>保存ファイル：post-set.txt（UTF-8）。作った文章はこの端末内で扱います。</small>
+<details><summary>この見本で確かめること</summary><p>通常のテーマで3種類が出る／空白だけなら止まる／記号を文字として扱う／コピーと保存に全文が入る。</p></details></main>
+<script>
+function buildDraft(theme){
+ const isSample=theme==='AIに仕事を任せる';
+ const body=isSample?'まずは、何を完成させるかを決めます。\n続いて、Claude Codeに設計と最終確認、Codexに実作業を任せます。\n最後に、出てきたファイルを開いて、最初に決めた条件と見比べます。':'まずは、「'+theme+'」で今日試すことを一つ決めます。\n続いて、必要な手順を短く書き出します。\n最後に、一つ試して気づいたことをメモします。';
+ const judgment=isSample?'作業を任せるだけで終わらず、最後の確認まで役割を決める。':'最初から全部を進めようとせず、一つ試して確かめる。';
+ const tag=theme.replace(/[^\p{L}\p{N}]/gu,'').slice(0,24)||'テーマ';
+ return '【リール台本・たたき台】\n「'+theme+'」、何から始めるか迷っていませんか？\n'+body+'\n'+judgment+'\nまずは今日、一つ試してみてください。\n\n【キャプション・たたき台】\n今日のテーマは「'+theme+'」。\n'+body+'\n'+judgment+'\n自分の作業で試すなら、最初の一つは何にしますか？\n\n【ハッシュタグ案】\n#'+tag+' #実践メモ #学びを行動に';
+}
+const form=document.getElementById('form'),field=document.getElementById('theme'),result=document.getElementById('result'),status=document.getElementById('status'),error=document.getElementById('error');
+function render(){const theme=field.value.trim();status.textContent='';if(!theme){error.textContent='テーマを入力してください。空白だけでは作成できません。';return false}error.textContent='';result.textContent=buildDraft(theme);return true}
+form.addEventListener('submit',event=>{event.preventDefault();render()});
+document.getElementById('copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(result.textContent);status.textContent='全文をコピーしました。'}catch(e){const t=document.createElement('textarea');t.value=result.textContent;document.body.append(t);t.select();const ok=document.execCommand('copy');t.remove();status.textContent=ok?'全文をコピーしました。':'コピーできませんでした。本文を選択してコピーしてください。'}});
+document.getElementById('save').addEventListener('click',()=>{const a=document.createElement('a');const u=URL.createObjectURL(new Blob([result.textContent],{type:'text/plain;charset=utf-8'}));a.href=u;a.download='post-set.txt';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);status.textContent='保存を開始しました。post-set.txtを開いて確認してください。'});
+render();
+</script></html>

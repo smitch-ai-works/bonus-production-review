@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="545" viewBox="0 0 420 545" role="img"><defs><linearGradient id="b" x2="1" y2="1"><stop stop-color="#103b3e"/><stop offset="1" stop-color="#071a25"/></linearGradient><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L7 4 0 8" fill="none" stroke="#e8c36c" stroke-width="1.6"/></marker></defs><rect width="420" height="545" rx="15" fill="url(#b)"/><g font-family="'Yu Gothic',Meiryo,sans-serif" fill="#fffdf4"><text x="20" y="35" fill="#edcd83" font-size="21" font-weight="700">テーマ1つから、投稿3点へ</text>
+<rect x="20" y="58" width="380" height="60" rx="9" fill="#fffdf4"/><text x="210" y="96" text-anchor="middle" fill="#244b45" font-size="22">入力：AIに仕事を任せる</text>
+<path d="M210 126V148" stroke="#edcd83" stroke-width="2" marker-end="url(#a)"/>
+<rect x="20" y="164" width="380" height="60" rx="9" fill="#1c6c5f"/><text x="210" y="202" text-anchor="middle" font-size="23">post-maker.html で作成</text>
+<path d="M210 232V254" stroke="#edcd83" stroke-width="2" marker-end="url(#a)"/>
+<path d="M30 270H352L390 308V483H30Z" fill="#fffdf4"/><path d="M352 270V308H390" fill="none" stroke="#a3b4a1" stroke-width="2"/>
+<g fill="#244b45"><text x="48" y="307" font-size="21" font-weight="700">リール台本</text><text x="48" y="335" font-size="20">まず、完成条件を決める…</text><text x="48" y="374" font-size="21" font-weight="700">キャプション</text><text x="48" y="402" font-size="20">今日のテーマは…</text><text x="48" y="441" font-size="21" font-weight="700">ハッシュタグ</text><text x="48" y="469" font-size="20">#AIに仕事を任せる</text></g>
+<text x="210" y="521" text-anchor="middle" fill="#edcd83" font-size="21">全文コピー / txtで保存</text></g></svg>

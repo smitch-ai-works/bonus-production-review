@@ -1,5 +1,5 @@
 {
-  "state": "Owner feedback revision of the frozen outputs: visual explanations, less repeated prose, video below cover. Not a new cold run.",
+  "state": "First deliveries from independent cold-context productions using the same frozen current skill. Internal self-checks and corrections included; publisher content edits zero.",
   "script": "inputs/script.txt",
   "preset_assets": [
     "creator photo",
@@ -47,5 +47,5 @@
   },
   "previous_distribution_skill_sha256": "33e6ee15d79cea62d75ac8f0c1d17bd89b82ed784f564a6ec6a7d085eae3002c",
   "current_draft": "draft-v3/evidence.json",
-  "current_comparison": "fresh-isocchi/evidence.json"
+  "current_comparison": "repro-current-isocchi/evidence.json"
 }
