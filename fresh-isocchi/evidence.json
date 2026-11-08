@@ -1,8 +1,8 @@
 {
-  "fresh_production": true,
-  "state": "Fresh independent productions using the frozen updated skill; internal self-checks and corrections included. Not untouched first render.",
+  "fresh_production": false,
+  "state": "Owner feedback revision of the frozen outputs: visual explanations, less repeated prose, video below cover. Not a new cold run.",
   "creator": "いそっち",
-  "skill_zip_sha256": "fd06a72f5556df5b348ceaf64fa231565be2929427172cb89ab265eb25de40a2",
+  "skill_zip_sha256": "26a82fa2673ec86c36ac6aaf676509f9bede37fa4471a04489a6b6593b28e1b1",
   "inputs": [
     "元台本",
     "本人参照画像・案内先",
@@ -10,7 +10,7 @@
     "追加素材なし、取得可能な素材は制作側で用意するという本人の追加指定"
   ],
   "previous_after_reused": false,
-  "explainer_video": "未受領。最上部の16:9掲載枠と撮影台本まで。受領後に同じ枠を実動画へ差し替える。",
+  "explainer_video": "未受領。サムネイル直下の「解説動画」見出しと16:9掲載枠、撮影台本まで。受領後に同じ枠へ置換。",
   "materials_pending": true,
   "cases": [
     {
@@ -25,25 +25,26 @@
       "after_url": "integration/",
       "recording_script": "integration-recording.md",
       "published_files": {
-        "index.html": "63af5f8d4aed005664ae9468f31d726bc97a9b853b779d0f89b14f4fe1941875",
+        "index.html": "0edc3adde6a0771685faecb723f9782e097d89fa9248cf64685f959dee65ee4f",
         "assets/app.js": "e564063f7a0f15e8f4b717a23bcbf86a63e5f0e5b8dacfe54ebcc68b9696616f",
         "assets/author-check.png": "e27d25924d71c3da134f576c69653e0b947518d9b7819541b2f670d7230cbd66",
         "assets/author-plan.png": "9799671e15743d0f20188bda19d553714bd07926d8e56a0ff50b089df291c911",
         "assets/cover.png": "2eb689693fe590c5763c404f6e0ab1a5bca51019e377ef6eabf97327a62ca1e6",
         "assets/cta.png": "c72f398cb689a4f3ef9af5bd0eb734017c447844803323b98c9311bef3c03197",
-        "assets/style.css": "a0860b1cddeede509172dafd65cf1712e0b7d334448c5c98cde2352f5df706df",
+        "assets/style.css": "d26da653ea52948ebb7d37590ac14eda6a7abef0c281304d45585a87a250b413",
         "downloads/drafts.html": "d66874b8c276fb06b7db6b8ea7bac5deaaa0d3b36a58deeaa1d390c18f5b3cd8",
-        "downloads/isocchi-ai-team.zip": "d4bb5989cb7c3072a0412809c387e64d61df39f208994a6510dc47f809a3e18a",
+        "downloads/isocchi-ai-team.zip": "7aaa01a172271dadfb91f217687dab94d2dcb8fff610c0f6c4c8d765fc5d6ce9",
         "downloads/practice-task.txt": "ab55650b10fd0e9fcfbcd9f8cc80e61dc32bcc7a66baf7d7cd7a160e07405b3c",
         "downloads/README.txt": "5d8622858bc65a129c98be1ba5cae513c812fcc4450aa1244c1ded17a3dd55d9",
         "downloads/review-checklist.txt": "2f698f52ca262ce23eec425a3d0bbe10502eec5f4407bd98454fb630add97207",
         "downloads/role-prompt.txt": "78b88ea98cc714ec388a8cc4a044e4876263074fbd641cc4b121dc844b5cd5b7"
       },
-      "publisher_content_edits": 0,
+      "publisher_content_edits": 1,
       "material_status": [
         "対象プラグインでの実委任・完了結果・最終確認の画面は未収録。ローカルの既存状態の読み取り確認と、練習用の完成ファイルは区別する。"
       ],
-      "producer_input_conditions": "Original script, preset photo and CTA, supplied original reel, Before URL reference; follow-up owner instruction says no additional assets exist."
+      "producer_input_conditions": "Original script, preset photo and CTA, supplied original reel, Before URL reference; follow-up owner instruction says no additional assets exist.",
+      "revision": "Visual explanations and visible text revised after owner feedback; same creator, artwork, practice and CTA retained."
     },
     {
       "case": "coloring",
@@ -57,7 +58,7 @@
       "after_url": "coloring/",
       "recording_script": "coloring-recording.md",
       "published_files": {
-        "index.html": "24aca735ee607ca07039861c672519116ae1c2c365173860bf4af31361d1033b",
+        "index.html": "b11e4ba9c99617a8d7864fcc9dba72dca131f2b92e8bc12cc9b6470b6c86d5ec",
         "assets/app.js": "e2f06b9329a34974bb82ad64e66f05f45ebaa92ac0487af8dcb3d43befdabc35",
         "assets/banner-square.png": "f64857e47090b296e1d577662044c2ff5cbeae3ed7f2a489b999687ff7340e7b",
         "assets/bookmark-master.png": "379ab51e8156878d555deea727161ef50dd581b961a372f139ffa829db37ac10",
@@ -65,9 +66,9 @@
         "assets/creator-inspect.png": "1f56500b50d7acf8b4f8ee1485e3382950870b70c35e63e526a49c658536deb8",
         "assets/creator-select.png": "e10b6071bb30b4333661c3a9dd2a053ba1fab333a48a012d59d2b0e7b6cccb28",
         "assets/cta-line.png": "a3dd8884c55ed6f1619cad4c4d89f3696a82e4ad416bccb23c714ad1a3a7bcc8",
-        "assets/styles.css": "906c78e2ea703c0b1b68c9cd74d7f0a0909fb5068572807a9209bef7329116d5",
+        "assets/styles.css": "e7036804360cea5a5796e29f5b81695e7f9d000dad0a87c78ec8d7c479003f5b",
         "downloads/english-listing.txt": "b7e40e32b95fcff689b94f24936255123189dfe85dd1645646f6f3581333aa75",
-        "downloads/isocchi-coloring-kit.zip": "fc232cb830b5de6f803fb757258a2488ae5a582541ded54c309a716363880ae0",
+        "downloads/isocchi-coloring-kit.zip": "00bb5432bc9d978c8e890729debc5b6079f5a0c9d9c549dd754aaaea6ac68541",
         "downloads/japan-bookmarks-A4.pdf": "34e03440c9dc546e40d7c73188660d8fc2552efa8a0a1d0971a7c5fcc58ee257",
         "downloads/japan-bookmarks-Letter.pdf": "601e990a0aaaa877426fc20f760a2c0126b31bd00fe9e47fd1d94e64050d8a2a",
         "downloads/p-fix.txt": "10388634806678007acb5a1550dc1c9a16f7d98c1f30ae95abfd706af98073c4",
@@ -78,11 +79,15 @@
         "downloads/p-schedule.txt": "296791d70cc0c224e45e15b485405145fa9a8ae05c69bed05f6a237b3919198d",
         "downloads/printing-guide.txt": "77d128d9d9caf40a608cd8d7ab2620caf5c848287b5656a81aa3a7a087a2012b"
       },
-      "publisher_content_edits": 0,
+      "publisher_content_edits": 1,
       "material_status": [
         "同じ新作4柄をChatGPTで生成・PDF作成した画面、本人のEtsy下書き編集画面、夜間自動実行の実設定・実行結果画面は未収録。制作した線画・印刷PDF・英語作例と説明図は区別する。"
       ],
-      "producer_input_conditions": "Original script, preset photo and CTA, supplied original reel, Before URL reference; follow-up owner instruction says no additional assets exist."
+      "producer_input_conditions": "Original script, preset photo and CTA, supplied original reel, Before URL reference; follow-up owner instruction says no additional assets exist.",
+      "revision": "Visual explanations and visible text revised after owner feedback; same creator, artwork, practice and CTA retained."
     }
-  ]
+  ],
+  "feedback_revision": true,
+  "source_frozen_comparison": "../archive-isocchi-pre-visual-20261108/evidence.json",
+  "source_frozen_skill_zip_sha256": "fd06a72f5556df5b348ceaf64fa231565be2929427172cb89ab265eb25de40a2"
 }

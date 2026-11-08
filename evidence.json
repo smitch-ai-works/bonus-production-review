@@ -1,5 +1,5 @@
 {
-  "state": "Current comparison: fresh independent Isocchi productions. Previous sample metadata is retained for history.",
+  "state": "Owner feedback revision of the frozen outputs: visual explanations, less repeated prose, video below cover. Not a new cold run.",
   "script": "inputs/script.txt",
   "preset_assets": [
     "creator photo",
@@ -10,7 +10,7 @@
     "production_requests": 1,
     "initial_skill_sha256": "6e01ed05f99d2ebc5b47110a693962089b696ea7ad70cfc761fd89ca385f2d75"
   },
-  "current_skill_zip_sha256": "fd06a72f5556df5b348ceaf64fa231565be2929427172cb89ab265eb25de40a2",
+  "current_skill_zip_sha256": "26a82fa2673ec86c36ac6aaf676509f9bede37fa4471a04489a6b6593b28e1b1",
   "current_sample_files": {
     "index.html": "e27e298ae6154f11e94d776a76302622a47928e84166494c50e4c0d9000a6995",
     "はじめに.txt": "e5c99981b384c3c6606b22470aa28341468feb267a22ae91e33a48c1470fb7e1",

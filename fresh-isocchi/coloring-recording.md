@@ -139,6 +139,9 @@
 
 ## 動画受領後の組込み
 
-対象はindex.html最上部の`section#explainer.video-slot`。同じ場所を置換し、動画待ち案内を外す。H.264/AACのMP4、1920×1080を基本に受領。利用者が指定する共有URLなら埋込み可否と閲覧権限を確認する。
+対象はindex.htmlのサムネイル直下の`section#explainer.video-slot`。同じ場所を置換し、動画待ち案内を外す。H.264/AACのMP4、1920×1080を基本に受領。利用者が指定する共有URLなら埋込み可否と閲覧権限を確認する。
 
 ファイルの場合は`assets/explainer.mp4`へ置き、同じ位置に`<video controls playsinline preload="metadata" src="assets/explainer.mp4"></video>`を入れる。16:9・スマホ/PC・音・再生・シーク・終端を実物で確認する。ローカル保存版ZIPのguide.htmlも同じ変更にそろえてから再梱包する。動画を受領していない現在は実施しない。
+
+
+今回の表示改訂：表紙の次が「解説動画」枠。本文は図・実物・短い結論を優先。操作の全文は開閉して見せ、図の説明を再度長く読み上げず、対応する操作を実演する。
