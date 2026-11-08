@@ -2,9 +2,11 @@
   "current_comparison": "https://smitch-ai-works.github.io/bonus-production-after-demo/evidence.json",
   "current_demo_url": "https://smitch-ai-works.github.io/bonus-production-after-demo/",
   "latest_skill_url": "downloads/bonus-production-latest.zip",
-  "latest_skill_zip_sha256": "6276be4a33f6def6091902d0a8ae44d1485f8667282871d186537a50d68a44c7",
+  "latest_skill_zip_sha256": "b54c5e73645eb98b477f45cd30bf47c49b380e9cd0bed0701a668054897a884b",
   "all_five_requirements_complete": false,
   "additional_cross_browser_qa": true,
-  "publisher_reader_edits": false,
-  "previous_comparison": "image-isocchi/evidence.json"
+  "publisher_reader_edits": true,
+  "previous_comparison": "image-isocchi/evidence.json",
+  "current_display_includes_manual_restore_and_video_layout": true,
+  "latest_skill_fresh_generation_test": false
 }
