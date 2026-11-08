@@ -1,0 +1,86 @@
+{
+  "state": "icon feedback revision; overall quality incomplete",
+  "reference_bonus_supplied": false,
+  "inputs": [
+    "original transcript",
+    "creator photo",
+    "display name",
+    "CTA",
+    "video state"
+  ],
+  "skill_zip_sha256": "3678144f39fc067da9959218db581df53223ebd98c877eeeab1841b6655a8afc",
+  "cases": [
+    {
+      "case": "integration",
+      "reader_url": "integration/",
+      "reader_files": {
+        "index.html": "d8fa026ead21ae1c748eb4d2c3fe68050a0f9a752aa9680b0f23033f31e97fc1",
+        "assets/banner-square.png": "67eb6e7b825a93b1457d8db0b0437d27342328ce6d1a59e10d17ea4a985d1d05",
+        "assets/cta-audio.png": "f3bae399c34a47c2efa7f3bc11f259f3181c38c372890852ec890ec56f60551b",
+        "assets/reader.css": "e35a26c35964ecc4f2c9afa1c84b1957552e6edfc36544405288b09f60529306",
+        "assets/role-flow.png": "9349c7baed03135366ef49db437082cf11a16a3c83b41a5715f6b9bb1e4574b9",
+        "assets/role-scene.png": "ed77e7c3dc310386d1700ac7964ebe491a5769d45cc955334a4f12a8d58c446e",
+        "assets/sample-browser.png": "c4e54e1b61577da50b92b14101f1c7d0e8f06324cda9e13e0cfb1c10bbb00a9e",
+        "assets/sample-checked.png": "c1c545a5d73ad8909e77a4715a7dddd31bb7c0510deca9f8eabd2695ec2c9180",
+        "downloads/ai-combi-practice.zip": "daed2ada312f7c0fb567c8bdaf582c2867fb9aa19f42da7bdb76fa0f91f59df4",
+        "downloads/ai-combi-practice/AGENTS.md": "0413da4dedd371c8937ef028352d00f7120b6a8f2673f8b5b4e05764032fae77",
+        "downloads/ai-combi-practice/brief.md": "b934b33886cd7fa9b4681d718120ea786baabb2e0415e628ed0668e63d5e9437",
+        "downloads/ai-combi-practice/CLAUDE.md": "e53674a1c9e06dba6ab4e624c152cca9b4a33b01579462000aab3cd4750ec902",
+        "downloads/ai-combi-practice/実制作の指示文.txt": "ad68392ca0657c4aefb00b9c0442f31c9358a5c95ccdd61a3a967d6e4d0a8e17",
+        "downloads/ai-combi-practice/最初に読む.txt": "a72afcc462dc66f47063b7a7c34093386260ee391070fe6a0ec4d3f76f0e0602",
+        "downloads/完成見本/brief.md": "b934b33886cd7fa9b4681d718120ea786baabb2e0415e628ed0668e63d5e9437",
+        "downloads/完成見本/sns-check.html": "eb7a742f124b3fd5f3c6c59fb8e806ab1a6d1a32d0a897a42782a543d008a387",
+        "assets/ai-icons/claude-code.png": "d4e5e8e9990ac52f147a74ae80b9e69cdc612264b84a76cdb5c43b53b73a1707",
+        "assets/ai-icons/codex.png": "2ce1c57dd3b312417106a487815ab1235bddce17e1fa9b32a2f048bd71ee25d3"
+      },
+      "state": "saved preview; final verification incomplete",
+      "publisher_reader_edits": "AI icon labels and role-map marks only"
+    },
+    {
+      "case": "coloring",
+      "reader_url": "coloring/",
+      "reader_files": {
+        "app.js": "d865fdf5d8a8ed716344b29ab36ace8f70525a358e1e7ed120762eda7bface93",
+        "index.html": "5343cfed8acd2be00664b63306a6c3a6ca756280d21927b566a547d190f31787",
+        "style.css": "c31ffd34550b93eb8e1045eebf9b00a5c8028e93a0690f2ae907ef6fe7b10cc9",
+        "assets/banner.png": "091332ff4343c909d9f9fabf8027842af38e8a5077b080a3a55a16d937774f61",
+        "assets/bookmark-master.png": "aa644657b734863ce9387b25bce433d91fd5b1b5c06663512c278ce4b308c4e2",
+        "assets/chatgpt-listing-screen.jpg": "79f860eeea2ca5b26ed221efb2f86a2e4e5777412d1287c70e860b88b2a6afc9",
+        "assets/creator-checks-print.png": "0fc143382aba72ec27f77f3ad85c1e86d203c509efe274aaa1e9fcc5c7f2b3f2",
+        "assets/cta.png": "a3ada331e4b93d60ee00fb0aff7d48c99015ad95c791fecbf9e994a16e258915",
+        "assets/etsy-map.png": "480e314311cf85690e7360797489e46bddfbc49446888c879d7b351e520e5883",
+        "assets/generate-and-check.png": "f21f85b0be2e2660510a9087c019bd2332ca328eb75cd5a32b19a2f347ddd8be",
+        "assets/image-to-listing.png": "5f6c877896a2a62f4abd55f971dae8afa7fb50dab0570ae316b013aa4c45f884",
+        "downloads/etsy-listing-en.txt": "a93e19bf1b75a9ef52a1645844fe1fe64a6e82771aa78114150ebe02ecbb3f7d",
+        "downloads/old-town-bookmark.png": "aa644657b734863ce9387b25bce433d91fd5b1b5c06663512c278ce4b308c4e2",
+        "downloads/prompts.txt": "24a1f990f24de134397be62a44b231bc15c6d5dc4def30dab363865ace48d15c",
+        "downloads/README.txt": "91bf74d0846d6c6b1548bb1259bcb621d064e436697b91e782c5340236ecedda",
+        "assets/ai-icons/chatgpt.svg": "2021463df9935dda89cef407aa564bced9d83b4f9b6ae8945d649e56676624f0"
+      },
+      "state": "saved preview; final verification incomplete",
+      "publisher_reader_edits": "AI icon labels and role-map marks only"
+    }
+  ],
+  "known_missing_files": [
+    "coloring/downloads/coloring-kit.zip"
+  ],
+  "existing_public_files_unchanged": 700,
+  "local_references_checked": 35,
+  "source_preview_url": "../reference-free-preview/",
+  "publisher_reader_edits": "Official product icon labels and role-map marks only; reader text and copy prompts unchanged.",
+  "updated_skill_zip_sha256": "53c9babb98523fcd29866f034d9ed533419d867744b96a16dc7e626f3530f75d",
+  "updated_skill_full_regeneration_verified": false,
+  "icon_patch": {
+    "integration": {
+      "inline_icon_labels": 11,
+      "copy_blocks_unchanged": 3,
+      "reader_text_unchanged": true
+    },
+    "coloring": {
+      "inline_icon_labels": 2,
+      "copy_blocks_unchanged": 7,
+      "reader_text_unchanged": true,
+      "diagram_marks": 2
+    }
+  }
+}

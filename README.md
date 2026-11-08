@@ -10,4 +10,6 @@
 
 ## 更新版スキル
 
-[更新版ZIP](https://smitch-ai-works.github.io/bonus-production-review/downloads/bonus-production-latest.zip)には、参考の事前確認・不足ヒアリング・工程ごとの端末選定とコピペ実演・5項目の状態判定・文章と手順のつながり確認を反映しています。現デモは制作当時の版と出力を保持しており、この更新版からの再制作は未実施です。
+[更新版ZIP](https://smitch-ai-works.github.io/bonus-production-review/downloads/bonus-production-latest.zip)には、公式アイコンと製品名によるAI識別、参考動画と台本の照合、元の作例の継承と導入のつながりを反映しています。
+
+[アイコン修正版プレビュー](https://smitch-ai-works.github.io/bonus-production-review/icon-updated-preview/)は、前回の保存出力へ公開担当がAI識別を加えたものです。本文とコピー指示文を保持しており、この更新スキルから一式を再生成した出力ではありません。品質・実演・配布ZIPの未完了箇所も残っています。過去のデモと制作当時ZIPは保持しています。

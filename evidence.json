@@ -3,6 +3,7 @@
   "state": "Two fresh independent productions from raw transcripts and creator portraits, using the same unchanged fixed image-diagram skill. Name and CTA preset; original Before references allowed. Producer self-review included. No previous generated materials supplied, no publisher reader edits.",
   "current_distribution_skill_sha256": "c840043bdab4f41b528cb85d94ab1e9e704a8f91c0af8feceeca2d508e495e1d",
   "latest_skill_url": "downloads/bonus-production-latest.zip",
-  "latest_skill_zip_sha256": "7d5f9f92fa778948a6ab6c9c8f0619be641d251e8565cdb8d013d7f791c81547",
-  "latest_skill_regeneration_verified": false
+  "latest_skill_zip_sha256": "53c9babb98523fcd29866f034d9ed533419d867744b96a16dc7e626f3530f75d",
+  "latest_skill_regeneration_verified": false,
+  "latest_icon_feedback_preview": "icon-updated-preview/"
 }

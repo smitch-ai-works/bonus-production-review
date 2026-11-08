@@ -1,0 +1,26 @@
+{
+  "claude-code.png": {
+    "source_url": "https://code.claude.com/docs/mintlify-assets/_mintlify/favicons/claude-code/pLsy-mRpNksna2sx/_generated/favicon/android-chrome-192x192.png",
+    "sha256": "d4e5e8e9990ac52f147a74ae80b9e69cdc612264b84a76cdb5c43b53b73a1707",
+    "bytes": 18001,
+    "dimensions": [
+      192,
+      192
+    ]
+  },
+  "codex.png": {
+    "source_url": "https://openai.gallerycdn.vsassets.io/extensions/openai/chatgpt/26.51021.22027/1792788319200/Microsoft.VisualStudio.Services.Icons.Default",
+    "official_page": "https://marketplace.visualstudio.com/items?itemName=openai.chatgpt",
+    "sha256": "2ce1c57dd3b312417106a487815ab1235bddce17e1fa9b32a2f048bd71ee25d3",
+    "dimensions": [
+      385,
+      385
+    ]
+  },
+  "chatgpt.svg": {
+    "source_url": "https://chatgpt.com/cdn/assets/favicon.6a33781f61.svg",
+    "sha256": "2021463df9935dda89cef407aa564bced9d83b4f9b6ae8945d649e56676624f0",
+    "bytes": 4381
+  },
+  "usage": "Use the corresponding official product mark together with its product name; preserve the source bytes and proportions."
+}
