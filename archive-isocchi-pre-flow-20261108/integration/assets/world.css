@@ -1,0 +1,50 @@
+/* The cover, diagrams, author scenes and CTA share one material palette. */
+body.isocchi-world{--gold:#ddbd72;--gold-light:#f9e6ac;--ink:#f3efdd;--muted:#c4c9be;--base:#081914;--panel:#10261e;--panel-hi:#19372a;--accent:#922c36;--edge:#8c7948;background:radial-gradient(ellipse at 20% 0,#334323 0,transparent 48%),#050b08;color:var(--ink)}
+body.world-tech{--base:#07151c;--panel:#0b2630;--panel-hi:#103942;--accent:#c17824;--muted:#bdd0ce;background:radial-gradient(ellipse at 15% 0,#0a363a 0,transparent 50%),#040b11}
+.isocchi-world main,.isocchi-world .bonus-reader{background:linear-gradient(135deg,#ffffff03,transparent 42%),var(--base);color:var(--ink);box-shadow:0 0 0 1px #d4b46933,0 16px 70px #0008}
+.isocchi-world .cover{border-bottom:2px solid var(--gold);height:auto}
+.isocchi-world .bonus-block,.isocchi-world .block{border-color:#b2995547;background:linear-gradient(125deg,#b6993e06,transparent 60%)}
+.isocchi-world h2{color:var(--gold-light);padding-bottom:10px;border-bottom:1px solid #c7a65970;text-wrap:pretty}
+.world-japan h2,.world-japan .scene strong{font-family:'Yu Mincho','Hiragino Mincho ProN',serif;font-weight:800}
+.isocchi-world h3{color:var(--ink)}
+.isocchi-world a{color:#e8ce88;text-underline-offset:3px}
+.isocchi-world a:hover{color:#fff0c1}
+.isocchi-world .fine,.isocchi-world .small,.isocchi-world .sources,.isocchi-world .photo-note,.isocchi-world .footer,.isocchi-world .figure-caption,.isocchi-world .tag,.isocchi-world .legend,.isocchi-world .source-links{color:var(--muted)}
+.isocchi-world .step,.isocchi-world .stepnum{background:linear-gradient(135deg,#fff0bb,#c28c30 68%,#f5d98c);color:#281c0c;box-shadow:0 0 0 1px #fbe9ab80,inset 0 1px #fff9;margin-right:9px}
+.isocchi-world .diagram{color:var(--ink);background:linear-gradient(140deg,#f9dc8610,transparent 55%),var(--panel);border:1px solid #bd9b574f;box-shadow:inset 0 1px #ecd29124;border-radius:6px}
+.isocchi-world .diagram-title{color:var(--gold-light)}
+.isocchi-world .flow .node,.isocchi-world .flow>div,.isocchi-world .file,.isocchi-world .nightflow>div,.isocchi-world .mapline>span{background:linear-gradient(145deg,#fff5,transparent 3%),var(--panel-hi);border-color:#b3965657;border-top-color:var(--gold);color:var(--ink);box-shadow:none}
+.isocchi-world .flow .node.orange,.isocchi-world .flow>div:nth-of-type(2){border-top-color:#d98b55}
+.isocchi-world .flow .node b,.isocchi-world .file b,.isocchi-world .nightflow strong,.isocchi-world .mapline>strong{color:var(--gold-light)}
+.isocchi-world .flow small,.isocchi-world .file small,.isocchi-world .compare small{color:var(--muted)}
+.isocchi-world .folder{border-left-color:var(--gold)}
+.isocchi-world .flow .arrow,.isocchi-world .flow>span,.isocchi-world .arrow,.isocchi-world .bonus-arrow,.isocchi-world .nightflow>b,.isocchi-world .mapline>b,.isocchi-world .loop{color:var(--gold-light)}
+.isocchi-world .scene,.isocchi-world .bonus-opinion{background:linear-gradient(115deg,#ad86271a,transparent 75%),var(--panel);border:1px solid #cdb16a85;border-radius:5px;box-shadow:0 8px 25px #0004,inset 0 1px #f9e1a630}
+.isocchi-world .scene img,.isocchi-world .bonus-opinion img{border-bottom:1px solid #d6b66b8c}
+.isocchi-world .scene figcaption,.isocchi-world .bonus-opinion figcaption{background:linear-gradient(110deg,#c1983d0c,transparent)}
+.isocchi-world .scene strong,.isocchi-world .bonus-opinion strong{color:var(--gold-light)}
+.isocchi-world .brief,.isocchi-world .facts,.isocchi-world .compare,.isocchi-world .quiet{background:var(--panel-hi);border-color:#b79d5d70;color:var(--ink)}
+.isocchi-world .brief{border-left-color:var(--gold)}
+.isocchi-world .brief s,.isocchi-world .compare del{color:#f2b2ab}
+.isocchi-world .compare strong{color:#c8efc5}
+.isocchi-world .labels div{border-color:#b6a06650}
+.isocchi-world .labels b{color:var(--gold-light)}
+.isocchi-world .post-preview,.isocchi-world .english{background:#f7efda;color:#27291f;border-color:#c5a55e;box-shadow:0 6px 20px #0003}
+.isocchi-world .post-preview h3,.isocchi-world .post-preview .tag,.isocchi-world .english b{color:#6c3c1c}
+.isocchi-world .bookmark,.isocchi-world .paper,.isocchi-world .zoom{border-color:#d5ba76;box-shadow:0 7px 20px #0005}
+.isocchi-world .button,.isocchi-world .bonus-button,.isocchi-world .copy,.isocchi-world .copybar button,.isocchi-world .cta .button{color:#20180b;background:linear-gradient(110deg,#fae4a4,#d6ac51 53%,#f1d58a);border:1px solid #ffedbd;box-shadow:inset 0 1px #fff9,0 4px 15px #0003}
+.isocchi-world details{border-color:#b498576b;background:var(--panel)}
+.isocchi-world summary,.isocchi-world .bonus-reader details summary{background:linear-gradient(120deg,#d0a54c16,transparent),var(--panel-hi);color:var(--ink);border-left:3px solid var(--gold)}
+.isocchi-world .detail,.isocchi-world .bonus-detail-body{background:#f7efdc;color:#252b27}
+.isocchi-world .detail a,.isocchi-world .bonus-detail-body a{color:#6b4012}
+.isocchi-world .detail h3,.isocchi-world .bonus-detail-body h3{color:#222e2a}
+.isocchi-world .detail .copy-status,.isocchi-world .bonus-detail-body .copy-status{color:#286038}
+.isocchi-world pre{color:#252b27}
+.isocchi-world .kit,.isocchi-world .bonus-final-cta,.isocchi-world .cta{background:radial-gradient(ellipse at top left,#9a75351f,transparent 75%),var(--panel);border-top:1px solid var(--gold)}
+.world-japan .cta{background:radial-gradient(ellipse at top left,#9c293c26,transparent 72%),#111f16}
+.world-tech .bonus-final-cta{background:radial-gradient(ellipse at top left,#007a7b25,transparent 72%),#0a1920}
+.isocchi-world .cta-image,.isocchi-world .cta-banner img{border:1px solid var(--gold);box-shadow:0 9px 30px #0005;border-radius:4px}
+.isocchi-world .done-list div{background:var(--panel-hi);border-left-color:var(--gold)}
+.isocchi-world .kit-contents code{color:var(--gold-light)}
+.isocchi-world .separator,.isocchi-world .end{border-color:#b4985750}
+.isocchi-world :focus-visible{outline-color:var(--gold-light)}

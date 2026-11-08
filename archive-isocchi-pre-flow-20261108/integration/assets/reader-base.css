@@ -1,0 +1,35 @@
+/* Read-through layout starting point. Adapt the palette and components to the subject. */
+:root{--bonus-ink:#243039;--bonus-accent:#183441;--bonus-paper:#fffefb;--bonus-tint:#f3f5f1;--bonus-line:#d9ded9;--bonus-point:#fff8e9;--bonus-rule:#b29459}
+.bonus-reader,.bonus-reader *{box-sizing:border-box}
+.bonus-reader{max-width:640px;margin:auto;background:var(--bonus-paper);color:var(--bonus-ink);font:16px/1.8 "Meiryo","Yu Gothic",sans-serif}
+.bonus-reader h1,.bonus-reader h2,.bonus-reader h3,.bonus-reader p,.bonus-reader figure{margin:0}
+.bonus-reader img{display:block;max-width:100%;height:auto}
+.bonus-reader h1{font-size:28px;line-height:1.5}
+.bonus-reader h2{font-size:24px;line-height:1.5}
+.bonus-reader h3{font-size:20px;line-height:1.5}
+.bonus-block{padding:28px;border-bottom:1px solid var(--bonus-line)}
+.bonus-block>p{margin-top:12px}
+.bonus-point{margin-top:20px;background:var(--bonus-point);border:1px solid var(--bonus-rule);border-radius:7px;overflow:hidden}
+.bonus-point-head{padding:12px 16px 6px}
+.bonus-point-label{display:block;color:#796039;font-size:12px;font-weight:700;line-height:1.5}
+.bonus-point-head h2,.bonus-point-head h3{font-size:20px;line-height:1.5;margin-top:5px}
+.bonus-point-body{padding:0 16px 14px}
+.bonus-point-body p{font-size:15px;line-height:1.8}
+.bonus-opinion{margin-top:16px;border-radius:7px;overflow:hidden;background:var(--bonus-point)}
+.bonus-opinion>img{width:100%;height:auto;float:none}
+.bonus-opinion>figcaption{padding:12px 16px 16px}
+.bonus-opinion>figcaption strong{display:block;font-size:19px;line-height:1.5}
+.bonus-opinion>figcaption p{margin-top:7px;font-size:15px;line-height:1.75}
+.bonus-diagram{margin-top:16px;padding:16px;background:var(--bonus-tint);border:1px solid var(--bonus-line);border-radius:7px}
+.bonus-diagram-label{font-size:13px;font-weight:700;line-height:1.6}
+.bonus-arrow{text-align:center;font-size:24px;line-height:1;padding:8px;color:var(--bonus-accent)}
+.bonus-reader details{margin-top:16px;border:1px solid var(--bonus-line);border-radius:6px;overflow:hidden}
+.bonus-reader summary{padding:14px 16px;font-size:14px;font-weight:700;line-height:1.6;cursor:pointer;background:var(--bonus-accent);color:#fff}
+.bonus-detail-body{padding:16px}
+.bonus-reader pre{font:13px/1.9 "Meiryo","Yu Gothic",sans-serif;white-space:pre-wrap;overflow-wrap:anywhere;max-height:400px;overflow:auto}
+.bonus-reader a,.bonus-reader button,.bonus-reader summary{touch-action:manipulation}
+.bonus-reader :focus-visible{outline:3px solid var(--bonus-rule);outline-offset:4px}
+.bonus-button{display:block;padding:14px 16px;border:0;border-radius:6px;background:var(--bonus-accent);color:#fff;text-align:center;text-decoration:none;font:700 15px/1.6 "Meiryo","Yu Gothic",sans-serif;cursor:pointer}
+.bonus-final-cta{padding:28px;border-top:1px solid var(--bonus-line)}
+.bonus-final-cta p{margin:12px 0 18px;font-size:15px}
+@media(max-width:480px){.bonus-reader{font-size:15px}.bonus-block,.bonus-final-cta{padding:24px 21px}.bonus-reader h1{font-size:25px}.bonus-reader h2{font-size:22px}.bonus-point-head h2,.bonus-point-head h3{font-size:20px}.bonus-point-body p{font-size:14px}}

@@ -1,0 +1,159 @@
+{
+  "state": "Feedback revision: source-photo-anchored author images and cover-to-body-to-CTA visual continuity. Not untouched initial production.",
+  "creator": "いそっち",
+  "skill_zip_sha256": "33e6ee15d79cea62d75ac8f0c1d17bd89b82ed784f564a6ec6a7d085eae3002c",
+  "before_mode": "User-provided live Before pages linked unchanged; original pages are not edited or replaced",
+  "inputs": [
+    "各Googleドキュメントの台本部分",
+    "事前設定した本人参照画像（Before表紙から継承）",
+    "事前設定した各特典の案内先・提供内容"
+  ],
+  "body_source": "The Before body, commands and diagrams were not passed to the producers",
+  "explainer_video": "本人の撮影待ち。現時点は撮影用全文台本と上部掲載準備まで。",
+  "cases": [
+    {
+      "case": "integration",
+      "label": "ChatGPT × Claude Code連携",
+      "before_url": "https://majestic-heliotrope-375267.netlify.app/",
+      "source_video_url": "https://www.instagram.com/reel/DebwoafptiX/",
+      "script_url": "https://docs.google.com/document/d/1HjtlFcc7crYtOSOCjgsKUu9vfQ3RgXC2iSSmil4XVuI/edit?tab=t.0",
+      "before_preview": "previews/integration-before.jpg",
+      "after_cover": "integration/assets/cover.png?v=identity3",
+      "after_url": "integration/",
+      "recording_script": "integration-recording.md",
+      "published_files": {
+        "index.html": "627792dfce25b10d922d6afb136b6b9bee3b0ef29a57ce0b0e19b77d8646322e",
+        "assets/audio-cta.png": "a0b48d142295c3d0cd76c97fe3ad2aaf4075dae2197bdd2a27f72832b57acb8c",
+        "assets/cover.png": "fb422d89c9095d5d5cd1f216790aaadace0595445b0598f18d9feb6bc11d56e2",
+        "assets/design-scene.png": "342756d3ab6da996cf86fdcfdca1ea7b97a86676ae030318907992859893afc7",
+        "assets/reader-base.css": "d64dfe7b7df94d42635b831e5c8dcb4a487253408b6bb17d33bc6669ac6d0347",
+        "assets/review-scene.png": "53779abea3e09001158c39ca38a82f1a0184993bee7f6d139941d7204b3aa1f3",
+        "assets/site.css": "b504a89aaa7df7b7484b903f19da7fb5282317542660abbb952f2ef908a59664",
+        "assets/world.css": "951ccbfe4d80462960f7d1b3cde9a47e0395acbf0ad3cf3546653cde26fd4539",
+        "downloads/isocchi-ai-team-kit.zip": "636c0b1e115457544574056c9d626dcccd8d3a414d9016745bf60e11191fc38f"
+      },
+      "publisher_content_edits": "Author images, CTA image and visual styling revised after user feedback; text and practical examples preserved",
+      "initial_production_skill_zip_sha256": "ca6ea3218f2d3fc5e2073717176b5645c43723e0bfaa50cfd73111ca0c1bfc88",
+      "initial_published_files": {
+        "assets/audio-cta.png": "6f571832c3ed700c350c50fe98fff5b04c1e456f67b3b35ff002f46df00838b3",
+        "assets/cover.png": "0b5a55dbde3ab55fe559513b537e0dd6a8819c069a35b9fc8cd2846873add644",
+        "assets/design-scene.png": "d542f5a4fc5b895abd94781d225897e66d52067b210c55c71bde2fdbea3f3662",
+        "assets/reader-base.css": "d64dfe7b7df94d42635b831e5c8dcb4a487253408b6bb17d33bc6669ac6d0347",
+        "assets/review-scene.png": "15c49ba9cd94870c3c7cf36eb5a71a492d77710ae0e7ae2d05af264712fe66b9",
+        "assets/site.css": "b504a89aaa7df7b7484b903f19da7fb5282317542660abbb952f2ef908a59664",
+        "downloads/isocchi-ai-team-kit.zip": "96c6f0b349e78e70927dd50408fcc6bd407a998a1f52152b3137ad2638e0993d",
+        "index.html": "7bd258444e2926a516b32d61c9fd055df8f4332c09fc2e2b1de8f148b0579c06"
+      },
+      "thumbnail_feedback_revision": {
+        "changed_files": [
+          "assets/cover.png",
+          "downloads/isocchi-ai-team-kit.zip"
+        ],
+        "body_text_and_diagrams_changed": false,
+        "person_identity_and_title_preserved": true,
+        "generator": "built-in image_gen",
+        "generated_banner_sha256": "02e41994955991d90c1071474118105c8e65c3fddcc27fa9d7786d87dd2707da"
+      },
+      "identity_world_feedback_revision": {
+        "original_person_reference_sha256": "da706033d46dcc99e0485ed4d7d28ad185331c4b52b3b840ec187c7a2bcaf7f0",
+        "person_images": [
+          "assets/cover.png",
+          "assets/design-scene.png",
+          "assets/review-scene.png",
+          "assets/audio-cta.png"
+        ],
+        "original_photo_used_directly_for_each_image": true,
+        "generated_faces_not_used_as_identity_source": true,
+        "visible_body_words_unchanged": true,
+        "saved_guide_and_images_updated": true,
+        "pixel_identity_not_claimed": true
+      }
+    },
+    {
+      "case": "coloring",
+      "label": "AI塗り絵しおり",
+      "before_url": "https://sprightly-narwhal-ad6a46.netlify.app/",
+      "source_video_url": "https://www.instagram.com/reel/De1ggBRJAOg/",
+      "script_url": "https://docs.google.com/document/d/1WYi-aeVUcIjdZ_uo89BjCnHYDCMbqwRyeHbzHEnCb88/edit?tab=t.0",
+      "before_preview": "previews/coloring-before.jpg",
+      "after_cover": "coloring/assets/cover.png?v=identity3",
+      "after_url": "coloring/",
+      "recording_script": "coloring-recording.md",
+      "published_files": {
+        "index.html": "d2ef29ebd8e690d15fc9f724b269f35d0b620f8d9107b3ef4d9877526af5dbe2",
+        "assets/bookmark-art.png": "a158bff7a0aa33d02263be201a21746ec74ab0456cc42ed85202f5e41bad23da",
+        "assets/cover.png": "9d4068ffa5bf663d5c7408a8f56ef256fce34f32598c386f461a1fc2b5cb136c",
+        "assets/line-banner.png": "7ac4ef30b8063a02bea51f1fddc24105052f6d86fa891b5102f96828e38ffa36",
+        "assets/print-sheet.png": "fbe9a0f04a4ca6f9ca886d8573f639d836a56f0287ea5ce7b347729b7e788abe",
+        "assets/scene-night.png": "7002f28abc59e058d9fbac8ab259b9c0f6bb9a9b68fc97987c0cda5cc822bb68",
+        "assets/scene-review.png": "eec704320f1bdd7d75121e468625cbcd842456306b511977b14b9c26baa9ee40",
+        "assets/world.css": "951ccbfe4d80462960f7d1b3cde9a47e0395acbf0ad3cf3546653cde26fd4539",
+        "downloads/01-image-prompt.txt": "0dc50469d9efae4e18f5b13fd7901c0b409993655aeef0be7d92e93c11ab0b09",
+        "downloads/02-fix-prompt.txt": "2733da33c16b4b5ef2eb09d8a7d96c625154b4af9ad58a21879a6b82f70e19d9",
+        "downloads/03-listing-prompt.txt": "254c8e51c7077c92307db0a50819ed5d747c53514989e1ae1d5d1a9e4cc32bf8",
+        "downloads/04-night-task-prompt.txt": "fd9541599c416e22c4b964c6908eb4610a4a0d1abf2850efc9eaeb3dea8e4a08",
+        "downloads/05-night-manual-test.txt": "3b558296b6048dfc54012f65c4bfa9e9b4201faaaac98dcba938c56c54ddcdaa",
+        "downloads/English_Listing.txt": "c9ebf86bb535bfff7b3529055b11ffd0c5b3180b765fbb8896b5e0703295cbd3",
+        "downloads/isocchi-coloring-kit.zip": "7c8ed6ce09eb00602698de7c4186a295b26fa0cb8cfa53bfd0fc383a345551e5",
+        "downloads/Japanese_Riverside_A4.pdf": "1324a3a347a916a1e5fbca24e4b6c30a7d721e4d522d778639dd94f47f651af3",
+        "downloads/Japanese_Riverside_Letter.pdf": "5c260539ba6c621cf8c75d315728e32396cc452264aa96cd20b74e565ccac531",
+        "downloads/Printing_Instructions.txt": "6d30dc5eb08f2278263645755eb909b899b6a1da25c91cfaec21ceef1af7af69"
+      },
+      "publisher_content_edits": "Author images, CTA image and visual styling revised after user feedback; text and practical examples preserved",
+      "initial_production_skill_zip_sha256": "ca6ea3218f2d3fc5e2073717176b5645c43723e0bfaa50cfd73111ca0c1bfc88",
+      "initial_published_files": {
+        "assets/bookmark-art.png": "a158bff7a0aa33d02263be201a21746ec74ab0456cc42ed85202f5e41bad23da",
+        "assets/cover.png": "be1251bad004638f46ec251e20b68130257caeb277a5a5561fb30579f0d39035",
+        "assets/line-banner.png": "0a544e276c810f1694c14ab98686ab5b2203dcbaa51b651a9c29528b9d622cc4",
+        "assets/print-sheet.png": "fbe9a0f04a4ca6f9ca886d8573f639d836a56f0287ea5ce7b347729b7e788abe",
+        "assets/scene-night.png": "deddcc0f5ce8fb05f16301539d3e2983f8a28fe26b6540d325a83f42d7d94f11",
+        "assets/scene-review.png": "773d4267848a3cf5b2a76c7c16c146dee6f63d21ae406ebb8300ebb885df6a97",
+        "downloads/01-image-prompt.txt": "0dc50469d9efae4e18f5b13fd7901c0b409993655aeef0be7d92e93c11ab0b09",
+        "downloads/02-fix-prompt.txt": "2733da33c16b4b5ef2eb09d8a7d96c625154b4af9ad58a21879a6b82f70e19d9",
+        "downloads/03-listing-prompt.txt": "254c8e51c7077c92307db0a50819ed5d747c53514989e1ae1d5d1a9e4cc32bf8",
+        "downloads/04-night-task-prompt.txt": "fd9541599c416e22c4b964c6908eb4610a4a0d1abf2850efc9eaeb3dea8e4a08",
+        "downloads/05-night-manual-test.txt": "3b558296b6048dfc54012f65c4bfa9e9b4201faaaac98dcba938c56c54ddcdaa",
+        "downloads/English_Listing.txt": "c9ebf86bb535bfff7b3529055b11ffd0c5b3180b765fbb8896b5e0703295cbd3",
+        "downloads/isocchi-coloring-kit.zip": "50f2c469617ca4d688f512bc476a745228de165397c3a26ca52a9917cdf33d10",
+        "downloads/Japanese_Riverside_A4.pdf": "1324a3a347a916a1e5fbca24e4b6c30a7d721e4d522d778639dd94f47f651af3",
+        "downloads/Japanese_Riverside_Letter.pdf": "5c260539ba6c621cf8c75d315728e32396cc452264aa96cd20b74e565ccac531",
+        "downloads/Printing_Instructions.txt": "6d30dc5eb08f2278263645755eb909b899b6a1da25c91cfaec21ceef1af7af69",
+        "index.html": "6610cd5977de173a03882ed45a80991293a8cb5966f204a3a4510a7ac10dc844"
+      },
+      "thumbnail_feedback_revision": {
+        "changed_files": [
+          "assets/cover.png",
+          "downloads/isocchi-coloring-kit.zip"
+        ],
+        "body_text_and_diagrams_changed": false,
+        "person_identity_and_title_preserved": true,
+        "generator": "built-in image_gen",
+        "generated_banner_sha256": "7387386b0a6877a98e3c6932abe3ef0292184c927f06bffb0f4d988c2c7c572b"
+      },
+      "identity_world_feedback_revision": {
+        "original_person_reference_sha256": "971cd7572b4096c334335505d68ceee54b26a864b817c5a62b12347bc4174eb0",
+        "person_images": [
+          "assets/cover.png",
+          "assets/scene-review.png",
+          "assets/scene-night.png",
+          "assets/line-banner.png"
+        ],
+        "original_photo_used_directly_for_each_image": true,
+        "generated_faces_not_used_as_identity_source": true,
+        "visible_body_words_unchanged": true,
+        "saved_guide_and_images_updated": true,
+        "pixel_identity_not_claimed": true
+      }
+    }
+  ],
+  "initial_production_skill_zip_sha256": "ca6ea3218f2d3fc5e2073717176b5645c43723e0bfaa50cfd73111ca0c1bfc88",
+  "thumbnail_revision": "2026-11-08 feedback: more luxurious thumbnails; current downloadable skill contains the same luxury comparison criteria",
+  "identity_world_revision": "2026-11-08: all eight author images reference the original supplied photos directly. Body styling, CTA images and saved guides updated; practical text and examples preserved.",
+  "material_collection_rule_update": {
+    "date": "2026-11-08",
+    "change": "Prepare same-example materials and real mobile-width captures when possible; otherwise request exact materials and screen states. Pending materials remain incomplete.",
+    "demo_outputs_rebuilt": false,
+    "prior_skill_zip_sha256": "ef852f5d23319d789f483428eabfa636340411e94666e479566b30d1fc708a06",
+    "new_skill_zip_sha256": "33e6ee15d79cea62d75ac8f0c1d17bd89b82ed784f564a6ec6a7d085eae3002c"
+  }
+}
