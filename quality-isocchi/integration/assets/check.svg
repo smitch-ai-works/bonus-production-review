@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="230" viewBox="0 0 360 230" role="img"><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#062632"/><stop offset="1" stop-color="#06131d"/></linearGradient><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="none" stroke="#d4b466" stroke-width="1.8"/></marker></defs><rect x="1" y="1" width="358" height="228" rx="12" fill="url(#bg)" stroke="#b99953"/><g font-family="Meiryo,Yu Gothic,sans-serif" font-size="18" fill="#f7f4e9">
+<text x="180" y="33" text-anchor="middle" fill="#e8c878">CSVの合計から確かめる</text>
+<text x="90" y="76" text-anchor="middle" fill="#b8d4d3" font-size="16">保存</text><text x="270" y="76" text-anchor="middle" fill="#b8d4d3" font-size="16">リーチ</text>
+<text x="90" y="112" text-anchor="middle" font-size="30" font-weight="bold">245</text><text x="180" y="112" text-anchor="middle" font-size="28">÷</text><text x="270" y="112" text-anchor="middle" font-size="30" font-weight="bold">7,000</text>
+<path d="M48 136H312" stroke="#477373"/><text x="180" y="174" text-anchor="middle" font-size="18">×100 ＝ <tspan fill="#e8c878" font-size="32" font-weight="bold">3.5%</tspan></text>
+<text x="180" y="208" text-anchor="middle" fill="#b8d4d3" font-size="16">投稿別の率を平均しない</text>
+</g></svg>

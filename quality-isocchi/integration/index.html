@@ -1,0 +1,59 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Claude Codeが設計と確認、Codexが実作業を担当。SNSレポートを作って直す実践ガイド。"><title>いそっち式 AI社員のつくり方</title><link rel="stylesheet" href="assets/reader.css"><script src="assets/reader.js" defer></script></head><body><main class="bonus-reader">
+<header><h1 class="sr-only">いそっち式 AI社員のつくり方</h1><img class="cover" src="assets/banner.png" width="1254" height="1254" alt="いそっち式 ChatGPT×Claude Code AI社員のつくり方。設計・作業・確認をつなぐ"></header>
+<section class="bonus-explainer" id="explainer" aria-label="解説動画の掲載枠"><h2>解説動画</h2><div class="bonus-video-placeholder"><strong>ここに解説動画を入れます</strong><p>動画を受け取り次第、掲載します。</p></div></section>
+<section class="bonus-block" id="start"><p class="intro">ChatGPTとClaudeを行き来して、同じ説明をしている人へ。2つをつなぎ、SNSレポートの作成から修正まで任せてみます。</p>
+<figure class="bonus-opinion"><img src="assets/planning.png" width="1672" height="941" alt="設計・作業・確認の3枚を並べ、役割を分けるいそっち"><figcaption><strong>僕は、設計と最終確認をClaudeに。</strong><p>実際に手を動かすのはCodex。別々に答えをもらうより、仕事を受け渡せるコンビにするのがいいんです。</p></figcaption></figure>
+<figure class="bonus-diagram"><img src="assets/roles.svg" width="360" height="273" alt="Claudeが設計、Codexが作成、Claudeが照合し、修正をCodexへ返す"></figure>
+<span class="sample-label">完成見本｜練習データ</span>
+<figure class="bonus-screen"><picture><source media="(min-width:430px)" srcset="assets/report-result-pc.png"><img src="assets/report-result.png" width="303" height="415" alt="実演で完成したレポートの保存率TOP3。6.0%、5.0%、4.0%の横棒グラフ"></picture></figure>
+<a class="bonus-button" href="sample/report.html" target="_blank" rel="noopener">完成レポートを開く</a>
+</section>
+<section class="bonus-block" id="setup"><span class="step-no">01 接続する</span><h2>Claude CodeにCodexを追加</h2><p>PCでClaude Codeを開きます。</p>
+<details><summary>準備と追加コマンドを開く</summary><div class="detail-body"><p>Claude Code・ChatGPTアカウント・Node.js 18.18以降を用意します。未導入なら<a href="https://code.claude.com/docs/en/quickstart" target="_blank" rel="noopener">Claude Codeの公式導入手順</a>へ。すでにCodexを使っていれば、同じ端末の認証を利用できます。</p><p>Claude Codeの入力欄へ、上から1つずつ送信します。インストール先は自分用／プロジェクト用／このフォルダだけから選び、確認内容を読んで進めます。</p><div class="copy-row"><code id="cmd-market">/plugin marketplace add openai/codex-plugin-cc</code><button class="copy" data-copy="cmd-market" aria-label="/plugin marketplace add openai/codex-plugin-ccをコピー">コピー</button></div><div class="copy-row"><code id="cmd-install">/plugin install codex@openai-codex</code><button class="copy" data-copy="cmd-install" aria-label="/plugin install codex@openai-codexをコピー">コピー</button></div><div class="copy-row"><code id="cmd-reload">/reload-plugins</code><button class="copy" data-copy="cmd-reload" aria-label="/reload-pluginsをコピー">コピー</button></div><p>次のコマンドで準備状況を確認します。Codex未導入なら案内に沿って準備し、未ログインなら下のログインへ進みます。</p><div class="copy-row"><code id="cmd-setup">/codex:setup</code><button class="copy" data-copy="cmd-setup" aria-label="/codex:setupをコピー">コピー</button></div><p class="copy-status" role="status" aria-live="polite"></p><p><a href="https://github.com/openai/codex-plugin-cc" target="_blank" rel="noopener">Codexプラグインの公式手順</a> ／ <a href="https://code.claude.com/docs/en/discover-plugins" target="_blank" rel="noopener">導入範囲と再読込み</a></p></div></details>
+<figure class="bonus-diagram"><img src="assets/connect.svg" width="360" height="316" alt="setupで確認し、未ログインならcodex login、ブラウザでChatGPTへサインインして再確認する説明図"></figure>
+<details><summary>ログイン・使用量・止まったとき</summary><div class="detail-body"><div class="copy-row"><code id="cmd-login">!codex login</code><button class="copy" data-copy="cmd-login" aria-label="!codex loginをコピー">コピー</button></div><p>開いたブラウザでChatGPTのアカウントにサインインし、Claude Codeへ戻って<code>/codex:setup</code>をもう一度実行します。認証情報をチャットへ貼る必要はありません。</p><p>Codex側にも利用上限があります。分担でClaude側の作業を減らせても、総使用量が必ず減るわけではありません。利用できるモデル・枠は自分の契約と画面で確認してください。</p><p>コマンドが出ない場合は再読込みか新しいセッションを試し、<code>/plugin</code>のエラーを確認。長い処理は<code>/codex:status</code>で状態、終わったら<code>/codex:result</code>で結果を確認します。止めるときは<code>/codex:cancel</code>。</p><p>毎回の自動検査を追加するreview gateは任意です。<code>/codex:setup --enable-review-gate</code>で有効、<code>/codex:setup --disable-review-gate</code>で無効。長いループで使用量が増える場合があるため、作業を見守れるときに使います。</p><p><a href="https://developers.openai.com/codex/auth" target="_blank" rel="noopener">OpenAI公式の認証案内</a> ／ <a href="https://github.com/openai/codex-plugin-cc" target="_blank" rel="noopener">各コマンド・使用量の条件</a></p><p class="copy-status" role="status" aria-live="polite"></p></div></details></section>
+<section class="bonus-block" id="roles"><span class="step-no">02 役割を残す</span><h2>次回も同じ分担で動かす</h2><figure class="bonus-diagram"><img src="assets/remember.svg" width="360" height="303" alt="作業フォルダのCLAUDE.mdへ役割を保存し、次のセッションで読込みを確認する図"></figure><p>指示を送るだけで終わらず、保存先と読込みまで確かめます。</p><details><summary>役割分担の指示文を開く</summary><div class="detail-body"><p>作業するフォルダをClaude Codeで開いて送ります。既存ルールと矛盾する場合は、内容を確認してから保存します。</p><pre id="prompt-role">この作業フォルダのルールとして、次の役割分担をCLAUDE.mdへ保存してください。既存の内容があれば保持し、矛盾があれば保存前に教えてください。
+
+・依頼を受けたら、まずClaude Codeが目的・入力・完成条件を整理する。
+・設計が決まったら、実装やファイル作成はCodexプラグインのcodex:codex-rescueへ渡す。
+・Codexには、作業フォルダ・入力・変更対象・保存先をすべて絶対パスで渡す。
+・Claude Codeが元データと完成ファイルを読み、計算と表示を確認する。
+・問題があれば、具体的な修正点をCodexへ渡し、直ったファイルを再確認する。
+・完成ファイルの場所、確認したこと、残った問題を最後に報告する。
+・終わらない処理は放置せず、状態を確認して報告する。
+
+保存後にファイルを読み返し、保存先を教えてください。新しいセッションでは、同じフォルダを開き、/context allでこのファイルが読み込まれたことを確認します。</pre><button class="copy wide-copy" data-copy="prompt-role">指示文を全文コピー</button><p class="copy-status" role="status" aria-live="polite"></p><p><a href="https://code.claude.com/docs/en/memory" target="_blank" rel="noopener">Claude Code公式：プロジェクトの指示</a></p></div></details></section>
+<section class="bonus-block" id="practice"><span class="step-no">03 作ってもらう</span><h2>6投稿をレポートにする</h2><figure class="bonus-diagram"><img src="assets/input.svg" width="360" height="229" alt="練習用posts.csvの6投稿を入力し、集計グラフのreport.htmlを出力。入力と保存先は絶対パスで渡す"></figure>
+<a class="bonus-button" href="downloads/ai-team-practice.zip" download>練習ファイル一式を保存</a><p>展開したら<code>guide.html</code>を開きます。練習CSV・完成見本・指示文を同梱。</p>
+<details><summary>作成の指示文と進め方を開く</summary><div class="detail-body"><ol><li>展開した<code>ai-team-practice</code>フォルダをClaude Codeで開きます。</li><li>フォルダの絶対パスをコピーし、下の〈作業フォルダの絶対パス〉をすべて置き換えます。Windowsならエクスプローラーでフォルダを開き、アドレス欄からコピーできます。</li><li>指示を送信。Claudeの設計→Codexへの委譲→実ファイルの確認を追います。ファイルが見つからない場合は、実際の作業場所・入力・保存先を絶対パスで再指定します。</li></ol><pre id="prompt-task">作業フォルダ：〈作業フォルダの絶対パス〉
+入力：〈作業フォルダの絶対パス〉/posts.csv
+出力：〈作業フォルダの絶対パス〉/report.html
+
+この練習用CSVから、SNS投稿の振り返りレポートをHTMLで1つ作ってください。
+まずあなたが設計を考え、実装はCodexプラグインのcodex:codex-rescueへ渡してください。
+
+完成条件：
+1. 全6投稿の合計リーチ、合計保存、全体保存率を表示する。
+2. 全体保存率は合計保存÷合計リーチ×100。投稿別保存率の単純平均にしない。
+3. 保存率TOP3と、全投稿の一覧を表示する。保存率は小数第1位まで。
+4. 「練習データ（実績ではありません）」と明記する。
+5. スマホとPCで読める。外部ライブラリは使わない。
+6. posts.csvとsample/以下は変更しない。架空の実績や文章を足さない。
+
+委譲時は作業フォルダ・入力・保存先を絶対パスで明示してください。
+Codexの作業後、あなたがCSVから再計算し、実際のreport.htmlを読み、可能ならブラウザ表示も確認してください。
+差があればCodexへ直す点を渡して再確認。完成後はファイルの場所と確認結果、未確認の点を報告してください。</pre><button class="copy wide-copy" data-copy="prompt-task">指示文を全文コピー</button><p class="copy-status" role="status" aria-live="polite"></p><p>作業後はフォルダの<code>report.html</code>をダブルクリックしてブラウザで開きます。同梱の完成例は<code>sample/report.html</code>です。自分の出力と見比べられます。</p></div></details></section>
+<section class="bonus-block" id="review"><span class="step-no">04 確かめて、直す</span><h2>数値と見た目を分けて確認</h2><figure class="bonus-opinion"><img src="assets/checking.png" width="1672" height="941" alt="元の表と横棒グラフを並べ、数値を指で確かめるいそっち"><figcaption><strong>作業を任せて、確認は残す。</strong><p>相互にチェックできるのがいいんです。合計と順位を確かめて、TOP3を横棒へ変えます。</p></figcaption></figure>
+<figure class="bonus-diagram"><img src="assets/check.svg" width="360" height="230" alt="保存245をリーチ7000で割って100を掛けると全体保存率3.5%。投稿別保存率は平均しない"></figure>
+<figure class="delta" id="delta"><span class="delta-label">変更前｜同じ1位の表示</span><div class="delta-frame"><img src="assets/before-top1.png" width="347" height="159" alt="変更前の実HTML。画像プロンプトは保存率6.0%と数字で表示"></div><div class="delta-arrow" aria-hidden="true">↓</div><span class="delta-label">変更後｜6.0%を横棒で比較</span><div class="delta-frame"><img src="assets/report-result.png" width="303" height="415" alt="変更後の実HTML。同じ画像プロンプト6.0%が横棒でも示される"></div></figure><details><summary>横棒に変える指示文を開く</summary><div class="detail-body"><p>同じレポートを直します。数値は変えず、比較しやすい見た目へ。パスをすべて置き換えて送ります。</p><pre id="prompt-revise">作業フォルダ：〈作業フォルダの絶対パス〉
+対象：〈作業フォルダの絶対パス〉/report.html
+元データ：〈作業フォルダの絶対パス〉/posts.csv
+
+保存率TOP3を、数値の大小がひと目で分かる横棒グラフへ変えてください。
+順位・投稿名・保存数・リーチ・保存率はそのまま残します。棒は0%起点、長さは保存率に比例させ、今回の最大6.0%を基準にします。
+ほかの集計・表・元CSVは変えないでください。
+あなたが変更方針を整理し、実装をcodex:codex-rescueへ渡してください。作業場所と対象は絶対パスで渡します。
+修正後、実ファイルを開き直し、TOP3が6.0%・5.0%・4.0%、全体保存率が3.5%のままか確認し、棒の長さ・スマホ表示も確認してください。</pre><button class="copy wide-copy" data-copy="prompt-revise">指示文を全文コピー</button><p class="copy-status" role="status" aria-live="polite"></p><p><a href="sample/report-before.html" target="_blank" rel="noopener">変更前の実ファイル</a> → <a href="sample/report.html" target="_blank" rel="noopener">横棒へ変更後</a></p></div></details>
+<div class="checklist"><label><input type="checkbox">合計リーチ7,000・保存245・保存率3.5%</label><label><input type="checkbox">TOP3は6.0% → 5.0% → 4.0%</label><label><input type="checkbox">保存したHTMLを開いて読める</label></div><p>まずはこの6投稿で1回。できたら、自分の集計用CSVへ置き換えてみてください。</p></section>
+<section class="cta" id="next"><h2>次は、SNSの収益化の流れへ</h2><p>投稿の集計を任せられたら、次はSNSをどう収益につなぐか。そこを7日間の音声で学ぶ案内を用意しています。</p><a href="https://utage-system.com/p/dzhf3c034oSQ?ftid=UvFOXx8sQ65P" target="_blank" rel="noopener" aria-label="SNSマネタイズ7日間の音声教材、100円の案内を見る"><img src="assets/audio-cta.png" width="1672" height="941" alt="いそっち式 SNSマネタイズ 7日間の音声教材 100円（税込）。音声教材の案内を見る"></a><small>案内ページで内容・購入条件をご確認ください。</small></section>
+<footer>操作・条件の確認日：2026年11月8日</footer></main></body></html>

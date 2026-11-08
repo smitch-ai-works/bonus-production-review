@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="229" viewBox="0 0 360 229" role="img"><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#062632"/><stop offset="1" stop-color="#06131d"/></linearGradient><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="none" stroke="#d4b466" stroke-width="1.8"/></marker></defs><rect x="1" y="1" width="358" height="227" rx="12" fill="url(#bg)" stroke="#b99953"/><g font-family="Meiryo,Yu Gothic,sans-serif" font-size="18" fill="#f7f4e9">
+<text x="180" y="32" text-anchor="middle" fill="#e8c878">今回の作例</text>
+<path d="M25 56h105l18 20v92H25Z" fill="#f4f0e4"/><text x="86" y="103" fill="#143941" text-anchor="middle" font-family="monospace" font-weight="bold">posts.csv</text><text x="86" y="139" fill="#143941" text-anchor="middle" font-size="18">6投稿</text>
+<path d="M160 110h32" stroke="#d4b466" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="205" y="56" width="130" height="112" rx="9" fill="#153c43" stroke="#41c2b7"/><text x="270" y="98" text-anchor="middle" font-family="monospace" font-size="17">report.html</text><path d="M227 141h30M227 125h55M227 156h78" stroke="#5bd7cb" stroke-width="8"/>
+<text x="180" y="206" text-anchor="middle" font-size="17">入力・保存先は絶対パスで渡す</text>
+</g></svg>

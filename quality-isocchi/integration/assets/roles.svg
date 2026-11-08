@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="273" viewBox="0 0 360 273" role="img"><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#062632"/><stop offset="1" stop-color="#06131d"/></linearGradient><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="none" stroke="#d4b466" stroke-width="1.8"/></marker></defs><rect x="1" y="1" width="358" height="271" rx="12" fill="url(#bg)" stroke="#b99953"/><g font-family="Meiryo,Yu Gothic,sans-serif" font-size="18" fill="#f7f4e9">
+<text x="180" y="32" text-anchor="middle" fill="#e8c878">1つの仕事を、受け渡す</text>
+<rect x="18" y="55" width="139" height="78" rx="10" fill="#663921" stroke="#d78452"/>
+<text x="87" y="84" text-anchor="middle" font-size="17">Claude Code</text><text x="87" y="112" text-anchor="middle" font-weight="bold">設計する</text>
+<path d="M166 94H193" stroke="#d4b466" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="202" y="55" width="139" height="78" rx="10" fill="#075b59" stroke="#39d5c7"/>
+<text x="271" y="84" text-anchor="middle">Codex</text><text x="271" y="112" text-anchor="middle" font-weight="bold">ファイルを作る</text>
+<path d="M271 142V170" stroke="#d4b466" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="18" y="181" width="323" height="72" rx="10" fill="#102f37" stroke="#6c8c8e"/>
+<text x="180" y="210" text-anchor="middle" font-size="17">Claudeが元データと照合</text><text x="180" y="237" text-anchor="middle" fill="#e8c878">直す点をCodexへ → 再確認</text>
+</g></svg>

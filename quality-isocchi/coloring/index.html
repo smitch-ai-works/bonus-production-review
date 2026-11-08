@@ -1,0 +1,63 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>いそっち式 AI塗り絵しおり｜制作から出品まで</title><link rel="stylesheet" href="assets/reader.css"></head><body><main class="reader">
+<header><img class="cover" src="assets/banner-square.png" width="1254" height="1254" alt="いそっち式 AI塗り絵しおり 制作から出品まで"></header>
+<section id="explainer" class="explainer"><h2>解説動画</h2><div id="explainer-slot" class="video-slot"><strong>ここに解説動画を入れます</strong><p>動画を受け取り次第、掲載します。</p></div></section>
+<section class="block intro"><p>AI副業、何を作るかで止まってませんか？<br>この特典では、日本の風景を4柄のしおりにして、英語の商品原稿と出品用データまでそろえます。</p><figure class="opinion"><img src="assets/scene-choose.png" alt="いそっちが日本の風景としおりの題材を見比べる"><figcaption><strong>「稼げる方法」より、作るものを決める。</strong><p>僕がおすすめしてるのは、日本らしい風景。日本好きの海外客を想定して、富士山・鳥居・竹林・合掌造りを選びます。</p></figcaption></figure><img class="diagram" src="assets/flow.svg" alt="4柄の線画からPDFと英語原稿を作り、Etsyの出品準備へ進む"></section>
+<section id="make" class="block"><h2><span>1</span> 塗り絵の線画を作る</h2><img class="diagram" src="assets/theme.svg" alt="題材だけを書き換え、黒線と白い塗り面と外枠は保つ"><div class="comparison"><figure><img src="assets/lineart.png" alt="富士山・参道・竹林・合掌造りの4柄の採用線画"><figcaption>配布する線画</figcaption></figure><figure><img src="assets/colored-example.png" alt="同じ4柄を彩色した見本"><figcaption>彩色の見本</figcaption></figure></div><p>ChatGPTの画像作成で下の指示文を送信。外枠と塗り面を見て、気になる部分だけ直します。</p><details><summary>線画の指示文</summary><div class="inside"><button class="copy" data-copy="prompt-art">全文をコピー</button><pre id="prompt-art">日本の風景をテーマに、大人向けの塗り絵しおり用の線画を作ってください。
+1枚の横長画像に、縦長のしおりを4柄、等間隔で横に並べてください。
+左から、①富士山・桜・湖 ②鳥居が続く石畳の参道 ③小道のある竹林 ④川沿いの合掌造りの家・木々・山。
+黒い輪郭線と白い塗り面だけ。色・グレー・影・文字・ロゴ・透かしは入れないでください。
+各柄を四角い外枠で囲み、端の線や絵が切れないように余白を取り、塗れる広さを残してください。
+既存作品・キャラクター・ロゴを模倣せず、新しい構図にしてください。
+これは実際の場所の写真ではなく、日本らしい風景のイラストです。</pre></div></details><details><summary>気になる一部分を直す</summary><div class="inside"><button class="copy" data-copy="prompt-repair">全文をコピー</button><pre id="prompt-repair">この線画の【直したい柄・箇所】だけを直してください。
+問題：【線が途切れている／塗り面が狭すぎる／外枠が切れている等】。
+他の柄・構図・順番は変えず、黒線と白い塗り面を保ってください。</pre></div></details>
+<details><summary>作り始める前に</summary><div class="inside"><p>画像作成が使えるChatGPTへサインインして使います。機能・上限はプランやアカウントで異なります。生成結果は毎回変わります。</p><p>自分で撮った写真を使うなら、権利や写り込みを確認して添付し、「この風景を黒線と白い塗り面へ」と具体的に指定します。この作例は写真を元にした写実ではなく、AIで制作した風景イラストです。</p><p>4柄の数と順番、線の途切れ、塗り面の細かさ、外枠の切れを確認。特定作品やロゴの模倣は避け、題材と構図は自分で選びます。</p></div></details></section>
+<section id="files" class="block"><h2><span>2</span> PDFと英語原稿にする</h2><img class="diagram" src="assets/files.svg" alt="採用線画を添付し、買う人用PDFとPNG、出品入力用TXTとCSVへ分ける"><p>採用線画を添付し直して依頼。完成した添付を1つずつ保存し、PDFを開いて4柄が残っているか確認します。</p><details><summary>PDF・英語原稿の指示文</summary><div class="inside"><button class="copy" data-copy="prompt-files">全文をコピー</button><pre id="prompt-files">添付した採用線画を使い、次の4ファイルを個別の添付ファイルとして作ってください。
+画像を描き直したり、柄の数・順番・余白を変えたりしないでください。
+1. bookmarks.png：添付した線画そのもの。
+2. bookmarks_A4.pdf：A4縦1ページ。画像を横180mmで比率を保って配置。英語で「A4・100% / Actual Sizeで印刷、色を塗って外枠で切る」と短く記載。
+3. etsy_listing_en.txt：英語の商品名・説明文。4柄の内容、PDFとPNG、デジタルのみ・実物の発送なし、印刷条件、AI使用、個人利用の範囲を明記。未確認の実寸・品質保証・売上は書かない。
+4. etsy_tags_13.csv：英語タグ13個。各20文字以内。1列、見出しtag。
+日本語で、ファイル数・柄数・説明と実物の一致を報告してください。
+ファイルを作れない場合は、その旨を明記。存在しないダウンロードリンクは出さないでください。
+Etsyへのログイン・登録・出品・公開・課金はしないでください。</pre></div></details>
+<figure class="actual"><img src="assets/work-files-crop.png" width="263" height="243" alt="ChatGPT Workが返したPNG・PDF・TXT・CSVの4添付欄"><figcaption>4ファイルが返ったときの実画面</figcaption></figure>
+<details><summary>英語原稿の完成例</summary><div class="inside"><button class="copy" data-copy="listing">全文をコピー</button><pre id="listing">TITLE
+Japan Coloring Bookmarks, 4 designs, A4 PDF + PNG, digital download
+
+DESCRIPTION
+Color four Japanese landscape bookmarks with black outlines and white coloring areas. The designs appear together in this order:
+1. Mount Fuji, cherry blossoms and a lake
+2. A torii-lined stone approach
+3. A bamboo grove with a winding path
+4. A gassho-zukuri house beside a stream, with trees and mountains
+
+DIGITAL DOWNLOAD ONLY
+No physical product or art supplies will be shipped.
+
+INCLUDED BUYER FILES
+- attached_bookmarks.png: one PNG sheet containing all 4 designs (1415 x 1112 pixels).
+- attached_bookmarks_A4.pdf: one A4 page (210 x 297 mm) with the complete image placed at 180 mm wide, preserving its original aspect ratio, plus a short English printing instruction.
+
+PRINTING
+Print the PDF on A4 paper at 100% / Actual Size; disable Fit to Page. Color the white areas, then cut along the borders. Use paper or cardstock compatible with your printer. The PNG is an artwork sheet, not an A4-sized page. Individual bookmark dimensions are not specified. Print quality depends on your printer, paper and settings.
+
+AI DISCLOSURE
+The artwork was created using generative AI. The supplied artwork has been retained without redrawing, retouching or rearranging the four designs for this edition.
+
+PERSONAL USE
+For personal use only. Do not resell, redistribute or share the digital files, or sell prints made from them.
+
+TAGS (13)
+coloring bookmarks, japan bookmarks, printable bookmarks, japanese landscape, mount fuji coloring, sakura bookmark, torii gate art, bamboo coloring, gassho house, adult coloring, DIY bookmarks, digital download, AI generated art
+</pre></div></details>
+<div class="download"><a class="button" href="downloads/coloring-kit.zip" download>作例・指示文・保存ガイドを保存</a><p>ZIPを展開し「ガイド.html」から開けます。</p></div><details><summary>個別に開く・印刷する</summary><div class="inside file-links"><a href="downloads/attached_bookmarks_A4.pdf" target="_blank">A4 PDFを開く</a><a href="downloads/attached_bookmarks.png" download>4柄PNGを保存</a><a href="downloads/attached_etsy_listing_en.txt" download>英語原稿TXTを保存</a><a href="downloads/attached_etsy_tags_13.csv" download>13タグCSVを保存</a><p>PDFはA4・100% / 実際のサイズで試し刷り。ページに合わせる設定を切り、紙に収まるか、線が塗りやすいかを確認してから商品説明を確定します。作例の印刷品質はプリンター・紙・設定で変わります。</p><p>同梱作例は学習・個人利用向けです。そのまま再配布・販売せず、自分の題材と構図で作品を作ってください。</p></div></details></section>
+<section id="etsy" class="block"><h2><span>3</span> Etsyの出品欄へ分ける</h2><img class="diagram" src="assets/listing-map.svg" alt="線画は商品画像、TXTとCSVは商品名説明タグ、PDFとPNGはDigital filesへ対応させる"><p>商品画像は、買う人が受け取る線画を見せます。彩色見本を使うなら、未彩色データとの違いも分かるように。</p><details><summary>出品前の操作と確認</summary><div class="inside"><ol><li>EtsyのShop Manager → Listings → Add a listingを開き、商品種別はDigital filesを選びます。ショップ開設が必要な人は、登録条件・手数料を公式案内で確認します。</li><li>商品画像へ採用線画のプレビューを置き、TXTの商品名・説明とCSVのタグを各欄へ入力。PDFとPNGだけを購入者用ファイルとして添付します。</li><li>4柄の内容、デジタルのみ、発送なし、AI使用、個人利用、印刷条件が実物と一致するか見直します。価格・税・手数料も確認し、自分の判断で公開へ進みます。</li></ol><p>デジタルファイルは最大5個・各20MB。AI使用は説明内でも開示します。今回のPDF約2.3MB、PNG約2.6MBは上限内です。</p><p>実編集画面はアカウントごとに表示が異なります。掲載前に現在の公式手順と画面の案内を確認してください。</p><div class="sources"><a href="https://help.etsy.com/hc/en-us/articles/115015628347-How-to-Manage-Your-Digital-Listings" target="_blank" rel="noopener">Etsy公式：デジタル出品</a><a href="https://help.etsy.com/hc/en-us/articles/44297885802647-How-Do-Etsy-s-Listing-Image-Requirements-Apply-to-My-Listings" target="_blank" rel="noopener">Etsy公式：商品画像とAI使用</a></div></div></details></section>
+<section id="batch" class="block"><h2>寝る前に、まとめて頼む</h2><figure class="opinion"><img src="assets/scene-check.png" alt="いそっちが線画と彩色例を見比べて仕上がりを確認する"><figcaption><strong>僕は「これ朝までにやっといて」と指示してます。</strong><p>まずは採用画像からPDF・英語まで、一回まとめて頼んでみて。出力をそろえてから、自分の目で確かめます。</p></figcaption></figure><img class="diagram" src="assets/batch.svg" alt="採用線画と条件と4形式を渡して一括依頼し、保存して照合する。時間予約とは別の操作"><details><summary>まとめて任せる指示文</summary><div class="inside"><button class="copy" data-copy="prompt-batch">全文をコピー</button><pre id="prompt-batch">添付した線画を採用版として、画像の保存、A4 PDF、英語商品名・説明、13タグまでをまとめて進めてください。
+条件：4柄の内容・順番を固定。画像の描き直しなし。A4 PDFは横180mmで比率保持。英語原稿はデジタルのみ・実物発送なし・AI使用・個人利用を明記。
+最初に不足を確認し、不足がなければ途中の確認を増やさず制作してください。ファイルはPNG / PDF / TXT / CSVの個別添付で渡してください。
+最後に、①できたファイル ②内容の照合結果 ③人が確認すること ④できなかったこと、を短くまとめてください。
+勝手な公開・出品・課金はしないでください。できない処理は別の処理へ置き換えず報告してください。</pre></div></details>
+<details><summary>時間予約で動かしたいとき</summary><div class="inside"><p>上の指示文だけでは予約になりません。まず通常チャットで最後まで通る条件を固めます。</p><ol><li>成功した依頼文を添えて「毎晩23時、Asia/Tokyoで、このチャットの作業を行う予約を作って」と依頼します。</li><li>作成確認の対象チャット・時刻・タイムゾーン・実行内容を見直します。Scheduledでタスクが見えることも確認します。</li><li>最初の実行結果を開き、4添付と内容を照合。失敗や確認待ちなら依頼文・使える機能を見直してから繰り返します。</li></ol><p>画像作成・添付参照・ファイル出力の可否は、環境やタスクで異なります。使えない処理は通常チャットで行います。出品・公開・課金まで任せず、人が確認する所を依頼文に残してください。</p><a href="https://learn.chatgpt.com/docs/automations" target="_blank" rel="noopener">OpenAI公式：Scheduledの作り方</a></div></details></section>
+<section class="block finish"><h2>まずは4柄を、1セット。</h2><p>線画・PDFが開く。英語と中身が合っている。ここまでそろったら、まず一度試し刷りしてみて。</p></section>
+<section class="cta"><p>この4柄をどう見せて販売するか。繰り返す作業をどこまで任せるか。AI画像の販売方法・面倒な作業の自動化・収益化のノウハウは、僕の公式LINEで無料で受け取れます。</p><a href="https://utage-system.com/line/open/Yb6bDiqeWE4h?mtid=vZGHKa9KDi3t" target="_blank" rel="noopener" aria-label="いそっちの公式LINEで無料ノウハウを受け取る"><img src="assets/cta-line.png" alt="AI画像の販売と自動化のノウハウを公式LINEで無料で受け取る"></a></section></main><div id="copy-status" role="status" aria-live="polite"></div><script src="assets/reader.js"></script></body></html>

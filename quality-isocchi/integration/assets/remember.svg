@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="303" viewBox="0 0 360 303" role="img"><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#062632"/><stop offset="1" stop-color="#06131d"/></linearGradient><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="none" stroke="#d4b466" stroke-width="1.8"/></marker></defs><rect x="1" y="1" width="358" height="301" rx="12" fill="url(#bg)" stroke="#b99953"/><g font-family="Meiryo,Yu Gothic,sans-serif" font-size="18" fill="#f7f4e9">
+<text x="180" y="32" text-anchor="middle" fill="#e8c878">同じ作業フォルダに置く</text>
+<path d="M28 58h108l16 17h180v148H28Z" fill="#12343e" stroke="#49beb9" stroke-width="2"/>
+<path d="M61 103h62l15 16v77H61Z" fill="#f4f0e4"/><path d="M123 103v18h15" fill="none" stroke="#9c925f"/>
+<path d="M72 142h50M72 155h50M72 168h32" stroke="#8f9b99" stroke-width="4"/>
+<text x="153" y="132" font-family="monospace" font-size="20">CLAUDE.md</text>
+<text x="153" y="163" font-size="17">設計・実装・確認</text><text x="153" y="190" font-size="17">の役割を保存</text>
+<path d="M180 232v21" stroke="#d4b466" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="180" y="282" text-anchor="middle" font-size="17">次のセッションで読込みを確認</text>
+</g></svg>
