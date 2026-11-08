@@ -1,5 +1,5 @@
 {
-  "state": "New readers from the revised fixed skill using materials harvested earlier in the same production; producer self-checks and corrections included, no publisher reader-content edits.",
+  "state": "New production from transcript and original portrait with existing creator/CTA settings. All example materials newly made or acquired in this attempt; producer self-checks included.",
   "script": "inputs/script.txt",
   "preset_assets": [
     "creator photo",
@@ -47,5 +47,5 @@
   },
   "previous_distribution_skill_sha256": "33e6ee15d79cea62d75ac8f0c1d17bd89b82ed784f564a6ec6a7d085eae3002c",
   "current_draft": "draft-v3/evidence.json",
-  "current_comparison": "quality-isocchi/evidence.json"
+  "current_comparison": "cold-start-isocchi/evidence.json"
 }
